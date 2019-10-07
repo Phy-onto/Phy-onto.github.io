@@ -1,17 +1,17 @@
-@prefix : <https://w3id.org/skgo/phy#> .
+@prefix : <https://w3id.org/skgo/physci#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://w3id.org/skgo/phy> .
+@base <https://w3id.org/skgo/physci> .
 
-<https://w3id.org/skgo/phy> rdf:type owl:Ontology ;
-                             <http://purl.org/dc/elements/1.1/description> """An ontology about Scientific Publications of Physics Research.
+<https://w3id.org/skgo/physci> rdf:type owl:Ontology ;
+                                <http://purl.org/dc/elements/1.1/description> """An ontology about Scientific Publications of Physics Research.
 The main theme of the ontology is to  access Physics based research findings with defining the structure of the entire scientific article using metadata and  to provide meaningful published information. This ontology focuses on the Physics domain for scientific publishing to get a knowledge base representation and define specific physics contents ; scientific methods, scientific problems, solutions etc. mostly used in the specific research area."""@en ;
-                             <http://purl.org/dc/terms/created> "01-09-2019"^^xsd:date ;
-                             <http://purl.org/dc/terms/license> "Creative Commons Attribution 3.0 (CC BY 3.0)"@en ;
-                             owl:versionInfo "2.0"^^xsd:date .
+                                <http://purl.org/dc/terms/created> "01-09-2019"^^xsd:date ;
+                                <http://purl.org/dc/terms/license> "Creative Commons Attribution 3.0 (CC BY 3.0)"@en ;
+                                owl:versionInfo "2.0"^^xsd:date .
 
 #################################################################
 #    Annotation properties
@@ -1061,7 +1061,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                                            <http://www.w3.org/2004/02/skos/core#definition> "The time that the Result of an Observation, Actuation or Sampling applies to the FeatureOfInterest. Not necessarily the same as the resultTime. May be an Interval or an Instant, or some other compound TemporalEntity."@en .
 
 
-###  https://w3id.org/skgo/phy#addressesResearchWork
+###  https://w3id.org/skgo/physci#addressesResearchWork
 :addressesResearchWork rdf:type owl:ObjectProperty ;
                        rdfs:subPropertyOf owl:topObjectProperty ;
                        rdf:type owl:FunctionalProperty ;
@@ -1071,7 +1071,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                        rdfs:label "addressesResearchWork"@en .
 
 
-###  https://w3id.org/skgo/phy#argueFormation
+###  https://w3id.org/skgo/physci#argueFormation
 :argueFormation rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf owl:topObjectProperty ;
                 rdf:type owl:IrreflexiveProperty ;
@@ -1081,7 +1081,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                 rdfs:label "argueFormation"@en .
 
 
-###  https://w3id.org/skgo/phy#confirmLaw
+###  https://w3id.org/skgo/physci#confirmLaw
 :confirmLaw rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
             rdf:type owl:IrreflexiveProperty ;
@@ -1091,13 +1091,13 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
             rdfs:label "confirmLaw"@en .
 
 
-###  https://w3id.org/skgo/phy#considerCase
+###  https://w3id.org/skgo/physci#considerCase
 :considerCase rdf:type owl:ObjectProperty ;
               rdfs:domain :ResearchWork ;
               rdfs:range :Case .
 
 
-###  https://w3id.org/skgo/phy#detectFormation
+###  https://w3id.org/skgo/physci#detectFormation
 :detectFormation rdf:type owl:ObjectProperty ;
                  rdfs:subPropertyOf owl:topObjectProperty ;
                  rdf:type owl:IrreflexiveProperty ;
@@ -1107,7 +1107,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                  rdfs:label "detectFormation"@en .
 
 
-###  https://w3id.org/skgo/phy#detectWave
+###  https://w3id.org/skgo/physci#detectWave
 :detectWave rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
             rdf:type owl:InverseFunctionalProperty ,
@@ -1118,13 +1118,13 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
             rdfs:label "detectWave"@en .
 
 
-###  https://w3id.org/skgo/phy#establishTheorem
+###  https://w3id.org/skgo/physci#establishTheorem
 :establishTheorem rdf:type owl:ObjectProperty ;
                   rdfs:domain :ScientificMethod ;
                   rdfs:range :Theorem .
 
 
-###  https://w3id.org/skgo/phy#extendArgument
+###  https://w3id.org/skgo/physci#extendArgument
 :extendArgument rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf owl:topObjectProperty ;
                 rdf:type owl:IrreflexiveProperty ;
@@ -1134,7 +1134,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                 rdfs:label "extendArgument"@en .
 
 
-###  https://w3id.org/skgo/phy#formulate
+###  https://w3id.org/skgo/physci#formulate
 :formulate rdf:type owl:ObjectProperty ,
                     owl:InverseFunctionalProperty ;
            rdfs:domain <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#principle> ;
@@ -1143,7 +1143,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
            rdfs:label "formulate"@en .
 
 
-###  https://w3id.org/skgo/phy#hasAssumption
+###  https://w3id.org/skgo/physci#hasAssumption
 :hasAssumption rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf owl:topObjectProperty ;
                rdf:type owl:ReflexiveProperty ;
@@ -1158,7 +1158,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                rdfs:label "hasAssumption"@en .
 
 
-###  https://w3id.org/skgo/phy#hasConcept
+###  https://w3id.org/skgo/physci#hasConcept
 :hasConcept rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
             rdf:type owl:FunctionalProperty ,
@@ -1169,7 +1169,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
             rdfs:label "hasConcept"@en .
 
 
-###  https://w3id.org/skgo/phy#hasEquation
+###  https://w3id.org/skgo/physci#hasEquation
 :hasEquation rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              rdf:type owl:InverseFunctionalProperty ,
@@ -1181,7 +1181,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
              rdfs:label "hasEquation"@en .
 
 
-###  https://w3id.org/skgo/phy#hasExpression
+###  https://w3id.org/skgo/physci#hasExpression
 :hasExpression rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf owl:topObjectProperty ;
                rdf:type owl:InverseFunctionalProperty ,
@@ -1192,7 +1192,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                rdfs:label "hasExpression"@en .
 
 
-###  https://w3id.org/skgo/phy#hasFunction
+###  https://w3id.org/skgo/physci#hasFunction
 :hasFunction rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              rdf:type owl:AsymmetricProperty ,
@@ -1203,7 +1203,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
              rdfs:label "hasFunction"@en .
 
 
-###  https://w3id.org/skgo/phy#hasHorizon
+###  https://w3id.org/skgo/physci#hasHorizon
 :hasHorizon rdf:type owl:ObjectProperty ,
                      owl:IrreflexiveProperty ;
             rdfs:domain <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation> ;
@@ -1212,7 +1212,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
             rdfs:label "hasHorizon"@en .
 
 
-###  https://w3id.org/skgo/phy#hasMagneticField
+###  https://w3id.org/skgo/physci#hasMagneticField
 :hasMagneticField rdf:type owl:ObjectProperty ;
                   rdfs:domain <http://sweetontology.net/phen/Phenomena> ;
                   rdfs:range <http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#magneticField> ;
@@ -1220,7 +1220,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                   rdfs:label "hasMagneticField"@en .
 
 
-###  https://w3id.org/skgo/phy#hasMetric
+###  https://w3id.org/skgo/physci#hasMetric
 :hasMetric rdf:type owl:ObjectProperty ,
                     owl:AsymmetricProperty ;
            rdfs:domain :Equation ;
@@ -1229,7 +1229,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
            rdfs:label "hasMetric"@en .
 
 
-###  https://w3id.org/skgo/phy#hasMotion
+###  https://w3id.org/skgo/physci#hasMotion
 :hasMotion rdf:type owl:ObjectProperty ;
            rdfs:subPropertyOf owl:topObjectProperty ;
            rdf:type owl:AsymmetricProperty ,
@@ -1240,7 +1240,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
            rdfs:label "hasMotion"@en .
 
 
-###  https://w3id.org/skgo/phy#hasObservation
+###  https://w3id.org/skgo/physci#hasObservation
 :hasObservation rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf owl:topObjectProperty ;
                 rdf:type owl:InverseFunctionalProperty ;
@@ -1250,7 +1250,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                 rdfs:label "hasObservation"@en .
 
 
-###  https://w3id.org/skgo/phy#hasObservationalData
+###  https://w3id.org/skgo/physci#hasObservationalData
 :hasObservationalData rdf:type owl:ObjectProperty ;
                       rdfs:subPropertyOf owl:topObjectProperty ;
                       rdf:type owl:FunctionalProperty ,
@@ -1261,7 +1261,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                       rdfs:label "hasObservationalData"@en .
 
 
-###  https://w3id.org/skgo/phy#hasObservatory
+###  https://w3id.org/skgo/physci#hasObservatory
 :hasObservatory rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf owl:topObjectProperty ;
                 rdf:type owl:AsymmetricProperty ;
@@ -1269,7 +1269,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                 rdfs:range :Observatory .
 
 
-###  https://w3id.org/skgo/phy#hasObserver
+###  https://w3id.org/skgo/physci#hasObserver
 :hasObserver rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              rdf:type owl:AsymmetricProperty ,
@@ -1280,7 +1280,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
              rdfs:label "hasObserver"@en .
 
 
-###  https://w3id.org/skgo/phy#hasParticle
+###  https://w3id.org/skgo/physci#hasParticle
 :hasParticle rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              rdf:type owl:AsymmetricProperty ;
@@ -1290,7 +1290,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
              rdfs:label "hasParticle"@en .
 
 
-###  https://w3id.org/skgo/phy#hasPhenomena
+###  https://w3id.org/skgo/physci#hasPhenomena
 :hasPhenomena rdf:type owl:ObjectProperty ;
               rdfs:subPropertyOf owl:topObjectProperty ;
               rdf:type owl:ReflexiveProperty ;
@@ -1300,7 +1300,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
               rdfs:label "hasPhenomena"@en .
 
 
-###  https://w3id.org/skgo/phy#hasPrinciple
+###  https://w3id.org/skgo/physci#hasPrinciple
 :hasPrinciple rdf:type owl:ObjectProperty ;
               rdfs:subPropertyOf owl:topObjectProperty ;
               rdf:type owl:InverseFunctionalProperty ,
@@ -1311,7 +1311,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
               rdfs:label "hasPrinciple"@en .
 
 
-###  https://w3id.org/skgo/phy#hasProblem
+###  https://w3id.org/skgo/physci#hasProblem
 :hasProblem rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
             rdf:type owl:InverseFunctionalProperty ;
@@ -1321,13 +1321,13 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
             rdfs:label "hasProblem"@en .
 
 
-###  https://w3id.org/skgo/phy#hasResearchField
+###  https://w3id.org/skgo/physci#hasResearchField
 :hasResearchField rdf:type owl:ObjectProperty ;
                   rdfs:domain <http://ns.nature.com/terms/Publication> ;
                   rdfs:range <http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#physics> .
 
 
-###  https://w3id.org/skgo/phy#hasScientificModel
+###  https://w3id.org/skgo/physci#hasScientificModel
 :hasScientificModel rdf:type owl:ObjectProperty ,
                              owl:ReflexiveProperty ;
                     rdfs:domain :ResearchWork ;
@@ -1336,7 +1336,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                     rdfs:label "hasScientificModel"@en .
 
 
-###  https://w3id.org/skgo/phy#hasScientificProperty
+###  https://w3id.org/skgo/physci#hasScientificProperty
 :hasScientificProperty rdf:type owl:ObjectProperty ;
                        rdfs:subPropertyOf owl:topObjectProperty ;
                        rdf:type owl:IrreflexiveProperty ;
@@ -1346,7 +1346,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                        rdfs:label "hasScientificProperty"@en .
 
 
-###  https://w3id.org/skgo/phy#hasSimulation
+###  https://w3id.org/skgo/physci#hasSimulation
 :hasSimulation rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf owl:topObjectProperty ;
                rdf:type owl:InverseFunctionalProperty ,
@@ -1357,7 +1357,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                rdfs:label "hasSimulation"@en .
 
 
-###  https://w3id.org/skgo/phy#hasSource
+###  https://w3id.org/skgo/physci#hasSource
 :hasSource rdf:type owl:ObjectProperty ;
            rdfs:subPropertyOf owl:topObjectProperty ;
            rdf:type owl:InverseFunctionalProperty ,
@@ -1368,7 +1368,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
            rdfs:label "hasSource"@en .
 
 
-###  https://w3id.org/skgo/phy#hasStructure
+###  https://w3id.org/skgo/physci#hasStructure
 :hasStructure rdf:type owl:ObjectProperty ;
               rdfs:subPropertyOf owl:topObjectProperty ;
               rdf:type owl:InverseFunctionalProperty ,
@@ -1379,18 +1379,18 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
               rdfs:label "hasStructure"@en .
 
 
-###  https://w3id.org/skgo/phy#hasTheory
+###  https://w3id.org/skgo/physci#hasTheory
 :hasTheory rdf:type owl:ObjectProperty ;
            rdfs:subPropertyOf owl:topObjectProperty ;
            rdf:type owl:InverseFunctionalProperty ,
                     owl:IrreflexiveProperty ;
-           rdfs:domain :Solution ;
+           rdfs:domain <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation> ;
            rdfs:range <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#theory> ;
            <http://purl.org/dc/elements/1.1/description> "Research work has an explanation for patterns in nature that is supported by scientific evidence ."@en ;
            rdfs:label "hasTheory"@en .
 
 
-###  https://w3id.org/skgo/phy#introducedBy
+###  https://w3id.org/skgo/physci#introducedBy
 :introducedBy rdf:type owl:ObjectProperty ,
                        owl:IrreflexiveProperty ;
               rdfs:domain [ rdf:type owl:Class ;
@@ -1408,7 +1408,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
               rdfs:label "introducedBy"@en .
 
 
-###  https://w3id.org/skgo/phy#isFormedFrom
+###  https://w3id.org/skgo/physci#isFormedFrom
 :isFormedFrom rdf:type owl:ObjectProperty ,
                        owl:ReflexiveProperty ;
               rdfs:domain <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation> ;
@@ -1417,7 +1417,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
               rdfs:label "isFormedFrom"@en .
 
 
-###  https://w3id.org/skgo/phy#provideSolution
+###  https://w3id.org/skgo/physci#provideSolution
 :provideSolution rdf:type owl:ObjectProperty ,
                           owl:InverseFunctionalProperty ,
                           owl:AsymmetricProperty ;
@@ -1427,7 +1427,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                  rdfs:label "provideSolution"@en .
 
 
-###  https://w3id.org/skgo/phy#relatedGravitation
+###  https://w3id.org/skgo/physci#relatedGravitation
 :relatedGravitation rdf:type owl:ObjectProperty ;
                     rdfs:domain :ScientificMethod ;
                     rdfs:range <http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#gravitation> ;
@@ -1435,7 +1435,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                     rdfs:label "relatedGravitation"@en .
 
 
-###  https://w3id.org/skgo/phy#relyOnMeasurement
+###  https://w3id.org/skgo/physci#relyOnMeasurement
 :relyOnMeasurement rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf owl:topObjectProperty ;
                    rdf:type owl:FunctionalProperty ,
@@ -1446,7 +1446,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                    rdfs:label "relyOnMeasurement"@en .
 
 
-###  https://w3id.org/skgo/phy#sketchProblem
+###  https://w3id.org/skgo/physci#sketchProblem
 :sketchProblem rdf:type owl:ObjectProperty ,
                         owl:AsymmetricProperty ,
                         owl:IrreflexiveProperty ;
@@ -1456,7 +1456,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                rdfs:label "sketchProblem"@en .
 
 
-###  https://w3id.org/skgo/phy#solve
+###  https://w3id.org/skgo/physci#solve
 :solve rdf:type owl:ObjectProperty ,
                 owl:InverseFunctionalProperty ,
                 owl:AsymmetricProperty ;
@@ -1466,7 +1466,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
        rdfs:label "solve"@en .
 
 
-###  https://w3id.org/skgo/phy#useScientificMethod
+###  https://w3id.org/skgo/physci#useScientificMethod
 :useScientificMethod rdf:type owl:ObjectProperty ;
                      rdfs:domain [ rdf:type owl:Class ;
                                    owl:unionOf ( <http://sweetontology.net/reprSciModel/ScientificModel>
@@ -1476,7 +1476,15 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                      rdfs:range :ScientificMethod .
 
 
-###  https://w3id.org/skgo/phy#yieldEquation
+###  https://w3id.org/skgo/physci#useTheory
+:useTheory rdf:type owl:ObjectProperty ;
+           rdfs:domain :Solution ;
+           rdfs:range <http://sweetontology.net/reprSciModel/Theory> ;
+           <http://purl.org/dc/elements/1.1/description> "Solution make use of the theories to support the answer of research work." ;
+           rdfs:label "useTheory" .
+
+
+###  https://w3id.org/skgo/physci#yieldEquation
 :yieldEquation rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf owl:topObjectProperty ;
                rdf:type owl:ReflexiveProperty ;
@@ -1641,7 +1649,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
 <http://sweetontology.net/relaTime/dayOfYear> rdf:type owl:DatatypeProperty .
 
 
-###  https://w3id.org/skgo/phy#hasAppendices
+###  https://w3id.org/skgo/physci#hasAppendices
 :hasAppendices rdf:type owl:DatatypeProperty ;
                rdfs:subPropertyOf owl:topDataProperty ;
                rdfs:domain [ rdf:type owl:Class ;
@@ -1653,7 +1661,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                rdfs:label "hasAppendices"@en .
 
 
-###  https://w3id.org/skgo/phy#hasConclusion
+###  https://w3id.org/skgo/physci#hasConclusion
 :hasConclusion rdf:type owl:DatatypeProperty ;
                rdfs:subPropertyOf owl:topDataProperty ;
                rdfs:domain [ rdf:type owl:Class ;
@@ -1665,7 +1673,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                rdfs:label "hasConclusion"@en .
 
 
-###  https://w3id.org/skgo/phy#hasCondition
+###  https://w3id.org/skgo/physci#hasCondition
 :hasCondition rdf:type owl:DatatypeProperty ;
               rdfs:subPropertyOf owl:topDataProperty ;
               rdfs:domain :Equation ;
@@ -1674,7 +1682,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
               rdfs:label "hasCondition"@en .
 
 
-###  https://w3id.org/skgo/phy#hasConsequence
+###  https://w3id.org/skgo/physci#hasConsequence
 :hasConsequence rdf:type owl:DatatypeProperty ;
                 rdfs:subPropertyOf owl:topDataProperty ;
                 rdfs:range rdfs:Literal ;
@@ -1682,7 +1690,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                 rdfs:label "hasConsequence"@en .
 
 
-###  https://w3id.org/skgo/phy#hasContext
+###  https://w3id.org/skgo/physci#hasContext
 :hasContext rdf:type owl:DatatypeProperty ;
             rdfs:subPropertyOf owl:topDataProperty ;
             rdfs:domain :ScientificProblem ;
@@ -1691,14 +1699,14 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
             rdfs:label "hasContext"@en .
 
 
-###  https://w3id.org/skgo/phy#hasDescription
+###  https://w3id.org/skgo/physci#hasDescription
 :hasDescription rdf:type owl:DatatypeProperty ;
                 rdfs:range rdfs:Literal ;
                 <http://purl.org/dc/elements/1.1/description> "Give a detailed account in words of."@en ;
                 rdfs:label "hasDefinition"@en .
 
 
-###  https://w3id.org/skgo/phy#hasDiscussion
+###  https://w3id.org/skgo/physci#hasDiscussion
 :hasDiscussion rdf:type owl:DatatypeProperty ;
                rdfs:subPropertyOf owl:topDataProperty ;
                rdfs:domain [ rdf:type owl:Class ;
@@ -1710,7 +1718,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                rdfs:label "hasDiscussion"@en .
 
 
-###  https://w3id.org/skgo/phy#hasDuration
+###  https://w3id.org/skgo/physci#hasDuration
 :hasDuration rdf:type owl:DatatypeProperty ;
              rdfs:subPropertyOf owl:topDataProperty ;
              rdfs:range rdfs:Literal ;
@@ -1718,7 +1726,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
              rdfs:label "hasDuration"@en .
 
 
-###  https://w3id.org/skgo/phy#hasEnergy
+###  https://w3id.org/skgo/physci#hasEnergy
 :hasEnergy rdf:type owl:DatatypeProperty ;
            rdfs:subPropertyOf owl:topDataProperty ;
            rdfs:domain :ScientificProperty ;
@@ -1728,7 +1736,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
            <http://www.w3.org/2004/02/skos/core#definition> "Energy, in physics, the capacity for doing work. It may exist in potential, kinetic, thermal, electrical, chemical, nuclear, or other various forms."@en .
 
 
-###  https://w3id.org/skgo/phy#hasExample
+###  https://w3id.org/skgo/physci#hasExample
 :hasExample rdf:type owl:DatatypeProperty ;
             rdfs:subPropertyOf owl:topDataProperty ;
             rdfs:domain <http://sweetontology.net/reprSciModel/ScientificModel> ;
@@ -1737,7 +1745,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
             rdfs:label "hasExample"@en .
 
 
-###  https://w3id.org/skgo/phy#hasMass
+###  https://w3id.org/skgo/physci#hasMass
 :hasMass rdf:type owl:DatatypeProperty ;
          rdfs:subPropertyOf owl:topDataProperty ;
          rdfs:domain :ScientificProperty ;
@@ -1746,12 +1754,12 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
          rdfs:label "hasMass"@en .
 
 
-###  https://w3id.org/skgo/phy#hasObservatory
+###  https://w3id.org/skgo/physci#hasObservatory
 :hasObservatory rdf:type owl:DatatypeProperty ;
                 rdfs:range rdfs:Literal .
 
 
-###  https://w3id.org/skgo/phy#hasParameter
+###  https://w3id.org/skgo/physci#hasParameter
 :hasParameter rdf:type owl:DatatypeProperty ;
               rdfs:domain :Equation ;
               rdfs:range rdfs:Literal ;
@@ -1759,7 +1767,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
               rdfs:label "hasParameter"@en .
 
 
-###  https://w3id.org/skgo/phy#hasPurpose
+###  https://w3id.org/skgo/physci#hasPurpose
 :hasPurpose rdf:type owl:DatatypeProperty ;
             rdfs:subPropertyOf owl:topDataProperty ;
             rdfs:domain :ResearchWork ;
@@ -1768,7 +1776,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
             rdfs:label "hasPurpose"@en .
 
 
-###  https://w3id.org/skgo/phy#hasRadius
+###  https://w3id.org/skgo/physci#hasRadius
 :hasRadius rdf:type owl:DatatypeProperty ;
            rdfs:domain :ScientificProperty ;
            rdfs:range rdfs:Literal ;
@@ -1777,7 +1785,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
            rdfs:label "hasRadius"@en .
 
 
-###  https://w3id.org/skgo/phy#hasRemarks
+###  https://w3id.org/skgo/physci#hasRemarks
 :hasRemarks rdf:type owl:DatatypeProperty ;
             rdfs:subPropertyOf owl:topDataProperty ;
             rdfs:domain [ rdf:type owl:Class ;
@@ -1789,7 +1797,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
             rdfs:label "hasRemarks"@en .
 
 
-###  https://w3id.org/skgo/phy#hasScenario
+###  https://w3id.org/skgo/physci#hasScenario
 :hasScenario rdf:type owl:DatatypeProperty ;
              rdfs:subPropertyOf owl:topDataProperty ;
              rdfs:domain <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation> ;
@@ -1798,7 +1806,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
              rdfs:label "hasScenario"@en .
 
 
-###  https://w3id.org/skgo/phy#hasState
+###  https://w3id.org/skgo/physci#hasState
 :hasState rdf:type owl:DatatypeProperty ;
           rdfs:subPropertyOf owl:topDataProperty ;
           rdfs:range rdfs:Literal ;
@@ -1807,7 +1815,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
           rdfs:label "hasState"@en .
 
 
-###  https://w3id.org/skgo/phy#hasTemperature
+###  https://w3id.org/skgo/physci#hasTemperature
 :hasTemperature rdf:type owl:DatatypeProperty ;
                 rdfs:domain :ScientificProperty ;
                 rdfs:range rdfs:Literal ;
@@ -1816,7 +1824,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                 rdfs:label "hasTemperature"@en .
 
 
-###  https://w3id.org/skgo/phy#hasValue
+###  https://w3id.org/skgo/physci#hasValue
 :hasValue rdf:type owl:DatatypeProperty ;
           rdfs:domain <http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement> ;
           rdfs:range rdfs:Literal ;
@@ -1825,7 +1833,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
           rdfs:label "hasValue"@en .
 
 
-###  https://w3id.org/skgo/phy#hasVelocity
+###  https://w3id.org/skgo/physci#hasVelocity
 :hasVelocity rdf:type owl:DatatypeProperty ;
              rdfs:domain :ScientificProperty ;
              rdfs:range rdfs:Literal ;
@@ -2375,104 +2383,104 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
 <http://xmlns.com/foaf/0.1/Person> rdf:type owl:Class .
 
 
-###  https://w3id.org/skgo/phy#Assumption
+###  https://w3id.org/skgo/physci#Assumption
 :Assumption rdf:type owl:Class ;
             <http://purl.org/dc/elements/1.1/description> "Something that is unstated but considered to be fact for the purpose of making a decision or solving a problem in a research."@en ;
             rdfs:label "Assumption"@en .
 
 
-###  https://w3id.org/skgo/phy#Case
+###  https://w3id.org/skgo/physci#Case
 :Case rdf:type owl:Class ;
       <http://purl.org/dc/elements/1.1/description> "An instance of a particular situation of researchwork; an example of something occurring."@en ;
       rdfs:label "Case"@en .
 
 
-###  https://w3id.org/skgo/phy#Equation
+###  https://w3id.org/skgo/physci#Equation
 :Equation rdf:type owl:Class ;
           rdfs:subClassOf :Expression ;
           <http://purl.org/dc/elements/1.1/description> "In physics, defining equations are equations that define new quantities in terms of base quantities"@en ;
           rdfs:label "Equation"@en .
 
 
-###  https://w3id.org/skgo/phy#ExperimentalStudy
+###  https://w3id.org/skgo/physci#ExperimentalStudy
 :ExperimentalStudy rdf:type owl:Class ;
                    rdfs:subClassOf :ResearchWork ;
                    <http://purl.org/dc/elements/1.1/description> "Studies that are concerned with the observation of physical phenomena and experiments."@en ;
                    rdfs:label "ExperimentalStudy"@en .
 
 
-###  https://w3id.org/skgo/phy#Expression
+###  https://w3id.org/skgo/physci#Expression
 :Expression rdf:type owl:Class ;
             <http://purl.org/dc/elements/1.1/description> "Mathematical expression is a finite combination of symbols that is well-formed according to rules that depend on the context."@en ;
             rdfs:label "Expression"@en .
 
 
-###  https://w3id.org/skgo/phy#Function
+###  https://w3id.org/skgo/physci#Function
 :Function rdf:type owl:Class ;
           rdfs:subClassOf :Expression ;
           <http://purl.org/dc/elements/1.1/description> "A function was originally the idealization of how a varying quantity depends on another quantity." ;
           rdfs:label "Function" .
 
 
-###  https://w3id.org/skgo/phy#Metric
+###  https://w3id.org/skgo/physci#Metric
 :Metric rdf:type owl:Class ;
         rdfs:subClassOf <http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement> ;
         <http://purl.org/dc/elements/1.1/description> "a system or standard of measurement."@en ;
         rdfs:label "Metric"@en .
 
 
-###  https://w3id.org/skgo/phy#ObservationalData
+###  https://w3id.org/skgo/physci#ObservationalData
 :ObservationalData rdf:type owl:Class ;
                    rdfs:subClassOf <http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#ObservationCollection> ;
                    <http://purl.org/dc/elements/1.1/description> "Observational data is a valuable form of research that can give researchers information that goes beyond numbers and statistics."@en ;
                    rdfs:label "ObservationalData"@en .
 
 
-###  https://w3id.org/skgo/phy#Observatory
+###  https://w3id.org/skgo/physci#Observatory
 :Observatory rdf:type owl:Class ;
              <http://purl.org/dc/elements/1.1/description> "A room or building housing an astronomical telescope or other scientific equipment for the study of natural phenomena."@en ;
              rdfs:label "Observatory"@en .
 
 
-###  https://w3id.org/skgo/phy#Observer
+###  https://w3id.org/skgo/physci#Observer
 :Observer rdf:type owl:Class ;
           <http://purl.org/dc/elements/1.1/description> "The term observer  used as detector which detect formations also as a special relativity in theoretical"@en ;
           rdfs:label "Observer"@en .
 
 
-###  https://w3id.org/skgo/phy#ResearchWork
+###  https://w3id.org/skgo/physci#ResearchWork
 :ResearchWork rdf:type owl:Class ;
               <http://purl.org/dc/elements/1.1/description> "Research work is systematic activity that is done by a Person to acquire knowledge."@en ;
               rdfs:label "ResearchWork"@en .
 
 
-###  https://w3id.org/skgo/phy#ScientificArgument
+###  https://w3id.org/skgo/physci#ScientificArgument
 :ScientificArgument rdf:type owl:Class ;
                     owl:equivalentClass :ScientificProblem ;
                     <http://purl.org/dc/elements/1.1/description> "A scientific argument is defined as people disagreeing about scientific explanations (claims) using empirical data (evidence) to justify their side of the argument."@en ;
                     rdfs:label "ScientificArgument"@en .
 
 
-###  https://w3id.org/skgo/phy#ScientificLaw
+###  https://w3id.org/skgo/physci#ScientificLaw
 :ScientificLaw rdf:type owl:Class ;
                <http://purl.org/dc/elements/1.1/description> "An explanation for patterns in nature that is supported by scientific evidence and verified multiple times by various groups of researchers"@en ;
                rdfs:label "ScientificLaw"@en .
 
 
-###  https://w3id.org/skgo/phy#ScientificMethod
+###  https://w3id.org/skgo/physci#ScientificMethod
 :ScientificMethod rdf:type owl:Class ;
                   <http://purl.org/dc/elements/1.1/description> "The process of the scientific method involves making conjectures (hypotheses), deriving predictions from them as logical consequences,"@en ;
                   rdfs:label "ScientificMethod"@en .
 
 
-###  https://w3id.org/skgo/phy#ScientificProblem
+###  https://w3id.org/skgo/physci#ScientificProblem
 :ScientificProblem rdf:type owl:Class ;
                    <http://purl.org/dc/elements/1.1/description> "An inquiry starting from given conditions to investigate or demonstrate a fact, result, or law."@en ;
                    rdfs:comment "Scientific problems are usually based on observation of scientific phenomena." ;
                    rdfs:label "ScientificProblem"@en .
 
 
-###  https://w3id.org/skgo/phy#ScientificProperty
+###  https://w3id.org/skgo/physci#ScientificProperty
 :ScientificProperty rdf:type owl:Class ;
                     rdfs:subClassOf [ rdf:type owl:Restriction ;
                                       owl:onProperty :hasEquation ;
@@ -2482,20 +2490,20 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                     rdfs:label "ScientificProperty"@en .
 
 
-###  https://w3id.org/skgo/phy#Solution
+###  https://w3id.org/skgo/physci#Solution
 :Solution rdf:type owl:Class ;
           <http://purl.org/dc/elements/1.1/description> "Means of solving a problem or dealing with a difficult situation"@en ;
           rdfs:label "Solution" .
 
 
-###  https://w3id.org/skgo/phy#Theorem
+###  https://w3id.org/skgo/physci#Theorem
 :Theorem rdf:type owl:Class ;
          <http://purl.org/dc/elements/1.1/description> "A theorem is a result that can be proven to be true from a set of axioms."@en ;
          rdfs:comment "The term is used especially in mathematics where the axioms are those of mathematical logic and the systems in question."@en ;
          rdfs:label "Theorem"@en .
 
 
-###  https://w3id.org/skgo/phy#TheoreticalStudy
+###  https://w3id.org/skgo/physci#TheoreticalStudy
 :TheoreticalStudy rdf:type owl:Class ;
                   rdfs:subClassOf :ResearchWork ;
                   <http://purl.org/dc/elements/1.1/description> "Theoretical physics is a branch of physics that employs mathematical models and abstractions of physical objects and systems to rationalize, explain and predict natural phenomena."@en ;
@@ -2564,7 +2572,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                                                                                 <http://sweetontology.net/stateSystem/EquilibriumState> .
 
 
-###  https://w3id.org/skgo/phy#A_Generalized_Theory_of_Gravitation
+###  https://w3id.org/skgo/physci#A_Generalized_Theory_of_Gravitation
 :A_Generalized_Theory_of_Gravitation rdf:type owl:NamedIndividual ,
                                               <http://ns.nature.com/terms/Article> ,
                                               <http://ns.nature.com/terms/Publication> ,
@@ -2578,18 +2586,18 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                                      rdfs:label "A_Generalized_Theory_of_Gravitation"@en .
 
 
-###  https://w3id.org/skgo/phy#A_Special_Kind_of_Singularity_and_Removal
+###  https://w3id.org/skgo/physci#A_Special_Kind_of_Singularity_and_Removal
 :A_Special_Kind_of_Singularity_and_Removal rdf:type owl:NamedIndividual ,
                                                     :Solution ;
                                            :hasEquation :field_equations_with_homogeneous_gravitational_field ;
-                                           :hasTheory :General_theory_of_relativity ;
                                            :solve :Particle_Problem ;
                                            :useScientificMethod :the_method_of_general_relativity ;
+                                           :useTheory :General_theory_of_relativity ;
                                            :hasDescription "although we are permitting the determinant g to take on the value 0 (for xi=0), no change of sign of g and in general no change in the \"inertial index\" of the quadratic form (1) occurs. These features are of fundamental importance from the point of view of the physical interpretation, and will be encountered again in the solutions to be considered later."^^rdfs:Literal ;
                                            rdfs:label "A_Special_Kind_of_Singularity_and_Removal"@en .
 
 
-###  https://w3id.org/skgo/phy#Albert_Einstein
+###  https://w3id.org/skgo/physci#Albert_Einstein
 :Albert_Einstein rdf:type owl:NamedIndividual ,
                           <http://ns.nature.com/terms/Person> ,
                           <http://xmlns.com/foaf/0.1/Person> ;
@@ -2597,14 +2605,14 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                  <http://xmlns.com/foaf/0.1/name> "Albert Einstein"^^rdfs:Literal .
 
 
-###  https://w3id.org/skgo/phy#American_Physical_Society
+###  https://w3id.org/skgo/physci#American_Physical_Society
 :American_Physical_Society rdf:type owl:NamedIndividual ,
                                     <http://ns.nature.com/terms/Publisher> ;
                            <http://ns.nature.com/terms/name> "American Physical Society"^^rdfs:Literal ;
                            rdfs:label "American_Physical_Society"@en .
 
 
-###  https://w3id.org/skgo/phy#Binary_Black_Hole_Merger
+###  https://w3id.org/skgo/physci#Binary_Black_Hole_Merger
 :Binary_Black_Hole_Merger rdf:type owl:NamedIndividual ,
                                    :ResearchWork ;
                           :argueFormation :massive_black_holes ;
@@ -2612,20 +2620,20 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                           rdfs:label "Binary_Black_Hole_Merger"@en .
 
 
-###  https://w3id.org/skgo/phy#Black_Hole
+###  https://w3id.org/skgo/physci#Black_Hole
 :Black_Hole rdf:type owl:NamedIndividual ,
                      <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation> ;
             :hasScientificModel :Gaussian_spot_moving_on_a_circular_path ,
                                 :The_Generalized_Second_Law_at_Work ;
             :hasSource :M87 ,
-                       <https://w3id.org/skgo/phy#Sgr_A*_horizon> ;
+                       <https://w3id.org/skgo/physci#Sgr_A*_horizon> ;
             :hasStructure :Kerr_black_hole ;
             :isFormedFrom :Rotating_star ;
             :hasScenario "one black hole may have been formed by the collapse of a normal star, a second by the collapse of a neutron star, a third by the collapse ofa geon."^^rdfs:Literal ;
             rdfs:label "Black_Hole"@en .
 
 
-###  https://w3id.org/skgo/phy#Black_Holes_Entropy
+###  https://w3id.org/skgo/physci#Black_Holes_Entropy
 :Black_Holes_Entropy rdf:type owl:NamedIndividual ,
                               :ResearchWork ;
                      :confirmLaw :The_generalized_second_law_of_thermodynamics ;
@@ -2637,7 +2645,7 @@ for black holes."""^^rdfs:Literal ;
                      rdfs:label "Black_Holes_Entropy"@en .
 
 
-###  https://w3id.org/skgo/phy#Black_Holes_and_Entropy
+###  https://w3id.org/skgo/physci#Black_Holes_and_Entropy
 :Black_Holes_and_Entropy rdf:type owl:NamedIndividual ,
                                   <http://ns.nature.com/terms/Publication> ;
                          :addressesResearchWork :Black_Holes_Entropy ;
@@ -2651,7 +2659,7 @@ serves us warning that the law  is expected to hold only insofar as statistical 
                          rdfs:label "Black_Holes_and_Entropy"@en .
 
 
-###  https://w3id.org/skgo/phy#Black_hole_Collapsing
+###  https://w3id.org/skgo/physci#Black_hole_Collapsing
 :Black_hole_Collapsing rdf:type owl:NamedIndividual ,
                                 <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation> ;
                        :hasSource :region_of_curvature ;
@@ -2660,7 +2668,7 @@ serves us warning that the law  is expected to hold only insofar as statistical 
                        rdfs:label "Black_hole_Collapsing"@en .
 
 
-###  https://w3id.org/skgo/phy#Black_hole_properties
+###  https://w3id.org/skgo/physci#Black_hole_properties
 :Black_hole_properties rdf:type owl:NamedIndividual ,
                                 :ScientificProperty ;
                        :hasEnergy "positive energy flux"^^rdfs:Literal ;
@@ -2671,14 +2679,14 @@ serves us warning that the law  is expected to hold only insofar as statistical 
                        rdfs:label "Black_hole_Properties"@en .
 
 
-###  https://w3id.org/skgo/phy#Circular_orbit_motion
+###  https://w3id.org/skgo/physci#Circular_orbit_motion
 :Circular_orbit_motion rdf:type owl:NamedIndividual ,
                                 <http://sweetontology.net/procPhysical/Motion> ;
                        :hasScientificProperty :Property_of_field_equations ;
                        rdfs:label "Circular_Orbit_Motion"@en .
 
 
-###  https://w3id.org/skgo/phy#Collapsing_Stars
+###  https://w3id.org/skgo/physci#Collapsing_Stars
 :Collapsing_Stars rdf:type owl:NamedIndividual ,
                            <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation> ;
                   :hasScenario """(1) kinetic energy of motion of the particles in the star,
@@ -2689,13 +2697,13 @@ which could be blown away by the radiation,
                   rdfs:label "Collapsing_Stars"@en .
 
 
-###  https://w3id.org/skgo/phy#Combined_field_electricity
+###  https://w3id.org/skgo/physci#Combined_field_electricity
 :Combined_field_electricity rdf:type owl:NamedIndividual ,
                                      :Solution ;
                             :hasEquation :symmetric_solutions_of_the_equations ;
-                            :hasTheory :General_theory_of_relativity ;
                             :solve :Particle_Problem ;
                             :useScientificMethod :the_method_of_general_relativity ;
+                            :useTheory :General_theory_of_relativity ;
                             :hasDescription """This solution is free from singularities for all
 finite points in the space of two sheets and the
 charge is again represented by a bridge between
@@ -2704,7 +2712,7 @@ electrical particle without mass."""^^rdfs:Literal ;
                             rdfs:label "Combined_Field_Electricity"@en .
 
 
-###  https://w3id.org/skgo/phy#Compton_Wavelength
+###  https://w3id.org/skgo/physci#Compton_Wavelength
 :Compton_Wavelength rdf:type owl:NamedIndividual ,
                              :ScientificProperty ;
                     :hasEnergy "degradation of energy"^^rdfs:Literal ;
@@ -2713,18 +2721,18 @@ electrical particle without mass."""^^rdfs:Literal ;
                     rdfs:label "Compton_Wavelength"@en .
 
 
-###  https://w3id.org/skgo/phy#Conservation_Equations
+###  https://w3id.org/skgo/physci#Conservation_Equations
 :Conservation_Equations rdf:type owl:NamedIndividual ,
                                  :Equation ;
                         rdfs:label "Conservation_Equations"@en .
 
 
-###  https://w3id.org/skgo/phy#Contravarient_Form_of_the_Metric_Tensor
+###  https://w3id.org/skgo/physci#Contravarient_Form_of_the_Metric_Tensor
 :Contravarient_Form_of_the_Metric_Tensor rdf:type owl:NamedIndividual ;
                                          rdfs:label "Contravarient_Form_of_the_Metric_Tensor"@en .
 
 
-###  https://w3id.org/skgo/phy#Curvature_Tensor
+###  https://w3id.org/skgo/physci#Curvature_Tensor
 :Curvature_Tensor rdf:type owl:NamedIndividual ,
                            :ScientificMethod ;
                   :establishTheorem :singularity_theorems_no_hair_theorem ;
@@ -2732,7 +2740,7 @@ electrical particle without mass."""^^rdfs:Literal ;
                   rdfs:label "Curvature_Tensor"@en .
 
 
-###  https://w3id.org/skgo/phy#Description_of_Space_by_Means_of_Two_Sheets
+###  https://w3id.org/skgo/physci#Description_of_Space_by_Means_of_Two_Sheets
 :Description_of_Space_by_Means_of_Two_Sheets rdf:type owl:NamedIndividual ,
                                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
                                              :hasMotion :Stationary_motions ;
@@ -2744,7 +2752,7 @@ neutral elementary particle"""^^rdfs:Literal ;
                                              rdfs:label "Description_of_Space_by_Means_of_Two_Sheets"@en .
 
 
-###  https://w3id.org/skgo/phy#Dieter_R_Brill
+###  https://w3id.org/skgo/physci#Dieter_R_Brill
 :Dieter_R_Brill rdf:type owl:NamedIndividual ,
                          <http://ns.nature.com/terms/Person> ,
                          <http://xmlns.com/foaf/0.1/Person> ;
@@ -2752,30 +2760,30 @@ neutral elementary particle"""^^rdfs:Literal ;
                 <http://xmlns.com/foaf/0.1/name> "Dieter R. Brill"^^rdfs:Literal .
 
 
-###  https://w3id.org/skgo/phy#Dimensional_Arguments
+###  https://w3id.org/skgo/physci#Dimensional_Arguments
 :Dimensional_Arguments rdf:type owl:NamedIndividual ,
                                 :ScientificArgument ;
                        <http://purl.org/dc/terms/description> "dimensional arguments indicate the black-hole entropy is equal to the ratio of the black-hole area to the square of the Planck length times a dimensionless constant of order unity."^^rdfs:Literal ;
                        rdfs:label "Dimensional_Arguments"@en .
 
 
-###  https://w3id.org/skgo/phy#Dimitrios_Psaltis
+###  https://w3id.org/skgo/physci#Dimitrios_Psaltis
 :Dimitrios_Psaltis rdf:type owl:NamedIndividual ,
                             <http://xmlns.com/foaf/0.1/Person> ;
                    rdfs:label "Dimitrios_Psaltis"@en ;
                    <http://xmlns.com/foaf/0.1/name> "Psaltis, Dimitrios"^^rdfs:Literal .
 
 
-###  https://w3id.org/skgo/phy#Dirac_Equation
+###  https://w3id.org/skgo/physci#Dirac_Equation
 :Dirac_Equation rdf:type owl:NamedIndividual ;
                 rdfs:label "Dirac_Equation"@en .
 
 
-###  https://w3id.org/skgo/phy#EHT
+###  https://w3id.org/skgo/physci#EHT
 :EHT rdf:type owl:NamedIndividual .
 
 
-###  https://w3id.org/skgo/phy#EHT_VLBI_Campaign_Observation
+###  https://w3id.org/skgo/physci#EHT_VLBI_Campaign_Observation
 :EHT_VLBI_Campaign_Observation rdf:type owl:NamedIndividual ,
                                         <http://www.w3.org/ns/sosa/Observation> ;
                                :hasObservationalData :EHT_data ;
@@ -2790,50 +2798,50 @@ amplitudes and phases."""^^rdfs:Literal ;
                                rdfs:label "EHT_VLBI_Campaign_Observation"@en .
 
 
-###  https://w3id.org/skgo/phy#EHT_data
+###  https://w3id.org/skgo/physci#EHT_data
 :EHT_data rdf:type owl:NamedIndividual ,
                    :ObservationalData ;
           rdfs:label "EHT_data"@en .
 
 
-###  https://w3id.org/skgo/phy#Eigenimages
+###  https://w3id.org/skgo/physci#Eigenimages
 :Eigenimages rdf:type owl:NamedIndividual ,
                       :ObservationalData ;
              rdfs:label "Eigenimages"@en .
 
 
-###  https://w3id.org/skgo/phy#Eigenvalue_Spectrum_Of_PCA
+###  https://w3id.org/skgo/physci#Eigenvalue_Spectrum_Of_PCA
 :Eigenvalue_Spectrum_Of_PCA rdf:type owl:NamedIndividual ;
                             :hasObservation :Event_Horizon_Telescope_EHT_observation ;
                             :hasDescription "we compare the spectrum of PCA eigenvalues to that of Gaussian and red-noise processes and show how the PCA eigenvalues are related to the underlying power spectrum of structures in the images."^^rdfs:Literal ;
                             rdfs:label "Eigenvalue_Spectrum_Of_PCA"@en .
 
 
-###  https://w3id.org/skgo/phy#Einstein_Equations
+###  https://w3id.org/skgo/physci#Einstein_Equations
 :Einstein_Equations rdf:type owl:NamedIndividual ,
                              :Equation ;
                     rdfs:label "Einstein_Equations"@en .
 
 
-###  https://w3id.org/skgo/phy#Electrical_Particle
+###  https://w3id.org/skgo/physci#Electrical_Particle
 :Electrical_Particle rdf:type owl:NamedIndividual ,
                               <http://sweetontology.net/matrParticle/Particle> ;
                      rdfs:label "Electrical_Particle"@en .
 
 
-###  https://w3id.org/skgo/phy#Electro-Magnetic_Theory_of_Radiation
+###  https://w3id.org/skgo/physci#Electro-Magnetic_Theory_of_Radiation
 :Electro-Magnetic_Theory_of_Radiation rdf:type owl:NamedIndividual ,
                                                <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#theory> ;
                                       rdfs:label "Electro-Magnetic_Theory_of_Radiation"@en .
 
 
-###  https://w3id.org/skgo/phy#Elementary_Particle_Neutron
+###  https://w3id.org/skgo/physci#Elementary_Particle_Neutron
 :Elementary_Particle_Neutron rdf:type owl:NamedIndividual ,
                                       <http://sweetontology.net/matrParticle/Particle> ;
                              rdfs:label "Elementary_Particle_Neutron"@en .
 
 
-###  https://w3id.org/skgo/phy#Elementary_Particle_Proton
+###  https://w3id.org/skgo/physci#Elementary_Particle_Proton
 :Elementary_Particle_Proton rdf:type owl:NamedIndividual ,
                                      <http://sweetontology.net/matrParticle/Particle> ;
                             :hasScientificProperty :Black_hole_properties ;
@@ -2841,7 +2849,7 @@ amplitudes and phases."""^^rdfs:Literal ;
                             rdfs:label "Elementary_Particle_Proton"@en .
 
 
-###  https://w3id.org/skgo/phy#Event_Horizon_Telescope_EHT_observation
+###  https://w3id.org/skgo/physci#Event_Horizon_Telescope_EHT_observation
 :Event_Horizon_Telescope_EHT_observation rdf:type owl:NamedIndividual ,
                                                   <http://www.w3.org/ns/sosa/Observation> ;
                                          :hasObservationalData :Eigenimages ;
@@ -2854,7 +2862,7 @@ National Optical Astronomy Observatory, Tucson"""^^rdfs:Literal ;
                                          rdfs:label "Event_Horizon_Telescope_EHT_observation"@en .
 
 
-###  https://w3id.org/skgo/phy#Field-variables
+###  https://w3id.org/skgo/physci#Field-variables
 :Field-variables rdf:type owl:NamedIndividual ,
                           :ScientificProperty ;
                  :hasEnergy "\"material\" energy tensor,"^^rdfs:Literal ;
@@ -2863,14 +2871,14 @@ National Optical Astronomy Observatory, Tucson"""^^rdfs:Literal ;
                  rdfs:label "Field-Variables"@en .
 
 
-###  https://w3id.org/skgo/phy#Field_equations
+###  https://w3id.org/skgo/physci#Field_equations
 :Field_equations rdf:type owl:NamedIndividual ,
                           :Equation ;
                  :hasCondition "the condition of symmetry,the condition of Hermiticity"^^rdfs:Literal ;
                  rdfs:label "Field_Equations"@en .
 
 
-###  https://w3id.org/skgo/phy#First_M87_Event_Horizon_Telescope_Results-I-The_Shadow_of_the_Supermassive_Black_Hole
+###  https://w3id.org/skgo/physci#First_M87_Event_Horizon_Telescope_Results-I-The_Shadow_of_the_Supermassive_Black_Hole
 :First_M87_Event_Horizon_Telescope_Results-I-The_Shadow_of_the_Supermassive_Black_Hole rdf:type owl:NamedIndividual ,
                                                                                                 <http://ns.nature.com/terms/Publication> ;
                                                                                        :argueFormation :The_supermassive_black_hole ;
@@ -2883,13 +2891,13 @@ The Shadow of the Supermassive Black Hole"""^^rdfs:Literal ;
                                                                                        rdfs:label "First_M87_Event_Horizon_Telescope_Results-I-The_Shadow_of_the_Supermassive_Black_Hole"@en .
 
 
-###  https://w3id.org/skgo/phy#Flaring_events_Bright_events
+###  https://w3id.org/skgo/physci#Flaring_events_Bright_events
 :Flaring_events_Bright_events rdf:type owl:NamedIndividual ,
                                        <http://sweetontology.net/phen/Phenomena> ;
                               rdfs:label "Flaring_Events_Bright_Events"@en .
 
 
-###  https://w3id.org/skgo/phy#GRMHD_simulations
+###  https://w3id.org/skgo/physci#GRMHD_simulations
 :GRMHD_simulations rdf:type owl:NamedIndividual ,
                             <http://sweetontology.net/reprMathSolution/Simulation> ;
                    :hasParameter """the dimensionless spin a Jc GM2
@@ -2902,7 +2910,7 @@ respectively."""^^rdfs:Literal ;
                    rdfs:label "GRMHD_simulations"@en .
 
 
-###  https://w3id.org/skgo/phy#Gaussian_spot_moving_on_a_circular_path
+###  https://w3id.org/skgo/physci#Gaussian_spot_moving_on_a_circular_path
 :Gaussian_spot_moving_on_a_circular_path rdf:type owl:NamedIndividual ,
                                                   <http://sweetontology.net/reprSciModel/ScientificModel> ;
                                          :hasScientificProperty :Gaussion_Spot-the_black_hole_shadow ;
@@ -2912,13 +2920,13 @@ respectively."""^^rdfs:Literal ;
                                          rdfs:label "Gaussian_spot_moving_on_a_circular_path"@en .
 
 
-###  https://w3id.org/skgo/phy#Gaussion_Spot-the_black_hole_shadow
+###  https://w3id.org/skgo/physci#Gaussion_Spot-the_black_hole_shadow
 :Gaussion_Spot-the_black_hole_shadow rdf:type owl:NamedIndividual ,
                                               :ScientificProperty ;
                                      rdfs:label "Gaussion_Spot-the_black_hole_shadow"@en .
 
 
-###  https://w3id.org/skgo/phy#General_Relativity
+###  https://w3id.org/skgo/physci#General_Relativity
 :General_Relativity rdf:type owl:NamedIndividual ,
                              <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#theory> ;
                     :hasEquation :Conservation_Equations ,
@@ -2931,7 +2939,7 @@ respectively."""^^rdfs:Literal ;
                     rdfs:label "General_Relativity"@en .
 
 
-###  https://w3id.org/skgo/phy#General_theory_of_relativity
+###  https://w3id.org/skgo/physci#General_theory_of_relativity
 :General_theory_of_relativity rdf:type owl:NamedIndividual ,
                                        <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#theory> ;
                               :hasConcept :Description_of_Space_by_Means_of_Two_Sheets ;
@@ -2941,7 +2949,7 @@ respectively."""^^rdfs:Literal ;
                               rdfs:label "General_Theory_of_relativity"@en .
 
 
-###  https://w3id.org/skgo/phy#Generic_transient_search
+###  https://w3id.org/skgo/physci#Generic_transient_search
 :Generic_transient_search rdf:type owl:NamedIndividual ,
                                    <http://sweetontology.net/reprSciModel/ScientificModel> ;
                           :hasSimulation :numerical_simulations_of_binary_black_hole_mergers ;
@@ -2952,20 +2960,20 @@ representations of the detector strain data [43,72], for signal frequencies up t
                           rdfs:label "Generic_transient_search"@en .
 
 
-###  https://w3id.org/skgo/phy#Geon
+###  https://w3id.org/skgo/physci#Geon
 :Geon rdf:type owl:NamedIndividual ,
                <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#wave> ;
       :hasScientificProperty :Neutrino_Geon ;
       rdfs:label "Geon"@en .
 
 
-###  https://w3id.org/skgo/phy#Geosedic_expression
+###  https://w3id.org/skgo/physci#Geosedic_expression
 :Geosedic_expression rdf:type owl:NamedIndividual ,
                               :Expression ;
                      rdfs:label "Geosedic_expression"@en .
 
 
-###  https://w3id.org/skgo/phy#German_Physical_Society
+###  https://w3id.org/skgo/physci#German_Physical_Society
 :German_Physical_Society rdf:type owl:NamedIndividual ,
                                   <http://ns.nature.com/terms/Agent> ,
                                   <http://ns.nature.com/terms/Publisher> ;
@@ -2973,7 +2981,7 @@ representations of the detector strain data [43,72], for signal frequencies up t
                          rdfs:label "German_Physical_Society"@en .
 
 
-###  https://w3id.org/skgo/phy#Gravitation_the_only_force_in__Neutrinos
+###  https://w3id.org/skgo/physci#Gravitation_the_only_force_in__Neutrinos
 :Gravitation_the_only_force_in__Neutrinos rdf:type owl:NamedIndividual ,
                                                    :ResearchWork ;
                                           :argueFormation :Neutrino_Pairs ;
@@ -2988,7 +2996,7 @@ metric."""^^rdfs:Literal ;
                                           rdfs:label "Gravitation_the_only_force_in__Neutrinos"@en .
 
 
-###  https://w3id.org/skgo/phy#Gravitational_Contraction
+###  https://w3id.org/skgo/physci#Gravitational_Contraction
 :Gravitational_Contraction rdf:type owl:NamedIndividual ,
                                     :ResearchWork ;
                            :hasPurpose """we study the solutions of the gravitational field equations
@@ -2996,28 +3004,28 @@ which describe this process."""^^rdfs:Literal ;
                            rdfs:label "Gravitational_Contraction"@en .
 
 
-###  https://w3id.org/skgo/phy#Gravitational_Field_of_a_Mass_Point
+###  https://w3id.org/skgo/physci#Gravitational_Field_of_a_Mass_Point
 :Gravitational_Field_of_a_Mass_Point rdf:type owl:NamedIndividual ,
                                               :ResearchWork ;
-                                     :confirmLaw <https://w3id.org/skgo/phy#Kepler’s_law_for_circular_orbits> ;
-                                     :hasProblem <https://w3id.org/skgo/phy#Schwarzschild’s_problem> ;
+                                     :confirmLaw <https://w3id.org/skgo/physci#Kepler’s_law_for_circular_orbits> ;
+                                     :hasProblem <https://w3id.org/skgo/physci#Schwarzschild’s_problem> ;
                                      rdfs:label "Gravitational_Field_of_a_Mass_Point"@en .
 
 
-###  https://w3id.org/skgo/phy#Gravitational_Waves
+###  https://w3id.org/skgo/physci#Gravitational_Waves
 :Gravitational_Waves rdf:type owl:NamedIndividual ,
                               <http://sweetontology.net/phen/Phenomena> ;
                      :hasTheory :General_Relativity ;
                      rdfs:label "Gravitational_Waves"@en .
 
 
-###  https://w3id.org/skgo/phy#Hamiltonian_principle
+###  https://w3id.org/skgo/physci#Hamiltonian_principle
 :Hamiltonian_principle rdf:type owl:NamedIndividual ,
                                 <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#principle> ;
                        rdfs:label "Hamiltonian_principle"@en .
 
 
-###  https://w3id.org/skgo/phy#Hermitian_Tensor
+###  https://w3id.org/skgo/physci#Hermitian_Tensor
 :Hermitian_Tensor rdf:type owl:NamedIndividual ,
                            :ScientificMethod ;
                   :hasTheory :generalized_theory_the_total_field ;
@@ -3026,27 +3034,27 @@ through summation with real coefficient."""^^rdfs:Literal ;
                   rdfs:label "Hermitian_Tensor"@en .
 
 
-###  https://w3id.org/skgo/phy#Hermitian_is_natural
+###  https://w3id.org/skgo/physci#Hermitian_is_natural
 :Hermitian_is_natural rdf:type owl:NamedIndividual ,
                                :ScientificArgument ;
                       rdfs:label "Hermitian_is_natural"@en .
 
 
-###  https://w3id.org/skgo/phy#Horizon-scale_structures
+###  https://w3id.org/skgo/physci#Horizon-scale_structures
 :Horizon-scale_structures rdf:type owl:NamedIndividual ,
                                    <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#structure> ;
                           :hasScientificProperty :Ring_structure_Property ;
                           rdfs:label "Horizon-scale_structures"@en .
 
 
-###  https://w3id.org/skgo/phy#Infinitesimal_parallel_translations
+###  https://w3id.org/skgo/physci#Infinitesimal_parallel_translations
 :Infinitesimal_parallel_translations rdf:type owl:NamedIndividual ,
                                               :Equation ;
                                      :hasCondition "the condition of symmetry,the condition of Hermiticity"^^rdfs:Literal ;
                                      rdfs:label "Infinitesimal_parallel_translations"@en .
 
 
-###  https://w3id.org/skgo/phy#Information_theory
+###  https://w3id.org/skgo/physci#Information_theory
 :Information_theory rdf:type owl:NamedIndividual ,
                              <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#theory> ;
                     :hasEquation :thermodynamic_expression ;
@@ -3057,7 +3065,7 @@ Maxwell's demon."""^^rdfs:Literal ;
                     rdfs:label "Information_theory"@en .
 
 
-###  https://w3id.org/skgo/phy#Interaction_of_neutrinos_and_Gravitational_fields
+###  https://w3id.org/skgo/physci#Interaction_of_neutrinos_and_Gravitational_fields
 :Interaction_of_neutrinos_and_Gravitational_fields rdf:type owl:NamedIndividual ,
                                                             <http://ns.nature.com/terms/Publication> ;
                                                    :addressesResearchWork :Gravitation_the_only_force_in__Neutrinos ;
@@ -3089,13 +3097,13 @@ nature is still mysterious."""^^rdfs:Literal ;
                                                    rdfs:label "Interaction_of_neutrinos_and_Gravitational_fields"@en .
 
 
-###  https://w3id.org/skgo/phy#Iop_Publishing_LTD
+###  https://w3id.org/skgo/physci#Iop_Publishing_LTD
 :Iop_Publishing_LTD rdf:type owl:NamedIndividual ,
                              <http://ns.nature.com/terms/Publisher> ;
                     rdfs:label "Iop_Publishing_LTD"@en .
 
 
-###  https://w3id.org/skgo/phy#J_R_Oppenheimer
+###  https://w3id.org/skgo/physci#J_R_Oppenheimer
 :J_R_Oppenheimer rdf:type owl:NamedIndividual ,
                           <http://ns.nature.com/terms/Person> ,
                           <http://xmlns.com/foaf/0.1/Person> ;
@@ -3103,45 +3111,45 @@ nature is still mysterious."""^^rdfs:Literal ;
                  <http://xmlns.com/foaf/0.1/name> "J. R. Oppenheimer"^^rdfs:Literal .
 
 
-###  https://w3id.org/skgo/phy#Jacob_D_Bekenstein
+###  https://w3id.org/skgo/physci#Jacob_D_Bekenstein
 :Jacob_D_Bekenstein rdf:type owl:NamedIndividual ,
                              <http://xmlns.com/foaf/0.1/Person> ;
                     rdfs:label "Jacob_D_Bekenstein"@en ;
                     <http://xmlns.com/foaf/0.1/name> "Jacob D. Bekenstein"^^rdfs:Literal .
 
 
-###  https://w3id.org/skgo/phy#John_A_Wheeler
+###  https://w3id.org/skgo/physci#John_A_Wheeler
 :John_A_Wheeler rdf:type owl:NamedIndividual ,
                          <http://xmlns.com/foaf/0.1/Person> ;
                 rdfs:label "John_A_Wheeler"@en ;
                 <http://xmlns.com/foaf/0.1/name> "John A. Wheeler"^^rdfs:Literal .
 
 
-###  https://w3id.org/skgo/phy#Karl_Schwarzschild
+###  https://w3id.org/skgo/physci#Karl_Schwarzschild
 :Karl_Schwarzschild rdf:type owl:NamedIndividual ,
                              <http://ns.nature.com/terms/Person> ;
                     rdfs:label "Karl_Schwarzschild"@en ;
                     <http://xmlns.com/foaf/0.1/name> "K. Schwarzschild"^^rdfs:Literal .
 
 
-###  https://w3id.org/skgo/phy#Kerr_black_hole
+###  https://w3id.org/skgo/physci#Kerr_black_hole
 :Kerr_black_hole rdf:type owl:NamedIndividual ,
                           <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#structure> ;
                  rdfs:label "Kerr_black_hole"@en .
 
 
-###  https://w3id.org/skgo/phy#Kerr_black_hole_solution
+###  https://w3id.org/skgo/physci#Kerr_black_hole_solution
 :Kerr_black_hole_solution rdf:type owl:NamedIndividual ,
                                    :Solution ;
                           rdfs:label "Kerr_black_hole_solution"@en .
 
 
-###  https://w3id.org/skgo/phy#Kerr_metric
+###  https://w3id.org/skgo/physci#Kerr_metric
 :Kerr_metric rdf:type owl:NamedIndividual ;
              rdfs:label "Kerr_metric"@en .
 
 
-###  https://w3id.org/skgo/phy#LIGO_detectors
+###  https://w3id.org/skgo/physci#LIGO_detectors
 :LIGO_detectors rdf:type owl:NamedIndividual ,
                          :Observer ;
                 :detectFormation :massive_black_holes ;
@@ -3149,33 +3157,33 @@ nature is still mysterious."""^^rdfs:Literal ;
                 rdfs:label "LIGO_detectors"@en .
 
 
-###  https://w3id.org/skgo/phy#Lagrangian_equation
+###  https://w3id.org/skgo/physci#Lagrangian_equation
 :Lagrangian_equation rdf:type owl:NamedIndividual ,
                               :Equation ;
                      rdfs:label "Lagrangian_equation"@en .
 
 
-###  https://w3id.org/skgo/phy#Lia_Medeiros
+###  https://w3id.org/skgo/physci#Lia_Medeiros
 :Lia_Medeiros rdf:type owl:NamedIndividual ,
                        <http://xmlns.com/foaf/0.1/Person> ;
               rdfs:label "Lia_Medeiros"@en ;
               <http://xmlns.com/foaf/0.1/name> "Medeiros, Lia"^^rdfs:Literal .
 
 
-###  https://w3id.org/skgo/phy#M87
+###  https://w3id.org/skgo/physci#M87
 :M87 rdf:type owl:NamedIndividual ,
               <http://sweetontology.net/phen/Phenomena> ,
               <http://www.astro.umd.edu/~eshaya/astro-onto/owl/astronomy.owl#source> ;
      rdfs:label "M87"@en .
 
 
-###  https://w3id.org/skgo/phy#Macroscopic_phenomena
+###  https://w3id.org/skgo/physci#Macroscopic_phenomena
 :Macroscopic_phenomena rdf:type owl:NamedIndividual ,
                                 <http://sweetontology.net/phen/Phenomena> ;
                        rdfs:label "Macroscopic_phenomena"@en .
 
 
-###  https://w3id.org/skgo/phy#Massless_point
+###  https://w3id.org/skgo/physci#Massless_point
 :Massless_point rdf:type owl:NamedIndividual ,
                          <http://sweetontology.net/matrParticle/Particle> ;
                 :hasMotion :Circular_orbit_motion ;
@@ -3183,14 +3191,14 @@ nature is still mysterious."""^^rdfs:Literal ;
                 rdfs:label "Massless_point"@en .
 
 
-###  https://w3id.org/skgo/phy#Mathematics_of_spin_in_curved_space
+###  https://w3id.org/skgo/physci#Mathematics_of_spin_in_curved_space
 :Mathematics_of_spin_in_curved_space rdf:type owl:NamedIndividual ,
                                               :TheoreticalStudy ;
                                      :hasTheory :neutrino_theory ;
                                      rdfs:label "Mathematics_of_spin_in_curved_space"@en .
 
 
-###  https://w3id.org/skgo/phy#Max_Planck
+###  https://w3id.org/skgo/physci#Max_Planck
 :Max_Planck rdf:type owl:NamedIndividual ,
                      <http://ns.nature.com/terms/Person> ,
                      <http://xmlns.com/foaf/0.1/Person> ;
@@ -3198,7 +3206,7 @@ nature is still mysterious."""^^rdfs:Literal ;
             <http://xmlns.com/foaf/0.1/name> "Msx Planck"^^rdfs:Literal .
 
 
-###  https://w3id.org/skgo/phy#Model_B
+###  https://w3id.org/skgo/physci#Model_B
 :Model_B rdf:type owl:NamedIndividual ,
                   <http://sweetontology.net/reprSciModel/ScientificModel> ;
          :hasSimulation :high-fidelity_GRMHD_simulations ;
@@ -3209,7 +3217,7 @@ nature is still mysterious."""^^rdfs:Literal ;
          rdfs:label "Model_B"@en .
 
 
-###  https://w3id.org/skgo/phy#N_Rosen
+###  https://w3id.org/skgo/physci#N_Rosen
 :N_Rosen rdf:type owl:NamedIndividual ,
                   <http://ns.nature.com/terms/Person> ,
                   <http://xmlns.com/foaf/0.1/Person> ;
@@ -3217,7 +3225,7 @@ nature is still mysterious."""^^rdfs:Literal ;
          <http://xmlns.com/foaf/0.1/name> "N. Rosen"^^rdfs:Literal .
 
 
-###  https://w3id.org/skgo/phy#Neutrino_Geon
+###  https://w3id.org/skgo/physci#Neutrino_Geon
 :Neutrino_Geon rdf:type owl:NamedIndividual ,
                         :ScientificProperty ;
                :hasEnergy """electric potential energy V= vhc,
@@ -3229,13 +3237,13 @@ gravitational potential energy"""^^rdfs:Literal ;
                rdfs:label "Neutrino_Geon"@en .
 
 
-###  https://w3id.org/skgo/phy#Neutrino_Pairs
+###  https://w3id.org/skgo/physci#Neutrino_Pairs
 :Neutrino_Pairs rdf:type owl:NamedIndividual ,
                          <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation> ;
                 rdfs:label "Neutrino_Pairs"@en .
 
 
-###  https://w3id.org/skgo/phy#No_such_adjoined_object
+###  https://w3id.org/skgo/physci#No_such_adjoined_object
 :No_such_adjoined_object rdf:type owl:NamedIndividual ,
                                   :Solution ;
                          :hasEquation :Infinitesimal_parallel_translations ;
@@ -3244,7 +3252,7 @@ gravitational potential energy"""^^rdfs:Literal ;
                          rdfs:label "No_such_adjoined_object"@en .
 
 
-###  https://w3id.org/skgo/phy#Observation_of_Gravitational_Waves
+###  https://w3id.org/skgo/physci#Observation_of_Gravitational_Waves
 :Observation_of_Gravitational_Waves rdf:type owl:NamedIndividual ,
                                              <http://www.w3.org/ns/sosa/Observation> ;
                                     :hasObserver :LIGO_detectors ;
@@ -3257,7 +3265,7 @@ September 12 to October 20, 2015."""^^rdfs:Literal ;
                                     rdfs:label "Observation_of_Gravitational_Waves"@en .
 
 
-###  https://w3id.org/skgo/phy#Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger
+###  https://w3id.org/skgo/physci#Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger
 :Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger rdf:type owl:NamedIndividual ,
                                                                              <http://ns.nature.com/terms/Publication> ;
                                                                     :addressesResearchWork :Binary_Black_Hole_Merger ;
@@ -3279,14 +3287,14 @@ superposition of unresolved systems."""^^rdfs:Literal ;
                                                                     rdfs:label "Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger"@en .
 
 
-###  https://w3id.org/skgo/phy#Observer_comoving_with_the_stellar_matter
+###  https://w3id.org/skgo/physci#Observer_comoving_with_the_stellar_matter
 :Observer_comoving_with_the_stellar_matter rdf:type owl:NamedIndividual ,
                                                     :Observer ;
                                            :detectFormation :Collapsing_Stars ;
                                            rdfs:label "Observer_comoving_with_the_stellar_matter"@en .
 
 
-###  https://w3id.org/skgo/phy#Observer_on_the_collapsing_body
+###  https://w3id.org/skgo/physci#Observer_on_the_collapsing_body
 :Observer_on_the_collapsing_body rdf:type owl:NamedIndividual ,
                                           :Observer ;
                                  :detectFormation :Black_hole_Collapsing ;
@@ -3294,7 +3302,7 @@ superposition of unresolved systems."""^^rdfs:Literal ;
                                  rdfs:label "Observer_on_the_collapsing_body"@en .
 
 
-###  https://w3id.org/skgo/phy#On_Continued_Gravitational_Contraction
+###  https://w3id.org/skgo/physci#On_Continued_Gravitational_Contraction
 :On_Continued_Gravitational_Contraction rdf:type owl:NamedIndividual ,
                                                  <http://ns.nature.com/terms/Article> ,
                                                  <http://ns.nature.com/terms/Publication> ;
@@ -3305,7 +3313,7 @@ superposition of unresolved systems."""^^rdfs:Literal ;
                                         rdfs:label "On_Continued_Gravitational_Contraction"@en .
 
 
-###  https://w3id.org/skgo/phy#On_the_Law_of_the_Energy_Distribution_in_the_Normal_Spectrum
+###  https://w3id.org/skgo/physci#On_the_Law_of_the_Energy_Distribution_in_the_Normal_Spectrum
 :On_the_Law_of_the_Energy_Distribution_in_the_Normal_Spectrum rdf:type owl:NamedIndividual ,
                                                                        <http://ns.nature.com/terms/Publication> ;
                                                               :addressesResearchWork :The_Energy_Distribution_in_the_Normal_Spectrum ;
@@ -3315,15 +3323,15 @@ superposition of unresolved systems."""^^rdfs:Literal ;
                                                               rdfs:label "On_the_Law_of_the_Energy_Distribution_in_the_Normal_Spectrum"@en .
 
 
-###  https://w3id.org/skgo/phy#PCA_as_a_Tool_for_Characterizing_Black_Hole_Images_and_Variability
+###  https://w3id.org/skgo/physci#PCA_as_a_Tool_for_Characterizing_Black_Hole_Images_and_Variability
 :PCA_as_a_Tool_for_Characterizing_Black_Hole_Images_and_Variability rdf:type owl:NamedIndividual ,
                                                                              <http://ns.nature.com/terms/Article> ,
                                                                              <http://ns.nature.com/terms/Publication> ;
                                                                     :addressesResearchWork :PCA_for_Black_Hole_Images ;
                                                                     <http://ns.nature.com/terms/publicationYear> "2018"^^xsd:gYear ;
                                                                     :hasConclusion "we have demonstrated that PCA covers an effective tool for this task over a wealth of different problems."^^rdfs:Literal ;
-                                                                    <http://purl.org/dc/terms/creator> :Dimitrios_Psaltis ,
-                                                                                                       :Feryal_Ozel ,
+                                                                    <http://purl.org/dc/terms/creator> <https://w3id.org/skgo/phy#Feryal_Ozel> ,
+                                                                                                       :Dimitrios_Psaltis ,
                                                                                                        :Lia_Medeiros ,
                                                                                                        :Tod_R_Lauer ;
                                                                     <http://purl.org/dc/terms/publisher> :Iop_Publishing_LTD ;
@@ -3331,7 +3339,7 @@ superposition of unresolved systems."""^^rdfs:Literal ;
                                                                     rdfs:label "PCA_as_a_Tool_for_Characterizing_Black_Hole_Images_and_Variability"@en .
 
 
-###  https://w3id.org/skgo/phy#PCA_for_Black_Hole_Images
+###  https://w3id.org/skgo/physci#PCA_for_Black_Hole_Images
 :PCA_for_Black_Hole_Images rdf:type owl:NamedIndividual ,
                                     :ResearchWork ;
                            :argueFormation :Black_Hole ;
@@ -3342,13 +3350,13 @@ superposition of unresolved systems."""^^rdfs:Literal ;
                            rdfs:label "PCA_for_Black_Hole_Images"@en .
 
 
-###  https://w3id.org/skgo/phy#PCA_formalism_eigenimages
+###  https://w3id.org/skgo/physci#PCA_formalism_eigenimages
 :PCA_formalism_eigenimages rdf:type owl:NamedIndividual ,
                                     <http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement> ;
                            rdfs:label "PCA_formalism_eigenimages"@en .
 
 
-###  https://w3id.org/skgo/phy#Parallel_Translations
+###  https://w3id.org/skgo/physci#Parallel_Translations
 :Parallel_Translations rdf:type owl:NamedIndividual ,
                                 :ScientificMethod ;
                        :hasTheory :theory_of_real_fields ;
@@ -3357,7 +3365,7 @@ conjugate."""^^rdfs:Literal ;
                        rdfs:label "Parallel_Translations"@en .
 
 
-###  https://w3id.org/skgo/phy#Particle_Creation
+###  https://w3id.org/skgo/physci#Particle_Creation
 :Particle_Creation rdf:type owl:NamedIndividual ,
                             :ResearchWork ;
                    :argueFormation :Black_hole_Collapsing ;
@@ -3366,7 +3374,7 @@ conjugate."""^^rdfs:Literal ;
                    rdfs:label "Particle_Creation"@en .
 
 
-###  https://w3id.org/skgo/phy#Particle_Creation_by_Black_Holes
+###  https://w3id.org/skgo/physci#Particle_Creation_by_Black_Holes
 :Particle_Creation_by_Black_Holes rdf:type owl:NamedIndividual ,
                                            <http://ns.nature.com/terms/Publication> ;
                                   :addressesResearchWork :Particle_Creation ;
@@ -3377,13 +3385,13 @@ conjugate."""^^rdfs:Literal ;
                                   rdfs:label "Particle_Creation_by_Black_Holes"@en .
 
 
-###  https://w3id.org/skgo/phy#Particle_Problem
+###  https://w3id.org/skgo/physci#Particle_Problem
 :Particle_Problem rdf:type owl:NamedIndividual ,
                            :ScientificProblem ;
                   rdfs:label "Particle_Problem"@en .
 
 
-###  https://w3id.org/skgo/phy#Particle_problem_in_the_Theory_of_Relativity
+###  https://w3id.org/skgo/physci#Particle_problem_in_the_Theory_of_Relativity
 :Particle_problem_in_the_Theory_of_Relativity rdf:type owl:NamedIndividual ,
                                                        :ResearchWork ;
                                               :confirmLaw :The_field_law_of_gravitation ;
@@ -3391,7 +3399,7 @@ conjugate."""^^rdfs:Literal ;
                                               rdfs:label "Particle_problem_in_the_Theory_of_Relativity"@en .
 
 
-###  https://w3id.org/skgo/phy#Principal_Component_Analysis_in_the_Fourier_Domain
+###  https://w3id.org/skgo/physci#Principal_Component_Analysis_in_the_Fourier_Domain
 :Principal_Component_Analysis_in_the_Fourier_Domain rdf:type owl:NamedIndividual ,
                                                              :ScientificMethod ;
                                                     :hasScientificModel :Gaussian_spot_moving_on_a_circular_path ,
@@ -3401,13 +3409,13 @@ i.e., visibility amplitudes and phases."""^^rdfs:Literal ;
                                                     rdfs:label "Principal_Component_Analysis_in_the_Fourier_Domain"@en .
 
 
-###  https://w3id.org/skgo/phy#Principle_of_Equivalence
+###  https://w3id.org/skgo/physci#Principle_of_Equivalence
 :Principle_of_Equivalence rdf:type owl:NamedIndividual ,
                                    <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#principle> ;
                           rdfs:label "Principle_of_Equivalence"@en .
 
 
-###  https://w3id.org/skgo/phy#Property_of_field_equations
+###  https://w3id.org/skgo/physci#Property_of_field_equations
 :Property_of_field_equations rdf:type owl:NamedIndividual ,
                                       :ScientificProperty ;
                              :hasMass "mass at the origin"^^rdfs:Literal ;
@@ -3416,7 +3424,7 @@ i.e., visibility amplitudes and phases."""^^rdfs:Literal ;
                              rdfs:label "Property_of_field_equations"@en .
 
 
-###  https://w3id.org/skgo/phy#Relativistic_theory_of_gravitation
+###  https://w3id.org/skgo/physci#Relativistic_theory_of_gravitation
 :Relativistic_theory_of_gravitation rdf:type owl:NamedIndividual ,
                                              :ResearchWork ;
                                     :extendArgument :Hermitian_is_natural ;
@@ -3424,77 +3432,77 @@ i.e., visibility amplitudes and phases."""^^rdfs:Literal ;
                                     rdfs:label "Relativistic_theory_of_gravitation"@en .
 
 
-###  https://w3id.org/skgo/phy#Ring_structure_Property
+###  https://w3id.org/skgo/physci#Ring_structure_Property
 :Ring_structure_Property rdf:type owl:NamedIndividual ,
                                   :ScientificProperty ;
                          rdfs:label "Ring_structure_Property"@en .
 
 
-###  https://w3id.org/skgo/phy#Rotating_star
+###  https://w3id.org/skgo/physci#Rotating_star
 :Rotating_star rdf:type owl:NamedIndividual ,
                         <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation> ;
                rdfs:label "Rotating_star"@en .
 
 
-###  https://w3id.org/skgo/phy#Schwarzschild_metric
+###  https://w3id.org/skgo/physci#Schwarzschild_metric
 :Schwarzschild_metric rdf:type owl:NamedIndividual ,
                                :Metric ;
                       rdfs:label "Schwarzschild_metric"@en .
 
 
-###  https://w3id.org/skgo/phy#Schwarzschild_solution-Black_hole_evaporation
+###  https://w3id.org/skgo/physci#Schwarzschild_solution-Black_hole_evaporation
 :Schwarzschild_solution-Black_hole_evaporation rdf:type owl:NamedIndividual ,
                                                         :Solution ;
                                                :hasEquation :wave_equations ;
-                                               :hasTheory :General_Relativity ;
                                                :solve :Space-time_singularities ;
                                                :useScientificMethod :Curvature_Tensor ;
+                                               :useTheory :General_Relativity ;
                                                rdfs:label "Schwarzschild_solution-Black_hole_evaporation"@en .
 
 
-###  https://w3id.org/skgo/phy#Space-time_singularities
+###  https://w3id.org/skgo/physci#Space-time_singularities
 :Space-time_singularities rdf:type owl:NamedIndividual ,
                                    :ScientificProblem ;
                           rdfs:label "Space-time_singularities"@en .
 
 
-###  https://w3id.org/skgo/phy#Stationary_motions
+###  https://w3id.org/skgo/physci#Stationary_motions
 :Stationary_motions rdf:type owl:NamedIndividual ,
                              <http://sweetontology.net/procPhysical/Motion> ;
                     :hasScientificProperty :Field-variables ;
                     rdfs:label "Stationary_motions"@en .
 
 
-###  https://w3id.org/skgo/phy#Stephen_William_Hawking
+###  https://w3id.org/skgo/physci#Stephen_William_Hawking
 :Stephen_William_Hawking rdf:type owl:NamedIndividual ,
                                   <http://ns.nature.com/terms/Person> ;
                          rdfs:label "Stephen_William_Hawking"@en ;
                          <http://xmlns.com/foaf/0.1/name> "S. W. Hawking"^^rdfs:Literal .
 
 
-###  https://w3id.org/skgo/phy#The_American_Astronomical_Society
+###  https://w3id.org/skgo/physci#The_American_Astronomical_Society
 :The_American_Astronomical_Society rdf:type owl:NamedIndividual ,
                                             <http://ns.nature.com/terms/Agent> ,
                                             <http://ns.nature.com/terms/Publisher> ;
                                    rdfs:label "The_American_Astronomical_Society"@en .
 
 
-###  https://w3id.org/skgo/phy#The_Energy_Distribution_in_the_Normal_Spectrum
+###  https://w3id.org/skgo/physci#The_Energy_Distribution_in_the_Normal_Spectrum
 :The_Energy_Distribution_in_the_Normal_Spectrum rdf:type owl:NamedIndividual ,
                                                          :ResearchWork ;
-                                                :confirmLaw <https://w3id.org/skgo/phy#Wien’s_displacement_law> ,
-                                                            <https://w3id.org/skgo/phy#Wien’s_energy_distribution_law> ;
+                                                :confirmLaw <https://w3id.org/skgo/physci#Wien’s_displacement_law> ,
+                                                            <https://w3id.org/skgo/physci#Wien’s_energy_distribution_law> ;
                                                 :hasProblem :The_theory_of_electromagnetic_radiation_is_not_universally_correct ;
                                                 rdfs:label "The_Energy_Distribution_in_the_Normal_Spectrum"@en .
 
 
-###  https://w3id.org/skgo/phy#The_Event_Horizon_Telescope_Collaboration
+###  https://w3id.org/skgo/physci#The_Event_Horizon_Telescope_Collaboration
 :The_Event_Horizon_Telescope_Collaboration rdf:type owl:NamedIndividual ,
                                                     <http://xmlns.com/foaf/0.1/Organization> ;
                                            rdfs:label "The_Event_Horizon_Telescope_Collaboration"@en .
 
 
-###  https://w3id.org/skgo/phy#The_Generalized_Second_Law_at_Work
+###  https://w3id.org/skgo/physci#The_Generalized_Second_Law_at_Work
 :The_Generalized_Second_Law_at_Work rdf:type owl:NamedIndividual ,
                                              <http://sweetontology.net/reprSciModel/ScientificModel> ;
                                     :hasScientificProperty :Compton_Wavelength ;
@@ -3506,7 +3514,7 @@ wavelengths in the beam are much shorter than the characteristic dimension of th
                                     rdfs:label "The_Generalized_Second_Law_at_Work"@en .
 
 
-###  https://w3id.org/skgo/phy#The_Particle_Problem_in_the_General_Theory_of_Relativity
+###  https://w3id.org/skgo/physci#The_Particle_Problem_in_the_General_Theory_of_Relativity
 :The_Particle_Problem_in_the_General_Theory_of_Relativity rdf:type owl:NamedIndividual ,
                                                                    <http://ns.nature.com/terms/Article> ,
                                                                    <http://ns.nature.com/terms/Publication> ;
@@ -3521,45 +3529,45 @@ wavelengths in the beam are much shorter than the characteristic dimension of th
                                                           rdfs:label "The_Particle_Problem_in_the_General_Theory_of_Relativity"@en .
 
 
-###  https://w3id.org/skgo/phy#The_Schwarzschild_Solution
+###  https://w3id.org/skgo/physci#The_Schwarzschild_Solution
 :The_Schwarzschild_Solution rdf:type owl:NamedIndividual ,
                                      :Solution ;
                             :hasEquation :the_gravitational_equations ;
-                            :hasTheory :General_theory_of_relativity ;
                             :solve :Particle_Problem ;
                             :useScientificMethod :the_method_of_general_relativity ;
+                            :useTheory :General_theory_of_relativity ;
                             :hasDescription "We see now in the given solution, free from singularities, the mathematical representation of an elementary particle (neutron or neutrino). Characteristic of the theory we are presenting is the description of space by means of two sheets.A bridge,  patially finite, which connects these sheets characterizes the presence of an electrically neutral elementary particle."^^rdfs:Literal ;
                             rdfs:label "The_Schwarzschild_Solution"@en .
 
 
-###  https://w3id.org/skgo/phy#The_calculation_of_entropy_of_any_resonator
+###  https://w3id.org/skgo/physci#The_calculation_of_entropy_of_any_resonator
 :The_calculation_of_entropy_of_any_resonator rdf:type owl:NamedIndividual ,
                                                       :Solution ;
-                                             :hasTheory :Electro-Magnetic_Theory_of_Radiation ;
                                              :solve :The_theory_of_electromagnetic_radiation_is_not_universally_correct ;
+                                             :useTheory :Electro-Magnetic_Theory_of_Radiation ;
                                              rdfs:label "The_calculation_of_entropy_of_any_resonator"@en .
 
 
-###  https://w3id.org/skgo/phy#The_cumulative_sum_of_the_eigenvalues
+###  https://w3id.org/skgo/physci#The_cumulative_sum_of_the_eigenvalues
 :The_cumulative_sum_of_the_eigenvalues rdf:type owl:NamedIndividual ,
                                                 <http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement> ;
                                        :hasDescription "The cumulative sum of the eigenvalues"^^rdfs:Literal ;
                                        rdfs:label "The_cumulative_sum_of_the_eigenvalues"@en .
 
 
-###  https://w3id.org/skgo/phy#The_field_law_of_gravitation
+###  https://w3id.org/skgo/physci#The_field_law_of_gravitation
 :The_field_law_of_gravitation rdf:type owl:NamedIndividual ,
                                        <http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#physicalLaw> ;
                               rdfs:label "The_field_law_of_gravitation"@en .
 
 
-###  https://w3id.org/skgo/phy#The_generalized_second_law_of_thermodynamics
+###  https://w3id.org/skgo/physci#The_generalized_second_law_of_thermodynamics
 :The_generalized_second_law_of_thermodynamics rdf:type owl:NamedIndividual ,
                                                        <http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#physicalLaw> ;
                                               rdfs:label "The_generalized_second_law_of_thermodynamics"@en .
 
 
-###  https://w3id.org/skgo/phy#The_most_general_gravitational_field
+###  https://w3id.org/skgo/physci#The_most_general_gravitational_field
 :The_most_general_gravitational_field rdf:type owl:NamedIndividual ,
                                                <http://sweetontology.net/reprSciModel/ScientificModel> ;
                                       :considerCase :spherical_symmetry ;
@@ -3571,33 +3579,33 @@ L(p) is a parameter"""^^rdfs:Literal ;
                                       rdfs:label "The_most_general_gravitational_field" .
 
 
-###  https://w3id.org/skgo/phy#The_power-law
+###  https://w3id.org/skgo/physci#The_power-law
 :The_power-law rdf:type owl:NamedIndividual ,
                         <http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#physicalLaw> ;
                :hasFunction :power-law_index__of_the_spectra_of_PCA_eigenvalues_as_a_function ;
                rdfs:label "The_power-law"@en .
 
 
-###  https://w3id.org/skgo/phy#The_supermassive_black_hole
+###  https://w3id.org/skgo/physci#The_supermassive_black_hole
 :The_supermassive_black_hole rdf:type owl:NamedIndividual ,
                                       <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation> ;
                              :hasStructure :Horizon-scale_structures ;
                              rdfs:label "The_supermassive_black_hole"@en .
 
 
-###  https://w3id.org/skgo/phy#The_theory_of_electromagnetic_radiation_is_not_universally_correct
+###  https://w3id.org/skgo/physci#The_theory_of_electromagnetic_radiation_is_not_universally_correct
 :The_theory_of_electromagnetic_radiation_is_not_universally_correct rdf:type owl:NamedIndividual ,
                                                                              :ScientificProblem ;
                                                                     rdfs:label "The_theory_of_electromagnetic_radiation_is_not_universally_correct"@en .
 
 
-###  https://w3id.org/skgo/phy#The_wave_equation
+###  https://w3id.org/skgo/physci#The_wave_equation
 :The_wave_equation rdf:type owl:NamedIndividual ,
                             :Equation ;
                    rdfs:label "The_wave_equation"@en .
 
 
-###  https://w3id.org/skgo/phy#Theoretical_models
+###  https://w3id.org/skgo/physci#Theoretical_models
 :Theoretical_models rdf:type owl:NamedIndividual ,
                              <http://sweetontology.net/reprSciModel/ScientificModel> ;
                     :hasObservation :EHT_VLBI_Campaign_Observation ;
@@ -3609,34 +3617,34 @@ disk orbiting a Kerr black hole."""^^rdfs:Literal ;
                     rdfs:label "Theoretical_models"@en .
 
 
-###  https://w3id.org/skgo/phy#Thermodynamics_for_black_holes
+###  https://w3id.org/skgo/physci#Thermodynamics_for_black_holes
 :Thermodynamics_for_black_holes rdf:type owl:NamedIndividual ,
                                          :ScientificMethod ;
-                                :establishTheorem <https://w3id.org/skgo/phy#Hawking's_theorem> ;
+                                :establishTheorem <https://w3id.org/skgo/physci#Hawking's_theorem> ;
                                 :hasTheory :Information_theory ;
                                 <http://purl.org/dc/terms/description> """to compute the minimum possible increase in the black hole's area which results from the disappearance of a particle down the black hole, then to compute the corresponding minimum possible increase of black-hole entropy by means of our original formula (12), and finally
 to identify this increase in entropy with the loss of one bit of information in accordanc with the scheme."""^^rdfs:Literal ;
                                 rdfs:label "Thermodynamics_for_black_holes"@en .
 
 
-###  https://w3id.org/skgo/phy#Tod_R_Lauer
+###  https://w3id.org/skgo/physci#Tod_R_Lauer
 :Tod_R_Lauer rdf:type owl:NamedIndividual ,
                       <http://xmlns.com/foaf/0.1/Person> ;
              rdfs:label "Tod_R_Lauer"@en .
 
 
-###  https://w3id.org/skgo/phy#black-hole_entropy_solution
+###  https://w3id.org/skgo/physci#black-hole_entropy_solution
 :black-hole_entropy_solution rdf:type owl:NamedIndividual ,
                                       :Solution ;
                              :hasEquation :thermodynamic_expression ;
-                             :hasTheory :Information_theory ;
                              :useScientificMethod :Thermodynamics_for_black_holes ;
+                             :useTheory :Information_theory ;
                              :hasDescription """the efficiency is no greater than the maximum efficiency
 allowed by thermodynamics for the heat engine which is equivalent to the Geroch process, so that this process cannot be regarded as violating the second law."""^^rdfs:Literal ;
                              rdfs:label "Black-hole_Entropy_solution"@en .
 
 
-###  https://w3id.org/skgo/phy#collapsing_body
+###  https://w3id.org/skgo/physci#collapsing_body
 :collapsing_body rdf:type owl:NamedIndividual ,
                           <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#structure> ;
                  :hasParticle :Elementary_Particle_Proton ;
@@ -3644,7 +3652,7 @@ allowed by thermodynamics for the heat engine which is equivalent to the Geroch 
                  rdfs:label "Collapsing_Body"@en .
 
 
-###  https://w3id.org/skgo/phy#complex_fields
+###  https://w3id.org/skgo/physci#complex_fields
 :complex_fields rdf:type owl:NamedIndividual ,
                          :Case ;
                 :hasTheory :generalized_theory_the_total_field ;
@@ -3652,7 +3660,7 @@ allowed by thermodynamics for the heat engine which is equivalent to the Geroch 
                 rdfs:label "Complex_Fields"@en .
 
 
-###  https://w3id.org/skgo/phy#field_equations_boundary
+###  https://w3id.org/skgo/physci#field_equations_boundary
 :field_equations_boundary rdf:type owl:NamedIndividual ,
                                    :Equation ;
                           :hasCondition "boundary condition.At the surface of the star, R equal Rb we must have L equal to M for all τ."^^rdfs:Literal ;
@@ -3660,7 +3668,7 @@ allowed by thermodynamics for the heat engine which is equivalent to the Geroch 
                           rdfs:label "Field_Equations_Boundary"@en .
 
 
-###  https://w3id.org/skgo/phy#field_equations_with_homogeneous_gravitational_field
+###  https://w3id.org/skgo/physci#field_equations_with_homogeneous_gravitational_field
 :field_equations_with_homogeneous_gravitational_field rdf:type owl:NamedIndividual ,
                                                                :Equation ;
                                                       :hasPrinciple :Principle_of_Equivalence ;
@@ -3669,40 +3677,40 @@ gravitational field."""^^rdfs:Literal ;
                                                       rdfs:label "Field_Equations_with_Homogeneous_Gravitational_Field"@en .
 
 
-###  https://w3id.org/skgo/phy#fraction_as_much_about_neutrinos
+###  https://w3id.org/skgo/physci#fraction_as_much_about_neutrinos
 :fraction_as_much_about_neutrinos rdf:type owl:NamedIndividual ,
                                            :ScientificProblem ;
                                   rdfs:label "fraction_as_much_about_neutrinos" .
 
 
-###  https://w3id.org/skgo/phy#generalized_theory_the_total_field
+###  https://w3id.org/skgo/physci#generalized_theory_the_total_field
 :generalized_theory_the_total_field rdf:type owl:NamedIndividual ,
                                              <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#theory> ;
                                     :hasEquation :Field_equations ;
                                     rdfs:label "Generalized_theory_the_total_field"@en .
 
 
-###  https://w3id.org/skgo/phy#geosedic_motion
+###  https://w3id.org/skgo/physci#geosedic_motion
 :geosedic_motion rdf:type owl:NamedIndividual ,
                           <http://sweetontology.net/procPhysical/Motion> ;
                  rdfs:label "Geosedic_motion"@en .
 
 
-###  https://w3id.org/skgo/phy#gravitational_collapse_superradiance
+###  https://w3id.org/skgo/physci#gravitational_collapse_superradiance
 :gravitational_collapse_superradiance rdf:type owl:NamedIndividual ,
                                                <http://sweetontology.net/phen/Phenomena> ;
                                       :hasTheory :General_Relativity ;
                                       rdfs:label "Gravitational_collapse_superradiance"@en .
 
 
-###  https://w3id.org/skgo/phy#gravitational_field
+###  https://w3id.org/skgo/physci#gravitational_field
 :gravitational_field rdf:type owl:NamedIndividual ,
                               <http://sweetontology.net/phen/Phenomena> ;
-                     :hasTheory <https://w3id.org/skgo/phy#Einstein's_Theory_of_General_Relativity> ;
+                     :hasTheory <https://w3id.org/skgo/physci#Einstein's_Theory_of_General_Relativity> ;
                      rdfs:label "Gravitational_field"@en .
 
 
-###  https://w3id.org/skgo/phy#gravitational_field_equations_solutions
+###  https://w3id.org/skgo/physci#gravitational_field_equations_solutions
 :gravitational_field_equations_solutions rdf:type owl:NamedIndividual ,
                                                   :Solution ;
                                          :solve :the_behavior_of_nonstatic_solutions_of_the_field_equations ;
@@ -3711,7 +3719,7 @@ in a stable stationary state."""^^rdfs:Literal ;
                                          rdfs:label "Gravitational_field_equations_solutions"@en .
 
 
-###  https://w3id.org/skgo/phy#high-fidelity_GRMHD_simulations
+###  https://w3id.org/skgo/physci#high-fidelity_GRMHD_simulations
 :high-fidelity_GRMHD_simulations rdf:type owl:NamedIndividual ,
                                           <http://sweetontology.net/reprMathSolution/Simulation> ;
                                  :hasConsequence "in our simulations,flux excursions and unusual image morphologies are not necessarily coincident but the two can be disentangled with the use of the quantity Rnl that we have introduced here."^^rdfs:Literal ;
@@ -3719,25 +3727,25 @@ in a stable stationary state."""^^rdfs:Literal ;
                                  rdfs:label "High-Fidelity_GRMHD_simulations"@en .
 
 
-###  https://w3id.org/skgo/phy#instrumental_noise
+###  https://w3id.org/skgo/physci#instrumental_noise
 :instrumental_noise rdf:type owl:NamedIndividual ,
                              :ObservationalData ;
                     rdfs:label "Instrumental_noise"@en .
 
 
-###  https://w3id.org/skgo/phy#laser_wavelength_and__radio-frequency_oscillator
+###  https://w3id.org/skgo/physci#laser_wavelength_and__radio-frequency_oscillator
 :laser_wavelength_and__radio-frequency_oscillator rdf:type owl:NamedIndividual ;
                                                   rdfs:label "laser_wavelength_and__radio-frequency_oscillator" .
 
 
-###  https://w3id.org/skgo/phy#massive_black_holes
+###  https://w3id.org/skgo/physci#massive_black_holes
 :massive_black_holes rdf:type owl:NamedIndividual ,
                               <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation> ;
                      :hasScenario "stellar evolution requires weak massive-star winds, which are possible in stellar environments with metallicity lower than ≃1=2 the solar value."^^rdfs:Literal ;
                      rdfs:label "Massive_black_holes"@en .
 
 
-###  https://w3id.org/skgo/phy#metrical_tensor_as_the_contraction_progresses
+###  https://w3id.org/skgo/physci#metrical_tensor_as_the_contraction_progresses
 :metrical_tensor_as_the_contraction_progresses rdf:type owl:NamedIndividual ,
                                                         :ScientificArgument ;
                                                :hasProblem :the_behavior_of_nonstatic_solutions_of_the_field_equations ;
@@ -3745,30 +3753,30 @@ in a stable stationary state."""^^rdfs:Literal ;
                                                rdfs:label "Metrical_tensor_as_the_contraction_progresses"@en .
 
 
-###  https://w3id.org/skgo/phy#neutrino_radiation
+###  https://w3id.org/skgo/physci#neutrino_radiation
 :neutrino_radiation rdf:type owl:NamedIndividual ,
                              <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#wave> ;
                     rdfs:label "Neutrino_radiation"@en .
 
 
-###  https://w3id.org/skgo/phy#neutrino_theory
+###  https://w3id.org/skgo/physci#neutrino_theory
 :neutrino_theory rdf:type owl:NamedIndividual ,
                           <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#theory> ;
                  :hasEquation :Dirac_Equation ;
                  rdfs:label "Neutrino_theory"@en .
 
 
-###  https://w3id.org/skgo/phy#neutrinos_solution
+###  https://w3id.org/skgo/physci#neutrinos_solution
 :neutrinos_solution rdf:type owl:NamedIndividual ,
                              :Solution ;
                     :hasEquation :Dirac_Equation ;
-                    :hasTheory :neutrino_theory ,
-                               :the_Dirac_theory ;
+                    :hasTheory :neutrino_theory ;
                     :solve :fraction_as_much_about_neutrinos ;
+                    :useTheory :the_Dirac_theory ;
                     rdfs:label "Neutrinos_solution"@en .
 
 
-###  https://w3id.org/skgo/phy#numerical_simulations_of_binary_black_hole_mergers
+###  https://w3id.org/skgo/physci#numerical_simulations_of_binary_black_hole_mergers
 :numerical_simulations_of_binary_black_hole_mergers rdf:type owl:NamedIndividual ,
                                                              <http://sweetontology.net/reprMathSolution/Simulation> ;
                                                     :hasConsequence "we verified that the remnant mass and spin deduced from the early stage of the  coalescence and those inferred independently from the late stage are consistent with each other, with no evidence for disagreement from general relativity."^^rdfs:Literal ;
@@ -3776,21 +3784,21 @@ in a stable stationary state."""^^rdfs:Literal ;
                                                     rdfs:label "Numerical_simulations_of_binary_black_hole_mergers"@en .
 
 
-###  https://w3id.org/skgo/phy#perihelion_of_Mercury
+###  https://w3id.org/skgo/physci#perihelion_of_Mercury
 :perihelion_of_Mercury rdf:type owl:NamedIndividual ,
                                 <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#structure> ;
                        :hasPhenomena :gravitational_field ;
                        rdfs:label "Perihelion_of_Mercury"@en .
 
 
-###  https://w3id.org/skgo/phy#power-law_index__of_the_spectra_of_PCA_eigenvalues_as_a_function
+###  https://w3id.org/skgo/physci#power-law_index__of_the_spectra_of_PCA_eigenvalues_as_a_function
 :power-law_index__of_the_spectra_of_PCA_eigenvalues_as_a_function rdf:type owl:NamedIndividual ,
                                                                            :Function ;
                                                                   :hasParameter "red noise parameters,eigenvalues"^^rdfs:Literal ;
                                                                   rdfs:label "Power-law_index__of_the_spectra_of_PCA_eigenvalues_as_a_function"@en .
 
 
-###  https://w3id.org/skgo/phy#real_fields
+###  https://w3id.org/skgo/physci#real_fields
 :real_fields rdf:type owl:NamedIndividual ,
                       :Case ;
              :hasTheory :theory_of_real_fields ;
@@ -3798,40 +3806,40 @@ in a stable stationary state."""^^rdfs:Literal ;
              rdfs:label "Real_fields"@en .
 
 
-###  https://w3id.org/skgo/phy#region_of_curvature
+###  https://w3id.org/skgo/physci#region_of_curvature
 :region_of_curvature rdf:type owl:NamedIndividual ,
                               <http://www.astro.umd.edu/~eshaya/astro-onto/owl/astronomy.owl#source> ;
                      <http://ns.nature.com/terms/name> "region of curvature"^^rdfs:Literal ;
                      rdfs:label "Region_of_curvature"@en .
 
 
-###  https://w3id.org/skgo/phy#singularity_theorems_no_hair_theorem
+###  https://w3id.org/skgo/physci#singularity_theorems_no_hair_theorem
 :singularity_theorems_no_hair_theorem rdf:type owl:NamedIndividual ,
                                                :Theorem ;
                                       rdfs:label "Singularity_theorems_no_hair_theorem"@en .
 
 
-###  https://w3id.org/skgo/phy#solution_the_adjoined_translation_corresponds_to_adjoined_objects
+###  https://w3id.org/skgo/physci#solution_the_adjoined_translation_corresponds_to_adjoined_objects
 :solution_the_adjoined_translation_corresponds_to_adjoined_objects rdf:type owl:NamedIndividual ,
                                                                             :Solution ;
                                                                    :hasEquation :Field_equations ;
-                                                                   :hasTheory :generalized_theory_the_total_field ;
                                                                    :useScientificMethod :Hermitian_Tensor ;
+                                                                   :useTheory :generalized_theory_the_total_field ;
                                                                    :hasDescription "the adjoined translation corresponds to adjoined objects"^^rdfs:Literal ;
                                                                    rdfs:label "Solution_the_adjoined_translation_corresponds_to_adjoined_objects"@en .
 
 
-###  https://w3id.org/skgo/phy#space-time_metric
+###  https://w3id.org/skgo/physci#space-time_metric
 :space-time_metric rdf:type owl:NamedIndividual ;
                    rdfs:label "Space-time_metric"@en .
 
 
-###  https://w3id.org/skgo/phy#spherical_symmetry
+###  https://w3id.org/skgo/physci#spherical_symmetry
 :spherical_symmetry rdf:type owl:NamedIndividual ;
                     rdfs:label "spherical_symmetry" .
 
 
-###  https://w3id.org/skgo/phy#symmetric_solutions_of_the_equations
+###  https://w3id.org/skgo/physci#symmetric_solutions_of_the_equations
 :symmetric_solutions_of_the_equations rdf:type owl:NamedIndividual ,
                                                :Equation ;
                                       :hasCondition """As the divergence of the left side of (4) vanishes
@@ -3841,62 +3849,62 @@ needed for.their compatibility."""^^rdfs:Literal ;
                                       rdfs:label "Symmetric_solutions_of_the_equations"@en .
 
 
-###  https://w3id.org/skgo/phy#the_Dirac_theory
+###  https://w3id.org/skgo/physci#the_Dirac_theory
 :the_Dirac_theory rdf:type owl:NamedIndividual ;
                   :hasEquation :Lagrangian_equation ,
                                :The_wave_equation ;
                   rdfs:label "The_Dirac_theory"@en .
 
 
-###  https://w3id.org/skgo/phy#the_Schwarzschild_metric
+###  https://w3id.org/skgo/physci#the_Schwarzschild_metric
 :the_Schwarzschild_metric rdf:type owl:NamedIndividual ,
                                    :Solution ;
-                          :solve <https://w3id.org/skgo/phy#Schwarzschild’s_problem> ;
+                          :solve <https://w3id.org/skgo/physci#Schwarzschild’s_problem> ;
                           rdfs:label "The_Schwarzschild_metric"@en .
 
 
-###  https://w3id.org/skgo/phy#the_behavior_of_nonstatic_solutions_of_the_field_equations
+###  https://w3id.org/skgo/physci#the_behavior_of_nonstatic_solutions_of_the_field_equations
 :the_behavior_of_nonstatic_solutions_of_the_field_equations rdf:type owl:NamedIndividual ,
                                                                      :ScientificProblem ;
                                                             :hasContext "When all thermonuclear sources of energy are exhausted a suSciently heavy star will collapse. Unless fission due to rotation, the radiation of mass, or the blowing off of mass by radiation, reduce the star's mass to the order of that of the sun, this contraction will continue indefinitely."^^rdfs:Literal ;
                                                             rdfs:label "The_behavior_of_nonstatic_solutions_of_the_field_equations"@en .
 
 
-###  https://w3id.org/skgo/phy#the_differentieal_equations
+###  https://w3id.org/skgo/physci#the_differentieal_equations
 :the_differentieal_equations rdf:type owl:NamedIndividual ,
                                       :Equation ;
                              :yieldEquation :the_differentieal_equations ;
                              rdfs:label "The_differentieal_equations"@en .
 
 
-###  https://w3id.org/skgo/phy#the_gravitational_equations
+###  https://w3id.org/skgo/physci#the_gravitational_equations
 :the_gravitational_equations rdf:type owl:NamedIndividual ,
                                       :Equation ;
                              :hasPrinciple :Principle_of_Equivalence ;
                              rdfs:label "The_gravitational_equations"@en .
 
 
-###  https://w3id.org/skgo/phy#the_method_of_general_relativity
+###  https://w3id.org/skgo/physci#the_method_of_general_relativity
 :the_method_of_general_relativity rdf:type owl:NamedIndividual ,
                                            :ScientificMethod ;
                                   :hasDescription "The publication of this theoretical method is nevertheless justified, in our opinion, because it provides a clear procedure, characterized by a minimum of assumptions, the carrying out of which has no other diAiculties to overcome than those of a mathematical nature."^^rdfs:Literal ;
                                   rdfs:label "The_method_of_general_relativity"@en .
 
 
-###  https://w3id.org/skgo/phy#the_second_law_of_thermodynamics
+###  https://w3id.org/skgo/physci#the_second_law_of_thermodynamics
 :the_second_law_of_thermodynamics rdf:type owl:NamedIndividual ,
                                            <http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#physicalLaw> ;
                                   rdfs:label "The_second_law_of_thermodynamics"@en .
 
 
-###  https://w3id.org/skgo/phy#theory_of_real_fields
+###  https://w3id.org/skgo/physci#theory_of_real_fields
 :theory_of_real_fields rdf:type owl:NamedIndividual ,
                                 <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#theory> ;
                        :hasEquation :Infinitesimal_parallel_translations ;
                        rdfs:label "Theory_of_real_fields"@en .
 
 
-###  https://w3id.org/skgo/phy#thermodynamic_expression
+###  https://w3id.org/skgo/physci#thermodynamic_expression
 :thermodynamic_expression rdf:type owl:NamedIndividual ,
                                    :Equation ;
                           :hasCondition "Christodoulou condition,the oscillator nonrelativistic"^^rdfs:Literal ;
@@ -3905,13 +3913,13 @@ and angular momentum, vibrational frequency of the oscillator"""^^rdfs:Literal ;
                           rdfs:label "Thermodynamic_expression"@en .
 
 
-###  https://w3id.org/skgo/phy#transient_gravitational-wave_signal
+###  https://w3id.org/skgo/physci#transient_gravitational-wave_signal
 :transient_gravitational-wave_signal rdf:type owl:NamedIndividual ,
                                               <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#wave> ;
                                      rdfs:label "Transient_gravitational-wave_signal"@en .
 
 
-###  https://w3id.org/skgo/phy#wave_equations
+###  https://w3id.org/skgo/physci#wave_equations
 :wave_equations rdf:type owl:NamedIndividual ,
                          :Equation ;
                 :hasMetric :Schwarzschild_metric ;
@@ -3920,53 +3928,53 @@ and angular momentum, vibrational frequency of the oscillator"""^^rdfs:Literal ;
                 rdfs:label "Wave_equations"@en .
 
 
-###  https://w3id.org/skgo/phy#Einstein's_Theory_of_General_Relativity
-<https://w3id.org/skgo/phy#Einstein's_Theory_of_General_Relativity> rdf:type owl:NamedIndividual ,
-                                                                             <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#theory> ;
-                                                                    :hasPhenomena :gravitational_field ;
-                                                                    rdfs:label "Einstein's_Theory_of_General_Relativity"@en .
+###  https://w3id.org/skgo/physci#Einstein's_Theory_of_General_Relativity
+<https://w3id.org/skgo/physci#Einstein's_Theory_of_General_Relativity> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#theory> ;
+                                                                       :hasPhenomena :gravitational_field ;
+                                                                       rdfs:label "Einstein's_Theory_of_General_Relativity"@en .
 
 
-###  https://w3id.org/skgo/phy#Hawking's_theorem
-<https://w3id.org/skgo/phy#Hawking's_theorem> rdf:type owl:NamedIndividual .
+###  https://w3id.org/skgo/physci#Hawking's_theorem
+<https://w3id.org/skgo/physci#Hawking's_theorem> rdf:type owl:NamedIndividual .
 
 
-###  https://w3id.org/skgo/phy#Kepler’s_law_for_circular_orbits
-<https://w3id.org/skgo/phy#Kepler’s_law_for_circular_orbits> rdf:type owl:NamedIndividual ,
-                                                                      <http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#physicalLaw> ;
-                                                             rdfs:label "Kepler’s_law_for_Circular_orbits"@en .
+###  https://w3id.org/skgo/physci#Kepler’s_law_for_circular_orbits
+<https://w3id.org/skgo/physci#Kepler’s_law_for_circular_orbits> rdf:type owl:NamedIndividual ,
+                                                                         <http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#physicalLaw> ;
+                                                                rdfs:label "Kepler’s_law_for_Circular_orbits"@en .
 
 
-###  https://w3id.org/skgo/phy#On_the_Gravitational_Field_of_a_Mass_Point_according_to_Einstein’s_Theory
-<https://w3id.org/skgo/phy#On_the_Gravitational_Field_of_a_Mass_Point_according_to_Einstein’s_Theory> rdf:type owl:NamedIndividual ,
-                                                                                                               <http://ns.nature.com/terms/Publication> ;
-                                                                                                      :addressesResearchWork :Gravitational_Field_of_a_Mass_Point ;
-                                                                                                      <http://ns.nature.com/terms/publicationYear> "1999"^^xsd:gYear ;
-                                                                                                      <http://ns.nature.com/terms/title> "On the Gravitational Field of a Mass Point according to Einstein’s Theory"^^rdfs:Literal ;
-                                                                                                      :hasConclusion "The deviation of this formula from the third Kepler’s law is totally negligible down to the surface of the Sun. For an ideal mass point, however, it follows that the angular velocity does not, as with Newton’s law, grow without limit when the radius of the orbit gets smaller and smaller, but it approaches a determined limit This circumstance could be of interest, if analogous laws would rule the molecular forces."^^rdfs:Literal ;
-                                                                                                      rdfs:label "On_the_Gravitational_Field_of_a_Mass_Point_according_to_Einstein’s_Theory"@en .
+###  https://w3id.org/skgo/physci#On_the_Gravitational_Field_of_a_Mass_Point_according_to_Einstein’s_Theory
+<https://w3id.org/skgo/physci#On_the_Gravitational_Field_of_a_Mass_Point_according_to_Einstein’s_Theory> rdf:type owl:NamedIndividual ,
+                                                                                                                  <http://ns.nature.com/terms/Publication> ;
+                                                                                                         :addressesResearchWork :Gravitational_Field_of_a_Mass_Point ;
+                                                                                                         <http://ns.nature.com/terms/publicationYear> "1999"^^xsd:gYear ;
+                                                                                                         <http://ns.nature.com/terms/title> "On the Gravitational Field of a Mass Point according to Einstein’s Theory"^^rdfs:Literal ;
+                                                                                                         :hasConclusion "The deviation of this formula from the third Kepler’s law is totally negligible down to the surface of the Sun. For an ideal mass point, however, it follows that the angular velocity does not, as with Newton’s law, grow without limit when the radius of the orbit gets smaller and smaller, but it approaches a determined limit This circumstance could be of interest, if analogous laws would rule the molecular forces."^^rdfs:Literal ;
+                                                                                                         rdfs:label "On_the_Gravitational_Field_of_a_Mass_Point_according_to_Einstein’s_Theory"@en .
 
 
-###  https://w3id.org/skgo/phy#Schwarzschild’s_problem
-<https://w3id.org/skgo/phy#Schwarzschild’s_problem> rdf:type owl:NamedIndividual ,
-                                                             :ScientificProblem ;
-                                                    :hasContext "The problem is to find out a line element with coefficients such that the field equations, the equation of the determinant and these four requirements are satisfied."^^rdfs:Literal ;
-                                                    rdfs:label "Schwarzschild’s_problem"@en .
+###  https://w3id.org/skgo/physci#Schwarzschild’s_problem
+<https://w3id.org/skgo/physci#Schwarzschild’s_problem> rdf:type owl:NamedIndividual ,
+                                                                :ScientificProblem ;
+                                                       :hasContext "The problem is to find out a line element with coefficients such that the field equations, the equation of the determinant and these four requirements are satisfied."^^rdfs:Literal ;
+                                                       rdfs:label "Schwarzschild’s_problem"@en .
 
 
-###  https://w3id.org/skgo/phy#Sgr_A*_horizon
-<https://w3id.org/skgo/phy#Sgr_A*_horizon> rdf:type owl:NamedIndividual ,
-                                                    <http://www.astro.umd.edu/~eshaya/astro-onto/owl/astronomy.owl#source> ;
-                                           :hasScientificModel :Gaussian_spot_moving_on_a_circular_path ;
-                                           rdfs:label "Sgr_A*_horizon"@en .
+###  https://w3id.org/skgo/physci#Sgr_A*_horizon
+<https://w3id.org/skgo/physci#Sgr_A*_horizon> rdf:type owl:NamedIndividual ,
+                                                       <http://www.astro.umd.edu/~eshaya/astro-onto/owl/astronomy.owl#source> ;
+                                              :hasScientificModel :Gaussian_spot_moving_on_a_circular_path ;
+                                              rdfs:label "Sgr_A*_horizon"@en .
 
 
-###  https://w3id.org/skgo/phy#Wien’s_displacement_law
-<https://w3id.org/skgo/phy#Wien’s_displacement_law> rdf:type owl:NamedIndividual .
+###  https://w3id.org/skgo/physci#Wien’s_displacement_law
+<https://w3id.org/skgo/physci#Wien’s_displacement_law> rdf:type owl:NamedIndividual .
 
 
-###  https://w3id.org/skgo/phy#Wien’s_energy_distribution_law
-<https://w3id.org/skgo/phy#Wien’s_energy_distribution_law> rdf:type owl:NamedIndividual .
+###  https://w3id.org/skgo/physci#Wien’s_energy_distribution_law
+<https://w3id.org/skgo/physci#Wien’s_energy_distribution_law> rdf:type owl:NamedIndividual .
 
 
 #################################################################

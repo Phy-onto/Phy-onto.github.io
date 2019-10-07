@@ -27,9 +27,9 @@
     "@list" : [ {
       "@id" : "http://sweetontology.net/reprSciModel/ScientificModel"
     }, {
-      "@id" : "https://w3id.org/skgo/phy#Expression"
+      "@id" : "https://w3id.org/skgo/physci#Expression"
     }, {
-      "@id" : "https://w3id.org/skgo/phy#ScientificArgument"
+      "@id" : "https://w3id.org/skgo/physci#ScientificArgument"
     } ]
   } ]
 }, {
@@ -41,7 +41,7 @@
     }, {
       "@id" : "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#theory"
     }, {
-      "@id" : "https://w3id.org/skgo/phy#Theorem"
+      "@id" : "https://w3id.org/skgo/physci#Theorem"
     } ]
   } ]
 }, {
@@ -61,7 +61,7 @@
     "@list" : [ {
       "@id" : "http://sweetontology.net/reprSciModel/ScientificModel"
     }, {
-      "@id" : "https://w3id.org/skgo/phy#Solution"
+      "@id" : "https://w3id.org/skgo/physci#Solution"
     } ]
   } ]
 }, {
@@ -136,10 +136,10 @@
   "@id" : "_:genid39",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/skgo/phy#hasEquation"
+    "@id" : "https://w3id.org/skgo/physci#hasEquation"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Equation"
+    "@id" : "https://w3id.org/skgo/physci#Equation"
   } ]
 }, {
   "@id" : "_:genid5",
@@ -225,7 +225,7 @@
   "@id" : "http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Characteristic",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ScientificProperty"
+    "@id" : "https://w3id.org/skgo/physci#ScientificProperty"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
     "@id" : "http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement"
@@ -380,7 +380,7 @@
     "@value" : "The hasUnit property gives the underlying base or derived unit for a derived or composite unit, respectively."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Equation"
+    "@id" : "https://w3id.org/skgo/physci#Equation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Unit"
@@ -407,7 +407,7 @@
     "@id" : "http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ScientificLaw"
+    "@id" : "https://w3id.org/skgo/physci#ScientificLaw"
   } ]
 }, {
   "@id" : "http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#measuresCharacteristic",
@@ -449,7 +449,7 @@
   "@id" : "http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#usesProtocol",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ScientificMethod"
+    "@id" : "https://w3id.org/skgo/physci#ScientificMethod"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Protocol"
@@ -3087,7 +3087,7 @@
   "@id" : "http://sweetontology.net/relaMath/basedOn",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ExperimentalStudy"
+    "@id" : "https://w3id.org/skgo/physci#ExperimentalStudy"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/ns/sosa/Observation"
@@ -3351,7 +3351,7 @@
     "@value" : "thermodynamics"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ScientificLaw"
+    "@id" : "https://w3id.org/skgo/physci#ScientificLaw"
   } ]
 }, {
   "@id" : "http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#vacuum",
@@ -3721,7 +3721,7 @@
     "@value" : "Relation linking an Observation or Actuation or act of Sampling and a Result."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ResearchWork"
+    "@id" : "https://w3id.org/skgo/physci#ResearchWork"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3774,7 +3774,7 @@
     "@id" : "_:genid5"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Case"
+    "@id" : "https://w3id.org/skgo/physci#Case"
   } ]
 }, {
   "@id" : "http://www.w3.org/ns/sosa/observes",
@@ -3820,7 +3820,7 @@
   "@id" : "http://xmlns.com/foaf/0.1/name",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy",
+  "@id" : "https://w3id.org/skgo/physci",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -3839,17 +3839,17 @@
     "@value" : "2.0"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#A_Generalized_Theory_of_Gravitation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Article", "http://ns.nature.com/terms/Publication", "https://w3id.org/skgo/phy#ObservationalData" ],
+  "@id" : "https://w3id.org/skgo/physci#A_Generalized_Theory_of_Gravitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Article", "http://ns.nature.com/terms/Publication", "https://w3id.org/skgo/physci#ObservationalData" ],
   "http://ns.nature.com/terms/publicationYear" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
     "@value" : "1948"
   } ],
   "http://purl.org/dc/terms/creator" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Albert_Einstein"
+    "@id" : "https://w3id.org/skgo/physci#Albert_Einstein"
   } ],
   "http://purl.org/dc/terms/publisher" : [ {
-    "@id" : "https://w3id.org/skgo/phy#American_Physical_Society"
+    "@id" : "https://w3id.org/skgo/physci#American_Physical_Society"
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -3859,38 +3859,38 @@
     "@language" : "en",
     "@value" : "A_Generalized_Theory_of_Gravitation"
   } ],
-  "https://w3id.org/skgo/phy#addressesResearchWork" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Relativistic_theory_of_gravitation"
+  "https://w3id.org/skgo/physci#addressesResearchWork" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Relativistic_theory_of_gravitation"
   } ],
-  "https://w3id.org/skgo/phy#hasRemarks" : [ {
+  "https://w3id.org/skgo/physci#hasRemarks" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "We have used complex fields. However,there exists a theoretical possibility in which the gik and 𝞒 are real though not symmetric. Thus one can obtain a theory which in its final formulas corresponds, except for certain signs, to the one developed above. E. Schrodinger, too, has based his affine theory (i.e., based on the 𝞒 as fundamental field quantities) on real fields. I therefore wish to give here some formal reasons for the preferability of complex fields."
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#A_Special_Kind_of_Singularity_and_Removal",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Solution" ],
+  "@id" : "https://w3id.org/skgo/physci#A_Special_Kind_of_Singularity_and_Removal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Solution" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "A_Special_Kind_of_Singularity_and_Removal"
   } ],
-  "https://w3id.org/skgo/phy#hasDescription" : [ {
+  "https://w3id.org/skgo/physci#hasDescription" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "although we are permitting the determinant g to take on the value 0 (for xi=0), no change of sign of g and in general no change in the \"inertial index\" of the quadratic form (1) occurs. These features are of fundamental importance from the point of view of the physical interpretation, and will be encountered again in the solutions to be considered later."
   } ],
-  "https://w3id.org/skgo/phy#hasEquation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#field_equations_with_homogeneous_gravitational_field"
+  "https://w3id.org/skgo/physci#hasEquation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#field_equations_with_homogeneous_gravitational_field"
   } ],
-  "https://w3id.org/skgo/phy#hasTheory" : [ {
-    "@id" : "https://w3id.org/skgo/phy#General_theory_of_relativity"
+  "https://w3id.org/skgo/physci#solve" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Particle_Problem"
   } ],
-  "https://w3id.org/skgo/phy#solve" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Particle_Problem"
+  "https://w3id.org/skgo/physci#useScientificMethod" : [ {
+    "@id" : "https://w3id.org/skgo/physci#the_method_of_general_relativity"
   } ],
-  "https://w3id.org/skgo/phy#useScientificMethod" : [ {
-    "@id" : "https://w3id.org/skgo/phy#the_method_of_general_relativity"
+  "https://w3id.org/skgo/physci#useTheory" : [ {
+    "@id" : "https://w3id.org/skgo/physci#General_theory_of_relativity"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Albert_Einstein",
+  "@id" : "https://w3id.org/skgo/physci#Albert_Einstein",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Person", "http://xmlns.com/foaf/0.1/Person" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3901,7 +3901,7 @@
     "@value" : "Albert Einstein"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#American_Physical_Society",
+  "@id" : "https://w3id.org/skgo/physci#American_Physical_Society",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Publisher" ],
   "http://ns.nature.com/terms/name" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -3912,7 +3912,7 @@
     "@value" : "American_Physical_Society"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Assumption",
+  "@id" : "https://w3id.org/skgo/physci#Assumption",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -3923,78 +3923,78 @@
     "@value" : "Assumption"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Binary_Black_Hole_Merger",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ResearchWork" ],
+  "@id" : "https://w3id.org/skgo/physci#Binary_Black_Hole_Merger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ResearchWork" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Binary_Black_Hole_Merger"
   } ],
-  "https://w3id.org/skgo/phy#argueFormation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#massive_black_holes"
+  "https://w3id.org/skgo/physci#argueFormation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#massive_black_holes"
   } ],
-  "https://w3id.org/skgo/phy#hasPurpose" : [ {
+  "https://w3id.org/skgo/physci#hasPurpose" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "we report the first direct detection of gravitational waves and the first direct observation of a binary black hole system merging to form a single black hole."
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Black_Hole",
+  "@id" : "https://w3id.org/skgo/physci#Black_Hole",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Black_Hole"
   } ],
-  "https://w3id.org/skgo/phy#hasScenario" : [ {
+  "https://w3id.org/skgo/physci#hasScenario" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "one black hole may have been formed by the collapse of a normal star, a second by the collapse of a neutron star, a third by the collapse ofa geon."
   } ],
-  "https://w3id.org/skgo/phy#hasScientificModel" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Gaussian_spot_moving_on_a_circular_path"
+  "https://w3id.org/skgo/physci#hasScientificModel" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Gaussian_spot_moving_on_a_circular_path"
   }, {
-    "@id" : "https://w3id.org/skgo/phy#The_Generalized_Second_Law_at_Work"
+    "@id" : "https://w3id.org/skgo/physci#The_Generalized_Second_Law_at_Work"
   } ],
-  "https://w3id.org/skgo/phy#hasSource" : [ {
-    "@id" : "https://w3id.org/skgo/phy#M87"
+  "https://w3id.org/skgo/physci#hasSource" : [ {
+    "@id" : "https://w3id.org/skgo/physci#M87"
   }, {
-    "@id" : "https://w3id.org/skgo/phy#Sgr_A*_horizon"
+    "@id" : "https://w3id.org/skgo/physci#Sgr_A*_horizon"
   } ],
-  "https://w3id.org/skgo/phy#hasStructure" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Kerr_black_hole"
+  "https://w3id.org/skgo/physci#hasStructure" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Kerr_black_hole"
   } ],
-  "https://w3id.org/skgo/phy#isFormedFrom" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Rotating_star"
+  "https://w3id.org/skgo/physci#isFormedFrom" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Rotating_star"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Black_Holes_Entropy",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ResearchWork" ],
+  "@id" : "https://w3id.org/skgo/physci#Black_Holes_Entropy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ResearchWork" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Black_Holes_Entropy"
   } ],
-  "https://w3id.org/skgo/phy#confirmLaw" : [ {
-    "@id" : "https://w3id.org/skgo/phy#The_generalized_second_law_of_thermodynamics"
+  "https://w3id.org/skgo/physci#confirmLaw" : [ {
+    "@id" : "https://w3id.org/skgo/physci#The_generalized_second_law_of_thermodynamics"
   } ],
-  "https://w3id.org/skgo/phy#extendArgument" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Dimensional_Arguments"
+  "https://w3id.org/skgo/physci#extendArgument" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Dimensional_Arguments"
   } ],
-  "https://w3id.org/skgo/phy#hasPurpose" : [ {
+  "https://w3id.org/skgo/physci#hasPurpose" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "To give a precise definition of black-hole entropy. Based\non it we construct some elements of a thermodynamics\nfor black holes."
   } ],
-  "https://w3id.org/skgo/phy#hasScientificModel" : [ {
-    "@id" : "https://w3id.org/skgo/phy#The_Generalized_Second_Law_at_Work"
+  "https://w3id.org/skgo/physci#hasScientificModel" : [ {
+    "@id" : "https://w3id.org/skgo/physci#The_Generalized_Second_Law_at_Work"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Black_Holes_and_Entropy",
+  "@id" : "https://w3id.org/skgo/physci#Black_Holes_and_Entropy",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Publication" ],
   "http://ns.nature.com/terms/publicationYear" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
     "@value" : "1973"
   } ],
   "http://purl.org/dc/terms/creator" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Jacob_D_Bekenstein"
+    "@id" : "https://w3id.org/skgo/physci#Jacob_D_Bekenstein"
   } ],
   "http://purl.org/dc/terms/publisher" : [ {
-    "@id" : "https://w3id.org/skgo/phy#American_Physical_Society"
+    "@id" : "https://w3id.org/skgo/physci#American_Physical_Society"
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -4004,19 +4004,19 @@
     "@language" : "en",
     "@value" : "Black_Holes_and_Entropy"
   } ],
-  "https://w3id.org/skgo/phy#addressesResearchWork" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Black_Holes_Entropy"
+  "https://w3id.org/skgo/physci#addressesResearchWork" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Black_Holes_Entropy"
   } ],
-  "https://w3id.org/skgo/phy#hasAppendices" : [ {
+  "https://w3id.org/skgo/physci#hasAppendices" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "Here we shall calculate the minimum possible increase in black-hole area which must result when a spherical particle of rest mass p, and proper radius b is captured by a Kerr black hole.we shall calculate the minimum possible increase in black-hole area which must result when a light beam of energy E &0 coming from infinity is captured by a Kerr black hole."
   } ],
-  "https://w3id.org/skgo/phy#hasDiscussion" : [ {
+  "https://w3id.org/skgo/physci#hasDiscussion" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "new f leads to the conclusion that the final black-hole area must exceed the total initial black-hole area.\nserves us warning that the law  is expected to hold only insofar as statistical fluctuations are negligible."
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Black_hole_Collapsing",
+  "@id" : "https://w3id.org/skgo/physci#Black_hole_Collapsing",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation" ],
   "http://ns.nature.com/terms/name" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -4026,41 +4026,41 @@
     "@language" : "en",
     "@value" : "Black_hole_Collapsing"
   } ],
-  "https://w3id.org/skgo/phy#hasSource" : [ {
-    "@id" : "https://w3id.org/skgo/phy#region_of_curvature"
+  "https://w3id.org/skgo/physci#hasSource" : [ {
+    "@id" : "https://w3id.org/skgo/physci#region_of_curvature"
   } ],
-  "https://w3id.org/skgo/phy#hasStructure" : [ {
-    "@id" : "https://w3id.org/skgo/phy#collapsing_body"
+  "https://w3id.org/skgo/physci#hasStructure" : [ {
+    "@id" : "https://w3id.org/skgo/physci#collapsing_body"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Black_hole_properties",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ScientificProperty" ],
+  "@id" : "https://w3id.org/skgo/physci#Black_hole_properties",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ScientificProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Black_hole_Properties"
   } ],
-  "https://w3id.org/skgo/phy#hasEnergy" : [ {
+  "https://w3id.org/skgo/physci#hasEnergy" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "positive energy flux"
   } ],
-  "https://w3id.org/skgo/phy#hasMass" : [ {
+  "https://w3id.org/skgo/physci#hasMass" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "solar mass"
   } ],
-  "https://w3id.org/skgo/phy#hasState" : [ {
+  "https://w3id.org/skgo/physci#hasState" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "vacuum state"
   } ],
-  "https://w3id.org/skgo/phy#hasTemperature" : [ {
+  "https://w3id.org/skgo/physci#hasTemperature" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "temperature of the cosmic microwave"
   } ],
-  "https://w3id.org/skgo/phy#hasVelocity" : [ {
+  "https://w3id.org/skgo/physci#hasVelocity" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "angular velocity , angular momentum of the black holes"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Case",
+  "@id" : "https://w3id.org/skgo/physci#Case",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -4071,116 +4071,116 @@
     "@value" : "Case"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Circular_orbit_motion",
+  "@id" : "https://w3id.org/skgo/physci#Circular_orbit_motion",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://sweetontology.net/procPhysical/Motion" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Circular_Orbit_Motion"
   } ],
-  "https://w3id.org/skgo/phy#hasScientificProperty" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Property_of_field_equations"
+  "https://w3id.org/skgo/physci#hasScientificProperty" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Property_of_field_equations"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Collapsing_Stars",
+  "@id" : "https://w3id.org/skgo/physci#Collapsing_Stars",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Collapsing_Stars"
   } ],
-  "https://w3id.org/skgo/phy#hasScenario" : [ {
+  "https://w3id.org/skgo/physci#hasScenario" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "(1) kinetic energy of motion of the particles in the star,\n (2) radiation,\n (3) potential and kinetic energy of the outer layers of the star\nwhich could be blown away by the radiation,\n(4) rotational energy which could divide the star into two or more parts."
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Combined_field_electricity",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Solution" ],
+  "@id" : "https://w3id.org/skgo/physci#Combined_field_electricity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Solution" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Combined_Field_Electricity"
   } ],
-  "https://w3id.org/skgo/phy#hasDescription" : [ {
+  "https://w3id.org/skgo/physci#hasDescription" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "This solution is free from singularities for all\nfinite points in the space of two sheets and the\ncharge is again represented by a bridge between\nthe sheets. It is the representation of an elementary\nelectrical particle without mass."
   } ],
-  "https://w3id.org/skgo/phy#hasEquation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#symmetric_solutions_of_the_equations"
+  "https://w3id.org/skgo/physci#hasEquation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#symmetric_solutions_of_the_equations"
   } ],
-  "https://w3id.org/skgo/phy#hasTheory" : [ {
-    "@id" : "https://w3id.org/skgo/phy#General_theory_of_relativity"
+  "https://w3id.org/skgo/physci#solve" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Particle_Problem"
   } ],
-  "https://w3id.org/skgo/phy#solve" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Particle_Problem"
+  "https://w3id.org/skgo/physci#useScientificMethod" : [ {
+    "@id" : "https://w3id.org/skgo/physci#the_method_of_general_relativity"
   } ],
-  "https://w3id.org/skgo/phy#useScientificMethod" : [ {
-    "@id" : "https://w3id.org/skgo/phy#the_method_of_general_relativity"
+  "https://w3id.org/skgo/physci#useTheory" : [ {
+    "@id" : "https://w3id.org/skgo/physci#General_theory_of_relativity"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Compton_Wavelength",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ScientificProperty" ],
+  "@id" : "https://w3id.org/skgo/physci#Compton_Wavelength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ScientificProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Compton_Wavelength"
   } ],
-  "https://w3id.org/skgo/phy#hasEnergy" : [ {
+  "https://w3id.org/skgo/physci#hasEnergy" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "degradation of energy"
   } ],
-  "https://w3id.org/skgo/phy#hasMass" : [ {
+  "https://w3id.org/skgo/physci#hasMass" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "irreducible mass of the black hole"
   } ],
-  "https://w3id.org/skgo/phy#hasRadius" : [ {
+  "https://w3id.org/skgo/physci#hasRadius" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "gravitational radius"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Conservation_Equations",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Equation" ],
+  "@id" : "https://w3id.org/skgo/physci#Conservation_Equations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Equation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Conservation_Equations"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Contravarient_Form_of_the_Metric_Tensor",
+  "@id" : "https://w3id.org/skgo/physci#Contravarient_Form_of_the_Metric_Tensor",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Contravarient_Form_of_the_Metric_Tensor"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Curvature_Tensor",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ScientificMethod" ],
+  "@id" : "https://w3id.org/skgo/physci#Curvature_Tensor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ScientificMethod" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Curvature_Tensor"
   } ],
-  "https://w3id.org/skgo/phy#establishTheorem" : [ {
-    "@id" : "https://w3id.org/skgo/phy#singularity_theorems_no_hair_theorem"
+  "https://w3id.org/skgo/physci#establishTheorem" : [ {
+    "@id" : "https://w3id.org/skgo/physci#singularity_theorems_no_hair_theorem"
   } ],
-  "https://w3id.org/skgo/phy#hasTheory" : [ {
-    "@id" : "https://w3id.org/skgo/phy#General_Relativity"
+  "https://w3id.org/skgo/physci#hasTheory" : [ {
+    "@id" : "https://w3id.org/skgo/physci#General_Relativity"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Description_of_Space_by_Means_of_Two_Sheets",
+  "@id" : "https://w3id.org/skgo/physci#Description_of_Space_by_Means_of_Two_Sheets",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Description_of_Space_by_Means_of_Two_Sheets"
   } ],
-  "https://w3id.org/skgo/phy#hasDescription" : [ {
+  "https://w3id.org/skgo/physci#hasDescription" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "A bridge, spatially finite, which connects these\nsheets characterizes the presence of an electrically\nneutral elementary particle"
   } ],
-  "https://w3id.org/skgo/phy#hasMotion" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Stationary_motions"
+  "https://w3id.org/skgo/physci#hasMotion" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Stationary_motions"
   } ],
-  "https://w3id.org/skgo/phy#hasParticle" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Electrical_Particle"
+  "https://w3id.org/skgo/physci#hasParticle" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Electrical_Particle"
   }, {
-    "@id" : "https://w3id.org/skgo/phy#Elementary_Particle_Neutron"
+    "@id" : "https://w3id.org/skgo/physci#Elementary_Particle_Neutron"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Dieter_R_Brill",
+  "@id" : "https://w3id.org/skgo/physci#Dieter_R_Brill",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Person", "http://xmlns.com/foaf/0.1/Person" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4191,8 +4191,8 @@
     "@value" : "Dieter R. Brill"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Dimensional_Arguments",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ScientificArgument" ],
+  "@id" : "https://w3id.org/skgo/physci#Dimensional_Arguments",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ScientificArgument" ],
   "http://purl.org/dc/terms/description" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "dimensional arguments indicate the black-hole entropy is equal to the ratio of the black-hole area to the square of the Planck length times a dimensionless constant of order unity."
@@ -4202,7 +4202,7 @@
     "@value" : "Dimensional_Arguments"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Dimitrios_Psaltis",
+  "@id" : "https://w3id.org/skgo/physci#Dimitrios_Psaltis",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://xmlns.com/foaf/0.1/Person" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4213,107 +4213,107 @@
     "@value" : "Psaltis, Dimitrios"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Dirac_Equation",
+  "@id" : "https://w3id.org/skgo/physci#Dirac_Equation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Dirac_Equation"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#EHT",
+  "@id" : "https://w3id.org/skgo/physci#EHT",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#EHT_VLBI_Campaign_Observation",
+  "@id" : "https://w3id.org/skgo/physci#EHT_VLBI_Campaign_Observation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Observation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "EHT_VLBI_Campaign_Observation"
   } ],
-  "https://w3id.org/skgo/phy#hasConsequence" : [ {
+  "https://w3id.org/skgo/physci#hasConsequence" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "We observed M87* on 2017 April 5, 6, 10, and 11 with the\nEHT.Finally, the visibility amplitudes represent only half of the information\navailable to us. We will next explore images and more complex\ngeometrical models that can fit the measured visibility\namplitudes and phases."
   } ],
-  "https://w3id.org/skgo/phy#hasDuration" : [ {
+  "https://w3id.org/skgo/physci#hasDuration" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "2017 April 5, 6, 10, and 11"
   } ],
-  "https://w3id.org/skgo/phy#hasObservationalData" : [ {
-    "@id" : "https://w3id.org/skgo/phy#EHT_data"
+  "https://w3id.org/skgo/physci#hasObservationalData" : [ {
+    "@id" : "https://w3id.org/skgo/physci#EHT_data"
   } ],
-  "https://w3id.org/skgo/phy#hasObserver" : [ {
-    "@id" : "https://w3id.org/skgo/phy#EHT"
+  "https://w3id.org/skgo/physci#hasObserver" : [ {
+    "@id" : "https://w3id.org/skgo/physci#EHT"
   } ],
-  "https://w3id.org/skgo/phy#hasPhenomena" : [ {
-    "@id" : "https://w3id.org/skgo/phy#M87"
+  "https://w3id.org/skgo/physci#hasPhenomena" : [ {
+    "@id" : "https://w3id.org/skgo/physci#M87"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#EHT_data",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ObservationalData" ],
+  "@id" : "https://w3id.org/skgo/physci#EHT_data",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ObservationalData" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "EHT_data"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Eigenimages",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ObservationalData" ],
+  "@id" : "https://w3id.org/skgo/physci#Eigenimages",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ObservationalData" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Eigenimages"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Eigenvalue_Spectrum_Of_PCA",
+  "@id" : "https://w3id.org/skgo/physci#Eigenvalue_Spectrum_Of_PCA",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Eigenvalue_Spectrum_Of_PCA"
   } ],
-  "https://w3id.org/skgo/phy#hasDescription" : [ {
+  "https://w3id.org/skgo/physci#hasDescription" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "we compare the spectrum of PCA eigenvalues to that of Gaussian and red-noise processes and show how the PCA eigenvalues are related to the underlying power spectrum of structures in the images."
   } ],
-  "https://w3id.org/skgo/phy#hasObservation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Event_Horizon_Telescope_EHT_observation"
+  "https://w3id.org/skgo/physci#hasObservation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Event_Horizon_Telescope_EHT_observation"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Einstein's_Theory_of_General_Relativity",
+  "@id" : "https://w3id.org/skgo/physci#Einstein's_Theory_of_General_Relativity",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#theory" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Einstein's_Theory_of_General_Relativity"
   } ],
-  "https://w3id.org/skgo/phy#hasPhenomena" : [ {
-    "@id" : "https://w3id.org/skgo/phy#gravitational_field"
+  "https://w3id.org/skgo/physci#hasPhenomena" : [ {
+    "@id" : "https://w3id.org/skgo/physci#gravitational_field"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Einstein_Equations",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Equation" ],
+  "@id" : "https://w3id.org/skgo/physci#Einstein_Equations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Equation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Einstein_Equations"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Electrical_Particle",
+  "@id" : "https://w3id.org/skgo/physci#Electrical_Particle",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://sweetontology.net/matrParticle/Particle" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Electrical_Particle"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Electro-Magnetic_Theory_of_Radiation",
+  "@id" : "https://w3id.org/skgo/physci#Electro-Magnetic_Theory_of_Radiation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#theory" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Electro-Magnetic_Theory_of_Radiation"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Elementary_Particle_Neutron",
+  "@id" : "https://w3id.org/skgo/physci#Elementary_Particle_Neutron",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://sweetontology.net/matrParticle/Particle" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Elementary_Particle_Neutron"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Elementary_Particle_Proton",
+  "@id" : "https://w3id.org/skgo/physci#Elementary_Particle_Proton",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://sweetontology.net/matrParticle/Particle" ],
   "http://purl.org/dc/terms/description" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -4323,11 +4323,11 @@
     "@language" : "en",
     "@value" : "Elementary_Particle_Proton"
   } ],
-  "https://w3id.org/skgo/phy#hasScientificProperty" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Black_hole_properties"
+  "https://w3id.org/skgo/physci#hasScientificProperty" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Black_hole_properties"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Equation",
+  "@id" : "https://w3id.org/skgo/physci#Equation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -4338,34 +4338,34 @@
     "@value" : "Equation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Expression"
+    "@id" : "https://w3id.org/skgo/physci#Expression"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Event_Horizon_Telescope_EHT_observation",
+  "@id" : "https://w3id.org/skgo/physci#Event_Horizon_Telescope_EHT_observation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Observation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Event_Horizon_Telescope_EHT_observation"
   } ],
-  "https://w3id.org/skgo/phy#hasDuration" : [ {
+  "https://w3id.org/skgo/physci#hasDuration" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "time-dependent"
   } ],
-  "https://w3id.org/skgo/phy#hasObservationalData" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Eigenimages"
+  "https://w3id.org/skgo/physci#hasObservationalData" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Eigenimages"
   } ],
-  "https://w3id.org/skgo/phy#hasObservatory" : [ {
+  "https://w3id.org/skgo/physci#hasObservatory" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "Steward Observatory and Department of Astronomy, University\nof Arizona,\nNational Optical Astronomy Observatory, Tucson"
   } ],
-  "https://w3id.org/skgo/phy#hasPhenomena" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Flaring_events_Bright_events"
+  "https://w3id.org/skgo/physci#hasPhenomena" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Flaring_events_Bright_events"
   } ],
-  "https://w3id.org/skgo/phy#useScientificMethod" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Principal_Component_Analysis_in_the_Fourier_Domain"
+  "https://w3id.org/skgo/physci#useScientificMethod" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Principal_Component_Analysis_in_the_Fourier_Domain"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#ExperimentalStudy",
+  "@id" : "https://w3id.org/skgo/physci#ExperimentalStudy",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -4376,10 +4376,10 @@
     "@value" : "ExperimentalStudy"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ResearchWork"
+    "@id" : "https://w3id.org/skgo/physci#ResearchWork"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Expression",
+  "@id" : "https://w3id.org/skgo/physci#Expression",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -4390,47 +4390,47 @@
     "@value" : "Expression"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Field-variables",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ScientificProperty" ],
+  "@id" : "https://w3id.org/skgo/physci#Field-variables",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ScientificProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Field-Variables"
   } ],
-  "https://w3id.org/skgo/phy#hasEnergy" : [ {
+  "https://w3id.org/skgo/physci#hasEnergy" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "\"material\" energy tensor,"
   } ],
-  "https://w3id.org/skgo/phy#hasMass" : [ {
+  "https://w3id.org/skgo/physci#hasMass" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "gravitating mass,negative neutral masses,\"field-producing mass,"
   } ],
-  "https://w3id.org/skgo/phy#hasVelocity" : [ {
+  "https://w3id.org/skgo/physci#hasVelocity" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "the velocity vector of the matter"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Field_equations",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Equation" ],
+  "@id" : "https://w3id.org/skgo/physci#Field_equations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Equation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Field_Equations"
   } ],
-  "https://w3id.org/skgo/phy#hasCondition" : [ {
+  "https://w3id.org/skgo/physci#hasCondition" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "the condition of symmetry,the condition of Hermiticity"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#First_M87_Event_Horizon_Telescope_Results-I-The_Shadow_of_the_Supermassive_Black_Hole",
+  "@id" : "https://w3id.org/skgo/physci#First_M87_Event_Horizon_Telescope_Results-I-The_Shadow_of_the_Supermassive_Black_Hole",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Publication" ],
   "http://ns.nature.com/terms/publicationYear" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
     "@value" : "2019"
   } ],
   "http://purl.org/dc/terms/creator" : [ {
-    "@id" : "https://w3id.org/skgo/phy#The_Event_Horizon_Telescope_Collaboration"
+    "@id" : "https://w3id.org/skgo/physci#The_Event_Horizon_Telescope_Collaboration"
   } ],
   "http://purl.org/dc/terms/publisher" : [ {
-    "@id" : "https://w3id.org/skgo/phy#The_American_Astronomical_Society"
+    "@id" : "https://w3id.org/skgo/physci#The_American_Astronomical_Society"
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -4440,21 +4440,21 @@
     "@language" : "en",
     "@value" : "First_M87_Event_Horizon_Telescope_Results-I-The_Shadow_of_the_Supermassive_Black_Hole"
   } ],
-  "https://w3id.org/skgo/phy#argueFormation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#The_supermassive_black_hole"
+  "https://w3id.org/skgo/physci#argueFormation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#The_supermassive_black_hole"
   } ],
-  "https://w3id.org/skgo/phy#hasScientificModel" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Theoretical_models"
+  "https://w3id.org/skgo/physci#hasScientificModel" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Theoretical_models"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Flaring_events_Bright_events",
+  "@id" : "https://w3id.org/skgo/physci#Flaring_events_Bright_events",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://sweetontology.net/phen/Phenomena" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Flaring_Events_Bright_Events"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Function",
+  "@id" : "https://w3id.org/skgo/physci#Function",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@value" : "A function was originally the idealization of how a varying quantity depends on another quantity."
@@ -4463,49 +4463,49 @@
     "@value" : "Function"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Expression"
+    "@id" : "https://w3id.org/skgo/physci#Expression"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#GRMHD_simulations",
+  "@id" : "https://w3id.org/skgo/physci#GRMHD_simulations",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://sweetontology.net/reprMathSolution/Simulation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "GRMHD_simulations"
   } ],
-  "https://w3id.org/skgo/phy#hasParameter" : [ {
+  "https://w3id.org/skgo/physci#hasParameter" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "the dimensionless spin a Jc GM2\n* º , where J and M are, respectively, the spin angular momentum and mass of\nthe black hole, and the net dimensionless magnetic flux over the\nevent horizon MRg\nf º F ( ˙ 2)1 2, where Φ and M˙ are the magnetic\nflux and mass flux (or accretion rate) across the horizon,\nrespectively."
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Gaussian_spot_moving_on_a_circular_path",
+  "@id" : "https://w3id.org/skgo/physci#Gaussian_spot_moving_on_a_circular_path",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://sweetontology.net/reprSciModel/ScientificModel" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Gaussian_spot_moving_on_a_circular_path"
   } ],
-  "https://w3id.org/skgo/phy#hasDescription" : [ {
+  "https://w3id.org/skgo/physci#hasDescription" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "We consider a Gaussian spot moving along a circular path and simulate 1080 snapshot images,as the spot completes an integer number (3) of orbits."
   } ],
-  "https://w3id.org/skgo/phy#hasExample" : [ {
+  "https://w3id.org/skgo/physci#hasExample" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "An Example  of  Princial  Component Analysis"
   } ],
-  "https://w3id.org/skgo/phy#hasScientificProperty" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Gaussion_Spot-the_black_hole_shadow"
+  "https://w3id.org/skgo/physci#hasScientificProperty" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Gaussion_Spot-the_black_hole_shadow"
   } ],
-  "https://w3id.org/skgo/phy#relyOnMeasurement" : [ {
-    "@id" : "https://w3id.org/skgo/phy#PCA_formalism_eigenimages"
+  "https://w3id.org/skgo/physci#relyOnMeasurement" : [ {
+    "@id" : "https://w3id.org/skgo/physci#PCA_formalism_eigenimages"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Gaussion_Spot-the_black_hole_shadow",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ScientificProperty" ],
+  "@id" : "https://w3id.org/skgo/physci#Gaussion_Spot-the_black_hole_shadow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ScientificProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Gaussion_Spot-the_black_hole_shadow"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#General_Relativity",
+  "@id" : "https://w3id.org/skgo/physci#General_Relativity",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#theory" ],
   "http://purl.org/dc/terms/description" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -4515,41 +4515,41 @@
     "@language" : "en",
     "@value" : "General_Relativity"
   } ],
-  "https://w3id.org/skgo/phy#hasEquation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Conservation_Equations"
+  "https://w3id.org/skgo/physci#hasEquation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Conservation_Equations"
   }, {
-    "@id" : "https://w3id.org/skgo/phy#Einstein_Equations"
+    "@id" : "https://w3id.org/skgo/physci#Einstein_Equations"
   }, {
-    "@id" : "https://w3id.org/skgo/phy#wave_equations"
+    "@id" : "https://w3id.org/skgo/physci#wave_equations"
   } ],
-  "https://w3id.org/skgo/phy#hasObservation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Observation_of_Gravitational_Waves"
+  "https://w3id.org/skgo/physci#hasObservation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Observation_of_Gravitational_Waves"
   } ],
-  "https://w3id.org/skgo/phy#hasPhenomena" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Gravitational_Waves"
+  "https://w3id.org/skgo/physci#hasPhenomena" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Gravitational_Waves"
   }, {
-    "@id" : "https://w3id.org/skgo/phy#gravitational_collapse_superradiance"
+    "@id" : "https://w3id.org/skgo/physci#gravitational_collapse_superradiance"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#General_theory_of_relativity",
+  "@id" : "https://w3id.org/skgo/physci#General_theory_of_relativity",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#theory" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "General_Theory_of_relativity"
   } ],
-  "https://w3id.org/skgo/phy#hasConcept" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Description_of_Space_by_Means_of_Two_Sheets"
+  "https://w3id.org/skgo/physci#hasConcept" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Description_of_Space_by_Means_of_Two_Sheets"
   } ],
-  "https://w3id.org/skgo/phy#hasEquation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#field_equations_with_homogeneous_gravitational_field"
+  "https://w3id.org/skgo/physci#hasEquation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#field_equations_with_homogeneous_gravitational_field"
   }, {
-    "@id" : "https://w3id.org/skgo/phy#the_gravitational_equations"
+    "@id" : "https://w3id.org/skgo/physci#the_gravitational_equations"
   } ],
-  "https://w3id.org/skgo/phy#hasPhenomena" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Macroscopic_phenomena"
+  "https://w3id.org/skgo/physci#hasPhenomena" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Macroscopic_phenomena"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Generic_transient_search",
+  "@id" : "https://w3id.org/skgo/physci#Generic_transient_search",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://sweetontology.net/reprSciModel/ScientificModel" ],
   "http://purl.org/dc/terms/description" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -4559,31 +4559,31 @@
     "@language" : "en",
     "@value" : "Generic_transient_search"
   } ],
-  "https://w3id.org/skgo/phy#hasSimulation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#numerical_simulations_of_binary_black_hole_mergers"
+  "https://w3id.org/skgo/physci#hasSimulation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#numerical_simulations_of_binary_black_hole_mergers"
   } ],
-  "https://w3id.org/skgo/phy#useScientificMethod" : [ {
-    "@id" : "https://w3id.org/skgo/phy#laser_wavelength_and__radio-frequency_oscillator"
+  "https://w3id.org/skgo/physci#useScientificMethod" : [ {
+    "@id" : "https://w3id.org/skgo/physci#laser_wavelength_and__radio-frequency_oscillator"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Geon",
+  "@id" : "https://w3id.org/skgo/physci#Geon",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#wave" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Geon"
   } ],
-  "https://w3id.org/skgo/phy#hasScientificProperty" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Neutrino_Geon"
+  "https://w3id.org/skgo/physci#hasScientificProperty" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Neutrino_Geon"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Geosedic_expression",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Expression" ],
+  "@id" : "https://w3id.org/skgo/physci#Geosedic_expression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Expression" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Geosedic_expression"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#German_Physical_Society",
+  "@id" : "https://w3id.org/skgo/physci#German_Physical_Society",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Agent", "http://ns.nature.com/terms/Publisher" ],
   "http://ns.nature.com/terms/name" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -4594,113 +4594,113 @@
     "@value" : "German_Physical_Society"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Gravitation_the_only_force_in__Neutrinos",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ResearchWork" ],
+  "@id" : "https://w3id.org/skgo/physci#Gravitation_the_only_force_in__Neutrinos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ResearchWork" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Gravitation_the_only_force_in__Neutrinos"
   } ],
-  "https://w3id.org/skgo/phy#argueFormation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Neutrino_Pairs"
+  "https://w3id.org/skgo/physci#argueFormation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Neutrino_Pairs"
   } ],
-  "https://w3id.org/skgo/phy#hasProblem" : [ {
-    "@id" : "https://w3id.org/skgo/phy#fraction_as_much_about_neutrinos"
+  "https://w3id.org/skgo/physci#hasProblem" : [ {
+    "@id" : "https://w3id.org/skgo/physci#fraction_as_much_about_neutrinos"
   } ],
-  "https://w3id.org/skgo/phy#hasPurpose" : [ {
+  "https://w3id.org/skgo/physci#hasPurpose" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "The neutrino does not respond directly to electric or\nmagnetic fields. Therefore, if one wishes to inQuence its\norbit by forces subject to simple analysis one has to\nmake use of gravitational fields. In other words, one\nhas to consider the physics of a neutrino in a curved\nmetric."
   } ],
-  "https://w3id.org/skgo/phy#hasScientificModel" : [ {
-    "@id" : "https://w3id.org/skgo/phy#The_most_general_gravitational_field"
+  "https://w3id.org/skgo/physci#hasScientificModel" : [ {
+    "@id" : "https://w3id.org/skgo/physci#The_most_general_gravitational_field"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Gravitational_Contraction",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ResearchWork" ],
+  "@id" : "https://w3id.org/skgo/physci#Gravitational_Contraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ResearchWork" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Gravitational_Contraction"
   } ],
-  "https://w3id.org/skgo/phy#hasPurpose" : [ {
+  "https://w3id.org/skgo/physci#hasPurpose" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "we study the solutions of the gravitational field equations\nwhich describe this process."
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Gravitational_Field_of_a_Mass_Point",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ResearchWork" ],
+  "@id" : "https://w3id.org/skgo/physci#Gravitational_Field_of_a_Mass_Point",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ResearchWork" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Gravitational_Field_of_a_Mass_Point"
   } ],
-  "https://w3id.org/skgo/phy#confirmLaw" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Kepler’s_law_for_circular_orbits"
+  "https://w3id.org/skgo/physci#confirmLaw" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Kepler’s_law_for_circular_orbits"
   } ],
-  "https://w3id.org/skgo/phy#hasProblem" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Schwarzschild’s_problem"
+  "https://w3id.org/skgo/physci#hasProblem" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Schwarzschild’s_problem"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Gravitational_Waves",
+  "@id" : "https://w3id.org/skgo/physci#Gravitational_Waves",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://sweetontology.net/phen/Phenomena" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Gravitational_Waves"
   } ],
-  "https://w3id.org/skgo/phy#hasTheory" : [ {
-    "@id" : "https://w3id.org/skgo/phy#General_Relativity"
+  "https://w3id.org/skgo/physci#hasTheory" : [ {
+    "@id" : "https://w3id.org/skgo/physci#General_Relativity"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Hamiltonian_principle",
+  "@id" : "https://w3id.org/skgo/physci#Hamiltonian_principle",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#principle" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Hamiltonian_principle"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Hawking's_theorem",
+  "@id" : "https://w3id.org/skgo/physci#Hawking's_theorem",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Hermitian_Tensor",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ScientificMethod" ],
+  "@id" : "https://w3id.org/skgo/physci#Hermitian_Tensor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ScientificMethod" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Hermitian_Tensor"
   } ],
-  "https://w3id.org/skgo/phy#hasDescription" : [ {
+  "https://w3id.org/skgo/physci#hasDescription" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "From such tensors every symmetric tensor of rank 2 can be obtained\nthrough summation with real coefficient."
   } ],
-  "https://w3id.org/skgo/phy#hasTheory" : [ {
-    "@id" : "https://w3id.org/skgo/phy#generalized_theory_the_total_field"
+  "https://w3id.org/skgo/physci#hasTheory" : [ {
+    "@id" : "https://w3id.org/skgo/physci#generalized_theory_the_total_field"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Hermitian_is_natural",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ScientificArgument" ],
+  "@id" : "https://w3id.org/skgo/physci#Hermitian_is_natural",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ScientificArgument" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Hermitian_is_natural"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Horizon-scale_structures",
+  "@id" : "https://w3id.org/skgo/physci#Horizon-scale_structures",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#structure" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Horizon-scale_structures"
   } ],
-  "https://w3id.org/skgo/phy#hasScientificProperty" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Ring_structure_Property"
+  "https://w3id.org/skgo/physci#hasScientificProperty" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Ring_structure_Property"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Infinitesimal_parallel_translations",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Equation" ],
+  "@id" : "https://w3id.org/skgo/physci#Infinitesimal_parallel_translations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Equation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Infinitesimal_parallel_translations"
   } ],
-  "https://w3id.org/skgo/phy#hasCondition" : [ {
+  "https://w3id.org/skgo/physci#hasCondition" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "the condition of symmetry,the condition of Hermiticity"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Information_theory",
+  "@id" : "https://w3id.org/skgo/physci#Information_theory",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#theory" ],
   "http://purl.org/dc/terms/description" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -4710,24 +4710,24 @@
     "@language" : "en",
     "@value" : "Information_theory"
   } ],
-  "https://w3id.org/skgo/phy#hasEquation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#thermodynamic_expression"
+  "https://w3id.org/skgo/physci#hasEquation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#thermodynamic_expression"
   } ],
-  "https://w3id.org/skgo/phy#hasExample" : [ {
+  "https://w3id.org/skgo/physci#hasExample" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "the information may be that several of the Pn are, in fact, zero.\nSome ideal gas in a container is compressed isothermally.\nMaxwell's demon."
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Interaction_of_neutrinos_and_Gravitational_fields",
+  "@id" : "https://w3id.org/skgo/physci#Interaction_of_neutrinos_and_Gravitational_fields",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Publication" ],
   "http://ns.nature.com/terms/publicationYear" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
     "@value" : "1957"
   } ],
   "http://purl.org/dc/terms/creator" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Dieter_R_Brill"
+    "@id" : "https://w3id.org/skgo/physci#Dieter_R_Brill"
   }, {
-    "@id" : "https://w3id.org/skgo/phy#John_A_Wheeler"
+    "@id" : "https://w3id.org/skgo/physci#John_A_Wheeler"
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -4737,22 +4737,22 @@
     "@language" : "en",
     "@value" : "Interaction_of_neutrinos_and_Gravitational_fields"
   } ],
-  "https://w3id.org/skgo/phy#addressesResearchWork" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Gravitation_the_only_force_in__Neutrinos"
+  "https://w3id.org/skgo/physci#addressesResearchWork" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Gravitation_the_only_force_in__Neutrinos"
   } ],
-  "https://w3id.org/skgo/phy#hasConclusion" : [ {
+  "https://w3id.org/skgo/physci#hasConclusion" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "From our analysis of some of the interactions between\nneutrinos and gravitational fields we conclude that\nneutrino physics has an interesting character in and by\nitself, even when attention is withdrawn from all betaray\ntransformations. The behavior of neutrinos has\nbecome a little clearer, but the mystery why spinors\noccur in nature is left as pressing as ever. What is there\nabout the description of the geometry of space which\nis not already adequately covered by ordinary scalars,\nvectors, and tensors of standard tensor analysis' To\nthis question the mathematics of spinor fields gives a\nwell known answer: spinors allow one to describe rotations\nat one point in space completely independently of\nrotations at all other points in space—rotations that\nhave nothing to do with the coordinate transformations\nthat are treated in the usual tensor analysis. Fully to\nsee at work this machinery of independent rotations at\neach point in space, we do best to consider the spinor\nfield in a general curved space, as in this paper. But the\ndeeper part of such rotations in the description of\nnature is still mysterious."
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Iop_Publishing_LTD",
+  "@id" : "https://w3id.org/skgo/physci#Iop_Publishing_LTD",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Publisher" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Iop_Publishing_LTD"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#J_R_Oppenheimer",
+  "@id" : "https://w3id.org/skgo/physci#J_R_Oppenheimer",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Person", "http://xmlns.com/foaf/0.1/Person" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4763,7 +4763,7 @@
     "@value" : "J. R. Oppenheimer"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Jacob_D_Bekenstein",
+  "@id" : "https://w3id.org/skgo/physci#Jacob_D_Bekenstein",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://xmlns.com/foaf/0.1/Person" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4774,7 +4774,7 @@
     "@value" : "Jacob D. Bekenstein"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#John_A_Wheeler",
+  "@id" : "https://w3id.org/skgo/physci#John_A_Wheeler",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://xmlns.com/foaf/0.1/Person" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4785,7 +4785,7 @@
     "@value" : "John A. Wheeler"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Karl_Schwarzschild",
+  "@id" : "https://w3id.org/skgo/physci#Karl_Schwarzschild",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Person" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4796,55 +4796,55 @@
     "@value" : "K. Schwarzschild"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Kepler’s_law_for_circular_orbits",
+  "@id" : "https://w3id.org/skgo/physci#Kepler’s_law_for_circular_orbits",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#physicalLaw" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Kepler’s_law_for_Circular_orbits"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Kerr_black_hole",
+  "@id" : "https://w3id.org/skgo/physci#Kerr_black_hole",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#structure" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Kerr_black_hole"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Kerr_black_hole_solution",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Solution" ],
+  "@id" : "https://w3id.org/skgo/physci#Kerr_black_hole_solution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Solution" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Kerr_black_hole_solution"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Kerr_metric",
+  "@id" : "https://w3id.org/skgo/physci#Kerr_metric",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Kerr_metric"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#LIGO_detectors",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Observer" ],
+  "@id" : "https://w3id.org/skgo/physci#LIGO_detectors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Observer" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "LIGO_detectors"
   } ],
-  "https://w3id.org/skgo/phy#detectFormation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#massive_black_holes"
+  "https://w3id.org/skgo/physci#detectFormation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#massive_black_holes"
   } ],
-  "https://w3id.org/skgo/phy#detectWave" : [ {
-    "@id" : "https://w3id.org/skgo/phy#transient_gravitational-wave_signal"
+  "https://w3id.org/skgo/physci#detectWave" : [ {
+    "@id" : "https://w3id.org/skgo/physci#transient_gravitational-wave_signal"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Lagrangian_equation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Equation" ],
+  "@id" : "https://w3id.org/skgo/physci#Lagrangian_equation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Equation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Lagrangian_equation"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Lia_Medeiros",
+  "@id" : "https://w3id.org/skgo/physci#Lia_Medeiros",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://xmlns.com/foaf/0.1/Person" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4855,44 +4855,44 @@
     "@value" : "Medeiros, Lia"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#M87",
+  "@id" : "https://w3id.org/skgo/physci#M87",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://sweetontology.net/phen/Phenomena", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/astronomy.owl#source" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "M87"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Macroscopic_phenomena",
+  "@id" : "https://w3id.org/skgo/physci#Macroscopic_phenomena",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://sweetontology.net/phen/Phenomena" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Macroscopic_phenomena"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Massless_point",
+  "@id" : "https://w3id.org/skgo/physci#Massless_point",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://sweetontology.net/matrParticle/Particle" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Massless_point"
   } ],
-  "https://w3id.org/skgo/phy#hasMotion" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Circular_orbit_motion"
+  "https://w3id.org/skgo/physci#hasMotion" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Circular_orbit_motion"
   } ],
-  "https://w3id.org/skgo/phy#hasScientificProperty" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Property_of_field_equations"
+  "https://w3id.org/skgo/physci#hasScientificProperty" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Property_of_field_equations"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Mathematics_of_spin_in_curved_space",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#TheoreticalStudy" ],
+  "@id" : "https://w3id.org/skgo/physci#Mathematics_of_spin_in_curved_space",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#TheoreticalStudy" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Mathematics_of_spin_in_curved_space"
   } ],
-  "https://w3id.org/skgo/phy#hasTheory" : [ {
-    "@id" : "https://w3id.org/skgo/phy#neutrino_theory"
+  "https://w3id.org/skgo/physci#hasTheory" : [ {
+    "@id" : "https://w3id.org/skgo/physci#neutrino_theory"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Max_Planck",
+  "@id" : "https://w3id.org/skgo/physci#Max_Planck",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Person", "http://xmlns.com/foaf/0.1/Person" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4903,7 +4903,7 @@
     "@value" : "Msx Planck"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Metric",
+  "@id" : "https://w3id.org/skgo/physci#Metric",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -4917,31 +4917,31 @@
     "@id" : "http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Model_B",
+  "@id" : "https://w3id.org/skgo/physci#Model_B",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://sweetontology.net/reprSciModel/ScientificModel" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Model_B"
   } ],
-  "https://w3id.org/skgo/phy#hasDescription" : [ {
+  "https://w3id.org/skgo/physci#hasDescription" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "apply PCA to a set of simulated black hole images at the 1.3 mm wavelength of observations for the EHT."
   } ],
-  "https://w3id.org/skgo/phy#hasExample" : [ {
+  "https://w3id.org/skgo/physci#hasExample" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "the circulating Gaussian spot"
   } ],
-  "https://w3id.org/skgo/phy#hasSimulation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#high-fidelity_GRMHD_simulations"
+  "https://w3id.org/skgo/physci#hasSimulation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#high-fidelity_GRMHD_simulations"
   } ],
-  "https://w3id.org/skgo/phy#relyOnMeasurement" : [ {
-    "@id" : "https://w3id.org/skgo/phy#The_cumulative_sum_of_the_eigenvalues"
+  "https://w3id.org/skgo/physci#relyOnMeasurement" : [ {
+    "@id" : "https://w3id.org/skgo/physci#The_cumulative_sum_of_the_eigenvalues"
   } ],
-  "https://w3id.org/skgo/phy#useScientificMethod" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Principal_Component_Analysis_in_the_Fourier_Domain"
+  "https://w3id.org/skgo/physci#useScientificMethod" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Principal_Component_Analysis_in_the_Fourier_Domain"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#N_Rosen",
+  "@id" : "https://w3id.org/skgo/physci#N_Rosen",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Person", "http://xmlns.com/foaf/0.1/Person" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4952,93 +4952,93 @@
     "@value" : "N. Rosen"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Neutrino_Geon",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ScientificProperty" ],
+  "@id" : "https://w3id.org/skgo/physci#Neutrino_Geon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ScientificProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Neutrino_Geon"
   } ],
-  "https://w3id.org/skgo/phy#hasEnergy" : [ {
+  "https://w3id.org/skgo/physci#hasEnergy" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "electric potential energy V= vhc,\ngravitational potential energy"
   } ],
-  "https://w3id.org/skgo/phy#hasMass" : [ {
+  "https://w3id.org/skgo/physci#hasMass" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "zero mass"
   } ],
-  "https://w3id.org/skgo/phy#hasRadius" : [ {
+  "https://w3id.org/skgo/physci#hasRadius" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "geon radius"
   } ],
-  "https://w3id.org/skgo/phy#hasState" : [ {
+  "https://w3id.org/skgo/physci#hasState" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "positive and negative energy states"
   } ],
-  "https://w3id.org/skgo/phy#hasTemperature" : [ {
+  "https://w3id.org/skgo/physci#hasTemperature" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "T is the temperature"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Neutrino_Pairs",
+  "@id" : "https://w3id.org/skgo/physci#Neutrino_Pairs",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Neutrino_Pairs"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#No_such_adjoined_object",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Solution" ],
+  "@id" : "https://w3id.org/skgo/physci#No_such_adjoined_object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Solution" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "No_such_adjoined_object"
   } ],
-  "https://w3id.org/skgo/phy#hasDescription" : [ {
+  "https://w3id.org/skgo/physci#hasDescription" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "No such adjoined object"
   } ],
-  "https://w3id.org/skgo/phy#hasEquation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Infinitesimal_parallel_translations"
+  "https://w3id.org/skgo/physci#hasEquation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Infinitesimal_parallel_translations"
   } ],
-  "https://w3id.org/skgo/phy#useScientificMethod" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Parallel_Translations"
+  "https://w3id.org/skgo/physci#useScientificMethod" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Parallel_Translations"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Observation_of_Gravitational_Waves",
+  "@id" : "https://w3id.org/skgo/physci#Observation_of_Gravitational_Waves",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Observation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Observation_of_Gravitational_Waves"
   } ],
-  "https://w3id.org/skgo/phy#hasConsequence" : [ {
+  "https://w3id.org/skgo/physci#hasConsequence" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "The gravitational-wave event GW150914 observed by the LIGO Hanford"
   } ],
-  "https://w3id.org/skgo/phy#hasDuration" : [ {
+  "https://w3id.org/skgo/physci#hasDuration" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "the analysis of 16 days of coincident observations\nSeptember 12 to October 20, 2015."
   } ],
-  "https://w3id.org/skgo/phy#hasObservatory" : [ {
+  "https://w3id.org/skgo/physci#hasObservatory" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "Laser Interferometer Gravitational-Wave Observatory (LIGO)"
   } ],
-  "https://w3id.org/skgo/phy#hasObserver" : [ {
-    "@id" : "https://w3id.org/skgo/phy#LIGO_detectors"
+  "https://w3id.org/skgo/physci#hasObserver" : [ {
+    "@id" : "https://w3id.org/skgo/physci#LIGO_detectors"
   } ],
-  "https://w3id.org/skgo/phy#hasPhenomena" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Gravitational_Waves"
+  "https://w3id.org/skgo/physci#hasPhenomena" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Gravitational_Waves"
   } ],
-  "https://w3id.org/skgo/phy#useScientificMethod" : [ {
-    "@id" : "https://w3id.org/skgo/phy#laser_wavelength_and__radio-frequency_oscillator"
+  "https://w3id.org/skgo/physci#useScientificMethod" : [ {
+    "@id" : "https://w3id.org/skgo/physci#laser_wavelength_and__radio-frequency_oscillator"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger",
+  "@id" : "https://w3id.org/skgo/physci#Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Publication" ],
   "http://ns.nature.com/terms/publicationYear" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
     "@value" : "2016"
   } ],
   "http://purl.org/dc/terms/publisher" : [ {
-    "@id" : "https://w3id.org/skgo/phy#American_Physical_Society"
+    "@id" : "https://w3id.org/skgo/physci#American_Physical_Society"
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -5048,19 +5048,19 @@
     "@language" : "en",
     "@value" : "Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger"
   } ],
-  "https://w3id.org/skgo/phy#addressesResearchWork" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Binary_Black_Hole_Merger"
+  "https://w3id.org/skgo/physci#addressesResearchWork" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Binary_Black_Hole_Merger"
   } ],
-  "https://w3id.org/skgo/phy#hasConclusion" : [ {
+  "https://w3id.org/skgo/physci#hasConclusion" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "The LIGO detectors have observed gravitational waves\nfrom the merger of two stellar-mass black holes. The\ndetected waveform matches the predictions of general\nrelativity for the inspiral and merger of a pair of black\nholes and the ringdown of the resulting single black hole.\nThese observations demonstrate the existence of binary\nstellar-mass black hole systems. This is the first direct\ndetection of gravitational waves and the first observation of\na binary black hole merger."
   } ],
-  "https://w3id.org/skgo/phy#hasDiscussion" : [ {
+  "https://w3id.org/skgo/physci#hasDiscussion" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "Binary black hole systems at larger distances contribute\nto a stochastic background of gravitational waves from the\nsuperposition of unresolved systems."
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#ObservationalData",
+  "@id" : "https://w3id.org/skgo/physci#ObservationalData",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -5074,7 +5074,7 @@
     "@id" : "http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#ObservationCollection"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Observatory",
+  "@id" : "https://w3id.org/skgo/physci#Observatory",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -5085,7 +5085,7 @@
     "@value" : "Observatory"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Observer",
+  "@id" : "https://w3id.org/skgo/physci#Observer",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -5096,37 +5096,37 @@
     "@value" : "Observer"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Observer_comoving_with_the_stellar_matter",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Observer" ],
+  "@id" : "https://w3id.org/skgo/physci#Observer_comoving_with_the_stellar_matter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Observer" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Observer_comoving_with_the_stellar_matter"
   } ],
-  "https://w3id.org/skgo/phy#detectFormation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Collapsing_Stars"
+  "https://w3id.org/skgo/physci#detectFormation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Collapsing_Stars"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Observer_on_the_collapsing_body",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Observer" ],
+  "@id" : "https://w3id.org/skgo/physci#Observer_on_the_collapsing_body",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Observer" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Observer_on_the_collapsing_body"
   } ],
-  "https://w3id.org/skgo/phy#detectFormation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Black_hole_Collapsing"
+  "https://w3id.org/skgo/physci#detectFormation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Black_hole_Collapsing"
   } ],
-  "https://w3id.org/skgo/phy#hasParticle" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Elementary_Particle_Proton"
+  "https://w3id.org/skgo/physci#hasParticle" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Elementary_Particle_Proton"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#On_Continued_Gravitational_Contraction",
+  "@id" : "https://w3id.org/skgo/physci#On_Continued_Gravitational_Contraction",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Article", "http://ns.nature.com/terms/Publication" ],
   "http://ns.nature.com/terms/publicationYear" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
     "@value" : "1939"
   } ],
   "http://purl.org/dc/terms/publisher" : [ {
-    "@id" : "https://w3id.org/skgo/phy#American_Physical_Society"
+    "@id" : "https://w3id.org/skgo/physci#American_Physical_Society"
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -5136,11 +5136,11 @@
     "@language" : "en",
     "@value" : "On_Continued_Gravitational_Contraction"
   } ],
-  "https://w3id.org/skgo/phy#addressesResearchWork" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Gravitational_Contraction"
+  "https://w3id.org/skgo/physci#addressesResearchWork" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Gravitational_Contraction"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#On_the_Gravitational_Field_of_a_Mass_Point_according_to_Einstein’s_Theory",
+  "@id" : "https://w3id.org/skgo/physci#On_the_Gravitational_Field_of_a_Mass_Point_according_to_Einstein’s_Theory",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Publication" ],
   "http://ns.nature.com/terms/publicationYear" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
@@ -5154,21 +5154,21 @@
     "@language" : "en",
     "@value" : "On_the_Gravitational_Field_of_a_Mass_Point_according_to_Einstein’s_Theory"
   } ],
-  "https://w3id.org/skgo/phy#addressesResearchWork" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Gravitational_Field_of_a_Mass_Point"
+  "https://w3id.org/skgo/physci#addressesResearchWork" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Gravitational_Field_of_a_Mass_Point"
   } ],
-  "https://w3id.org/skgo/phy#hasConclusion" : [ {
+  "https://w3id.org/skgo/physci#hasConclusion" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "The deviation of this formula from the third Kepler’s law is totally negligible down to the surface of the Sun. For an ideal mass point, however, it follows that the angular velocity does not, as with Newton’s law, grow without limit when the radius of the orbit gets smaller and smaller, but it approaches a determined limit This circumstance could be of interest, if analogous laws would rule the molecular forces."
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#On_the_Law_of_the_Energy_Distribution_in_the_Normal_Spectrum",
+  "@id" : "https://w3id.org/skgo/physci#On_the_Law_of_the_Energy_Distribution_in_the_Normal_Spectrum",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Publication" ],
   "http://purl.org/dc/terms/creator" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Max_Planck"
+    "@id" : "https://w3id.org/skgo/physci#Max_Planck"
   } ],
   "http://purl.org/dc/terms/publisher" : [ {
-    "@id" : "https://w3id.org/skgo/phy#German_Physical_Society"
+    "@id" : "https://w3id.org/skgo/physci#German_Physical_Society"
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -5178,27 +5178,27 @@
     "@language" : "en",
     "@value" : "On_the_Law_of_the_Energy_Distribution_in_the_Normal_Spectrum"
   } ],
-  "https://w3id.org/skgo/phy#addressesResearchWork" : [ {
-    "@id" : "https://w3id.org/skgo/phy#The_Energy_Distribution_in_the_Normal_Spectrum"
+  "https://w3id.org/skgo/physci#addressesResearchWork" : [ {
+    "@id" : "https://w3id.org/skgo/physci#The_Energy_Distribution_in_the_Normal_Spectrum"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#PCA_as_a_Tool_for_Characterizing_Black_Hole_Images_and_Variability",
+  "@id" : "https://w3id.org/skgo/physci#PCA_as_a_Tool_for_Characterizing_Black_Hole_Images_and_Variability",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Article", "http://ns.nature.com/terms/Publication" ],
   "http://ns.nature.com/terms/publicationYear" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
     "@value" : "2018"
   } ],
   "http://purl.org/dc/terms/creator" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Dimitrios_Psaltis"
-  }, {
     "@id" : "https://w3id.org/skgo/phy#Feryal_Ozel"
   }, {
-    "@id" : "https://w3id.org/skgo/phy#Lia_Medeiros"
+    "@id" : "https://w3id.org/skgo/physci#Dimitrios_Psaltis"
   }, {
-    "@id" : "https://w3id.org/skgo/phy#Tod_R_Lauer"
+    "@id" : "https://w3id.org/skgo/physci#Lia_Medeiros"
+  }, {
+    "@id" : "https://w3id.org/skgo/physci#Tod_R_Lauer"
   } ],
   "http://purl.org/dc/terms/publisher" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Iop_Publishing_LTD"
+    "@id" : "https://w3id.org/skgo/physci#Iop_Publishing_LTD"
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -5208,74 +5208,74 @@
     "@language" : "en",
     "@value" : "PCA_as_a_Tool_for_Characterizing_Black_Hole_Images_and_Variability"
   } ],
-  "https://w3id.org/skgo/phy#addressesResearchWork" : [ {
-    "@id" : "https://w3id.org/skgo/phy#PCA_for_Black_Hole_Images"
+  "https://w3id.org/skgo/physci#addressesResearchWork" : [ {
+    "@id" : "https://w3id.org/skgo/physci#PCA_for_Black_Hole_Images"
   } ],
-  "https://w3id.org/skgo/phy#hasConclusion" : [ {
+  "https://w3id.org/skgo/physci#hasConclusion" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "we have demonstrated that PCA covers an effective tool for this task over a wealth of different problems."
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#PCA_for_Black_Hole_Images",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ResearchWork" ],
+  "@id" : "https://w3id.org/skgo/physci#PCA_for_Black_Hole_Images",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ResearchWork" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "PCA_for_Black_Hole_Images"
   } ],
-  "https://w3id.org/skgo/phy#argueFormation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Black_Hole"
+  "https://w3id.org/skgo/physci#argueFormation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Black_Hole"
   } ],
-  "https://w3id.org/skgo/phy#confirmLaw" : [ {
-    "@id" : "https://w3id.org/skgo/phy#The_power-law"
+  "https://w3id.org/skgo/physci#confirmLaw" : [ {
+    "@id" : "https://w3id.org/skgo/physci#The_power-law"
   } ],
-  "https://w3id.org/skgo/phy#hasPurpose" : [ {
+  "https://w3id.org/skgo/physci#hasPurpose" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "To use PCA to determine the dominant components in a set of images of black holes."
   } ],
-  "https://w3id.org/skgo/phy#hasScientificModel" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Gaussian_spot_moving_on_a_circular_path"
+  "https://w3id.org/skgo/physci#hasScientificModel" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Gaussian_spot_moving_on_a_circular_path"
   }, {
-    "@id" : "https://w3id.org/skgo/phy#Model_B"
+    "@id" : "https://w3id.org/skgo/physci#Model_B"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#PCA_formalism_eigenimages",
+  "@id" : "https://w3id.org/skgo/physci#PCA_formalism_eigenimages",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "PCA_formalism_eigenimages"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Parallel_Translations",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ScientificMethod" ],
+  "@id" : "https://w3id.org/skgo/physci#Parallel_Translations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ScientificMethod" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Parallel_Translations"
   } ],
-  "https://w3id.org/skgo/phy#hasDescription" : [ {
+  "https://w3id.org/skgo/physci#hasDescription" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "In order that conjugate vectors have conjugate translations and derivatives it is necessary upon passage to the conjugate to change the character of translationor of differentiation, i.e., to pass to the\nconjugate."
   } ],
-  "https://w3id.org/skgo/phy#hasTheory" : [ {
-    "@id" : "https://w3id.org/skgo/phy#theory_of_real_fields"
+  "https://w3id.org/skgo/physci#hasTheory" : [ {
+    "@id" : "https://w3id.org/skgo/physci#theory_of_real_fields"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Particle_Creation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ResearchWork" ],
+  "@id" : "https://w3id.org/skgo/physci#Particle_Creation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ResearchWork" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Particle_Creation"
   } ],
-  "https://w3id.org/skgo/phy#argueFormation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Black_hole_Collapsing"
+  "https://w3id.org/skgo/physci#argueFormation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Black_hole_Collapsing"
   } ],
-  "https://w3id.org/skgo/phy#confirmLaw" : [ {
-    "@id" : "https://w3id.org/skgo/phy#the_second_law_of_thermodynamics"
+  "https://w3id.org/skgo/physci#confirmLaw" : [ {
+    "@id" : "https://w3id.org/skgo/physci#the_second_law_of_thermodynamics"
   } ],
-  "https://w3id.org/skgo/phy#hasProblem" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Space-time_singularities"
+  "https://w3id.org/skgo/physci#hasProblem" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Space-time_singularities"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Particle_Creation_by_Black_Holes",
+  "@id" : "https://w3id.org/skgo/physci#Particle_Creation_by_Black_Holes",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Publication" ],
   "http://ns.nature.com/terms/publicationYear" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
@@ -5286,97 +5286,97 @@
     "@value" : "Particle Creation by Black Holes"
   } ],
   "http://purl.org/dc/terms/creator" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Stephen_William_Hawking"
+    "@id" : "https://w3id.org/skgo/physci#Stephen_William_Hawking"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Particle_Creation_by_Black_Holes"
   } ],
-  "https://w3id.org/skgo/phy#addressesResearchWork" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Particle_Creation"
+  "https://w3id.org/skgo/physci#addressesResearchWork" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Particle_Creation"
   } ],
-  "https://w3id.org/skgo/phy#hasDiscussion" : [ {
+  "https://w3id.org/skgo/physci#hasDiscussion" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "the particle creation is really a global process and is not localised in the collapse: an observer falling through the event horizon would not see an infinite number of particles coming out from the collapsing body. Because it is a non-local process, it is probably not reasonable to expect to be able to form a local energy-momentum tensor to describe the back-reaction of the particle creation on the metric. Rather, the negative energy density needed to account for the decrease in the area of the horizon, should be thought of as arising from the indeterminacy of order of M- 4 of the local energy density at the horizon."
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Particle_Problem",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ScientificProblem" ],
+  "@id" : "https://w3id.org/skgo/physci#Particle_Problem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ScientificProblem" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Particle_Problem"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Particle_problem_in_the_Theory_of_Relativity",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ResearchWork" ],
+  "@id" : "https://w3id.org/skgo/physci#Particle_problem_in_the_Theory_of_Relativity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ResearchWork" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Particle_problem_in_the_Theory_of_Relativity"
   } ],
-  "https://w3id.org/skgo/phy#confirmLaw" : [ {
-    "@id" : "https://w3id.org/skgo/phy#The_field_law_of_gravitation"
+  "https://w3id.org/skgo/physci#confirmLaw" : [ {
+    "@id" : "https://w3id.org/skgo/physci#The_field_law_of_gravitation"
   } ],
-  "https://w3id.org/skgo/phy#hasProblem" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Particle_Problem"
+  "https://w3id.org/skgo/physci#hasProblem" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Particle_Problem"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Principal_Component_Analysis_in_the_Fourier_Domain",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ScientificMethod" ],
+  "@id" : "https://w3id.org/skgo/physci#Principal_Component_Analysis_in_the_Fourier_Domain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ScientificMethod" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Principal_Component_Analysis_in_the_Fourier_Domain"
   } ],
-  "https://w3id.org/skgo/phy#hasDescription" : [ {
+  "https://w3id.org/skgo/physci#hasDescription" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "to work with are the complex Fourier components of the image,\ni.e., visibility amplitudes and phases."
   } ],
-  "https://w3id.org/skgo/phy#hasScientificModel" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Gaussian_spot_moving_on_a_circular_path"
+  "https://w3id.org/skgo/physci#hasScientificModel" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Gaussian_spot_moving_on_a_circular_path"
   }, {
-    "@id" : "https://w3id.org/skgo/phy#Model_B"
+    "@id" : "https://w3id.org/skgo/physci#Model_B"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Principle_of_Equivalence",
+  "@id" : "https://w3id.org/skgo/physci#Principle_of_Equivalence",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#principle" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Principle_of_Equivalence"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Property_of_field_equations",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ScientificProperty" ],
+  "@id" : "https://w3id.org/skgo/physci#Property_of_field_equations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ScientificProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Property_of_field_equations"
   } ],
-  "https://w3id.org/skgo/phy#hasMass" : [ {
+  "https://w3id.org/skgo/physci#hasMass" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "mass at the origin"
   } ],
-  "https://w3id.org/skgo/phy#hasRadius" : [ {
+  "https://w3id.org/skgo/physci#hasRadius" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "radius of the orbit"
   } ],
-  "https://w3id.org/skgo/phy#hasVelocity" : [ {
+  "https://w3id.org/skgo/physci#hasVelocity" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "Velocity of Mercury"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Relativistic_theory_of_gravitation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ResearchWork" ],
+  "@id" : "https://w3id.org/skgo/physci#Relativistic_theory_of_gravitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ResearchWork" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Relativistic_theory_of_gravitation"
   } ],
-  "https://w3id.org/skgo/phy#extendArgument" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Hermitian_is_natural"
+  "https://w3id.org/skgo/physci#extendArgument" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Hermitian_is_natural"
   } ],
-  "https://w3id.org/skgo/phy#hasPurpose" : [ {
+  "https://w3id.org/skgo/physci#hasPurpose" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "To achieve a theory of the total field by a generalization of the concepts and methods of the  relativistic theory of gravitation."
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#ResearchWork",
+  "@id" : "https://w3id.org/skgo/physci#ResearchWork",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -5387,58 +5387,58 @@
     "@value" : "ResearchWork"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Ring_structure_Property",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ScientificProperty" ],
+  "@id" : "https://w3id.org/skgo/physci#Ring_structure_Property",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ScientificProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Ring_structure_Property"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Rotating_star",
+  "@id" : "https://w3id.org/skgo/physci#Rotating_star",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Rotating_star"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Schwarzschild_metric",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Metric" ],
+  "@id" : "https://w3id.org/skgo/physci#Schwarzschild_metric",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Metric" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Schwarzschild_metric"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Schwarzschild_solution-Black_hole_evaporation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Solution" ],
+  "@id" : "https://w3id.org/skgo/physci#Schwarzschild_solution-Black_hole_evaporation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Solution" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Schwarzschild_solution-Black_hole_evaporation"
   } ],
-  "https://w3id.org/skgo/phy#hasEquation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#wave_equations"
+  "https://w3id.org/skgo/physci#hasEquation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#wave_equations"
   } ],
-  "https://w3id.org/skgo/phy#hasTheory" : [ {
-    "@id" : "https://w3id.org/skgo/phy#General_Relativity"
+  "https://w3id.org/skgo/physci#solve" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Space-time_singularities"
   } ],
-  "https://w3id.org/skgo/phy#solve" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Space-time_singularities"
+  "https://w3id.org/skgo/physci#useScientificMethod" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Curvature_Tensor"
   } ],
-  "https://w3id.org/skgo/phy#useScientificMethod" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Curvature_Tensor"
+  "https://w3id.org/skgo/physci#useTheory" : [ {
+    "@id" : "https://w3id.org/skgo/physci#General_Relativity"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Schwarzschild’s_problem",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ScientificProblem" ],
+  "@id" : "https://w3id.org/skgo/physci#Schwarzschild’s_problem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ScientificProblem" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Schwarzschild’s_problem"
   } ],
-  "https://w3id.org/skgo/phy#hasContext" : [ {
+  "https://w3id.org/skgo/physci#hasContext" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "The problem is to find out a line element with coefficients such that the field equations, the equation of the determinant and these four requirements are satisfied."
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#ScientificArgument",
+  "@id" : "https://w3id.org/skgo/physci#ScientificArgument",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -5449,10 +5449,10 @@
     "@value" : "ScientificArgument"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ScientificProblem"
+    "@id" : "https://w3id.org/skgo/physci#ScientificProblem"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#ScientificLaw",
+  "@id" : "https://w3id.org/skgo/physci#ScientificLaw",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -5463,7 +5463,7 @@
     "@value" : "ScientificLaw"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#ScientificMethod",
+  "@id" : "https://w3id.org/skgo/physci#ScientificMethod",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -5474,7 +5474,7 @@
     "@value" : "ScientificMethod"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#ScientificProblem",
+  "@id" : "https://w3id.org/skgo/physci#ScientificProblem",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -5488,7 +5488,7 @@
     "@value" : "ScientificProblem"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#ScientificProperty",
+  "@id" : "https://w3id.org/skgo/physci#ScientificProperty",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -5502,17 +5502,17 @@
     "@id" : "_:genid39"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Sgr_A*_horizon",
+  "@id" : "https://w3id.org/skgo/physci#Sgr_A*_horizon",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/astronomy.owl#source" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Sgr_A*_horizon"
   } ],
-  "https://w3id.org/skgo/phy#hasScientificModel" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Gaussian_spot_moving_on_a_circular_path"
+  "https://w3id.org/skgo/physci#hasScientificModel" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Gaussian_spot_moving_on_a_circular_path"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Solution",
+  "@id" : "https://w3id.org/skgo/physci#Solution",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -5522,24 +5522,24 @@
     "@value" : "Solution"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Space-time_singularities",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ScientificProblem" ],
+  "@id" : "https://w3id.org/skgo/physci#Space-time_singularities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ScientificProblem" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Space-time_singularities"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Stationary_motions",
+  "@id" : "https://w3id.org/skgo/physci#Stationary_motions",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://sweetontology.net/procPhysical/Motion" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Stationary_motions"
   } ],
-  "https://w3id.org/skgo/phy#hasScientificProperty" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Field-variables"
+  "https://w3id.org/skgo/physci#hasScientificProperty" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Field-variables"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Stephen_William_Hawking",
+  "@id" : "https://w3id.org/skgo/physci#Stephen_William_Hawking",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Person" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -5550,36 +5550,36 @@
     "@value" : "S. W. Hawking"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#The_American_Astronomical_Society",
+  "@id" : "https://w3id.org/skgo/physci#The_American_Astronomical_Society",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Agent", "http://ns.nature.com/terms/Publisher" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "The_American_Astronomical_Society"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#The_Energy_Distribution_in_the_Normal_Spectrum",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ResearchWork" ],
+  "@id" : "https://w3id.org/skgo/physci#The_Energy_Distribution_in_the_Normal_Spectrum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ResearchWork" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "The_Energy_Distribution_in_the_Normal_Spectrum"
   } ],
-  "https://w3id.org/skgo/phy#confirmLaw" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Wien’s_displacement_law"
+  "https://w3id.org/skgo/physci#confirmLaw" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Wien’s_displacement_law"
   }, {
-    "@id" : "https://w3id.org/skgo/phy#Wien’s_energy_distribution_law"
+    "@id" : "https://w3id.org/skgo/physci#Wien’s_energy_distribution_law"
   } ],
-  "https://w3id.org/skgo/phy#hasProblem" : [ {
-    "@id" : "https://w3id.org/skgo/phy#The_theory_of_electromagnetic_radiation_is_not_universally_correct"
+  "https://w3id.org/skgo/physci#hasProblem" : [ {
+    "@id" : "https://w3id.org/skgo/physci#The_theory_of_electromagnetic_radiation_is_not_universally_correct"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#The_Event_Horizon_Telescope_Collaboration",
+  "@id" : "https://w3id.org/skgo/physci#The_Event_Horizon_Telescope_Collaboration",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://xmlns.com/foaf/0.1/Organization" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "The_Event_Horizon_Telescope_Collaboration"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#The_Generalized_Second_Law_at_Work",
+  "@id" : "https://w3id.org/skgo/physci#The_Generalized_Second_Law_at_Work",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://sweetontology.net/reprSciModel/ScientificModel" ],
   "http://purl.org/dc/terms/description" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -5589,34 +5589,34 @@
     "@language" : "en",
     "@value" : "The_Generalized_Second_Law_at_Work"
   } ],
-  "https://w3id.org/skgo/phy#hasConsequence" : [ {
+  "https://w3id.org/skgo/physci#hasConsequence" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "that geometrical optics is always applicable means that the bulk of\nwavelengths in the beam are much shorter than the characteristic dimension of the hole ≈M. Thus,if  , is some characteristic frequency in the beam,then we require that ωc >M."
   } ],
-  "https://w3id.org/skgo/phy#hasExample" : [ {
+  "https://w3id.org/skgo/physci#hasExample" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "Harmonic Oscillator ,Beam of Light."
   } ],
-  "https://w3id.org/skgo/phy#hasScientificProperty" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Compton_Wavelength"
+  "https://w3id.org/skgo/physci#hasScientificProperty" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Compton_Wavelength"
   } ],
-  "https://w3id.org/skgo/phy#useScientificMethod" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Thermodynamics_for_black_holes"
+  "https://w3id.org/skgo/physci#useScientificMethod" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Thermodynamics_for_black_holes"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#The_Particle_Problem_in_the_General_Theory_of_Relativity",
+  "@id" : "https://w3id.org/skgo/physci#The_Particle_Problem_in_the_General_Theory_of_Relativity",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Article", "http://ns.nature.com/terms/Publication" ],
   "http://ns.nature.com/terms/publicationYear" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
     "@value" : "1935"
   } ],
   "http://purl.org/dc/terms/creator" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Albert_Einstein"
+    "@id" : "https://w3id.org/skgo/physci#Albert_Einstein"
   }, {
-    "@id" : "https://w3id.org/skgo/phy#N_Rosen"
+    "@id" : "https://w3id.org/skgo/physci#N_Rosen"
   } ],
   "http://purl.org/dc/terms/publisher" : [ {
-    "@id" : "https://w3id.org/skgo/phy#American_Physical_Society"
+    "@id" : "https://w3id.org/skgo/physci#American_Physical_Society"
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -5626,133 +5626,133 @@
     "@language" : "en",
     "@value" : "The_Particle_Problem_in_the_General_Theory_of_Relativity"
   } ],
-  "https://w3id.org/skgo/phy#addressesResearchWork" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Particle_problem_in_the_Theory_of_Relativity"
+  "https://w3id.org/skgo/physci#addressesResearchWork" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Particle_problem_in_the_Theory_of_Relativity"
   } ],
-  "https://w3id.org/skgo/phy#hasConclusion" : [ {
+  "https://w3id.org/skgo/physci#hasConclusion" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "In any case here is a possibility for a general relativistic theory of matter which is logically completely satisfying and which contains no new hypothetical elements."
   } ],
-  "https://w3id.org/skgo/phy#hasRemarks" : [ {
+  "https://w3id.org/skgo/physci#hasRemarks" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "If one solves the equations of the general theory of relativity for the static spherically symmetric case, with or without an electrostatic field, one finds that singularities occur in the solutions. If one modifies the equations in an unessential manner so as to make them free from denominators, regular solutigns can be obtained, provided one treats the physical space as consisting of two congruent sheets. The neutral, as well as the electrical, particle is a portion of space connecting the two sheets (bridge). In the hypersurfaces of contact of the two sheets the determinant of the guvvanishes."
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#The_Schwarzschild_Solution",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Solution" ],
+  "@id" : "https://w3id.org/skgo/physci#The_Schwarzschild_Solution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Solution" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "The_Schwarzschild_Solution"
   } ],
-  "https://w3id.org/skgo/phy#hasDescription" : [ {
+  "https://w3id.org/skgo/physci#hasDescription" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "We see now in the given solution, free from singularities, the mathematical representation of an elementary particle (neutron or neutrino). Characteristic of the theory we are presenting is the description of space by means of two sheets.A bridge,  patially finite, which connects these sheets characterizes the presence of an electrically neutral elementary particle."
   } ],
-  "https://w3id.org/skgo/phy#hasEquation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#the_gravitational_equations"
+  "https://w3id.org/skgo/physci#hasEquation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#the_gravitational_equations"
   } ],
-  "https://w3id.org/skgo/phy#hasTheory" : [ {
-    "@id" : "https://w3id.org/skgo/phy#General_theory_of_relativity"
+  "https://w3id.org/skgo/physci#solve" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Particle_Problem"
   } ],
-  "https://w3id.org/skgo/phy#solve" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Particle_Problem"
+  "https://w3id.org/skgo/physci#useScientificMethod" : [ {
+    "@id" : "https://w3id.org/skgo/physci#the_method_of_general_relativity"
   } ],
-  "https://w3id.org/skgo/phy#useScientificMethod" : [ {
-    "@id" : "https://w3id.org/skgo/phy#the_method_of_general_relativity"
+  "https://w3id.org/skgo/physci#useTheory" : [ {
+    "@id" : "https://w3id.org/skgo/physci#General_theory_of_relativity"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#The_calculation_of_entropy_of_any_resonator",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Solution" ],
+  "@id" : "https://w3id.org/skgo/physci#The_calculation_of_entropy_of_any_resonator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Solution" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "The_calculation_of_entropy_of_any_resonator"
   } ],
-  "https://w3id.org/skgo/phy#hasTheory" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Electro-Magnetic_Theory_of_Radiation"
+  "https://w3id.org/skgo/physci#solve" : [ {
+    "@id" : "https://w3id.org/skgo/physci#The_theory_of_electromagnetic_radiation_is_not_universally_correct"
   } ],
-  "https://w3id.org/skgo/phy#solve" : [ {
-    "@id" : "https://w3id.org/skgo/phy#The_theory_of_electromagnetic_radiation_is_not_universally_correct"
+  "https://w3id.org/skgo/physci#useTheory" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Electro-Magnetic_Theory_of_Radiation"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#The_cumulative_sum_of_the_eigenvalues",
+  "@id" : "https://w3id.org/skgo/physci#The_cumulative_sum_of_the_eigenvalues",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "The_cumulative_sum_of_the_eigenvalues"
   } ],
-  "https://w3id.org/skgo/phy#hasDescription" : [ {
+  "https://w3id.org/skgo/physci#hasDescription" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "The cumulative sum of the eigenvalues"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#The_field_law_of_gravitation",
+  "@id" : "https://w3id.org/skgo/physci#The_field_law_of_gravitation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#physicalLaw" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "The_field_law_of_gravitation"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#The_generalized_second_law_of_thermodynamics",
+  "@id" : "https://w3id.org/skgo/physci#The_generalized_second_law_of_thermodynamics",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#physicalLaw" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "The_generalized_second_law_of_thermodynamics"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#The_most_general_gravitational_field",
+  "@id" : "https://w3id.org/skgo/physci#The_most_general_gravitational_field",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://sweetontology.net/reprSciModel/ScientificModel" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "The_most_general_gravitational_field"
   } ],
-  "https://w3id.org/skgo/phy#considerCase" : [ {
-    "@id" : "https://w3id.org/skgo/phy#spherical_symmetry"
+  "https://w3id.org/skgo/physci#considerCase" : [ {
+    "@id" : "https://w3id.org/skgo/physci#spherical_symmetry"
   } ],
-  "https://w3id.org/skgo/phy#hasParameter" : [ {
+  "https://w3id.org/skgo/physci#hasParameter" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "angular momentum parameter, k,\ndimensionless energy parameter, e,\nL(p) is a parameter"
   } ],
-  "https://w3id.org/skgo/phy#hasScientificProperty" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Neutrino_Geon"
+  "https://w3id.org/skgo/physci#hasScientificProperty" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Neutrino_Geon"
   } ],
-  "https://w3id.org/skgo/phy#relyOnMeasurement" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Schwarzschild_metric"
+  "https://w3id.org/skgo/physci#relyOnMeasurement" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Schwarzschild_metric"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#The_power-law",
+  "@id" : "https://w3id.org/skgo/physci#The_power-law",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#physicalLaw" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "The_power-law"
   } ],
-  "https://w3id.org/skgo/phy#hasFunction" : [ {
-    "@id" : "https://w3id.org/skgo/phy#power-law_index__of_the_spectra_of_PCA_eigenvalues_as_a_function"
+  "https://w3id.org/skgo/physci#hasFunction" : [ {
+    "@id" : "https://w3id.org/skgo/physci#power-law_index__of_the_spectra_of_PCA_eigenvalues_as_a_function"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#The_supermassive_black_hole",
+  "@id" : "https://w3id.org/skgo/physci#The_supermassive_black_hole",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "The_supermassive_black_hole"
   } ],
-  "https://w3id.org/skgo/phy#hasStructure" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Horizon-scale_structures"
+  "https://w3id.org/skgo/physci#hasStructure" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Horizon-scale_structures"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#The_theory_of_electromagnetic_radiation_is_not_universally_correct",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ScientificProblem" ],
+  "@id" : "https://w3id.org/skgo/physci#The_theory_of_electromagnetic_radiation_is_not_universally_correct",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ScientificProblem" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "The_theory_of_electromagnetic_radiation_is_not_universally_correct"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#The_wave_equation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Equation" ],
+  "@id" : "https://w3id.org/skgo/physci#The_wave_equation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Equation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "The_wave_equation"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Theorem",
+  "@id" : "https://w3id.org/skgo/physci#Theorem",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -5767,7 +5767,7 @@
     "@value" : "Theorem"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#TheoreticalStudy",
+  "@id" : "https://w3id.org/skgo/physci#TheoreticalStudy",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -5778,10 +5778,10 @@
     "@value" : "TheoreticalStudy"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ResearchWork"
+    "@id" : "https://w3id.org/skgo/physci#ResearchWork"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Theoretical_models",
+  "@id" : "https://w3id.org/skgo/physci#Theoretical_models",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://sweetontology.net/reprSciModel/ScientificModel" ],
   "http://purl.org/dc/terms/description" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -5791,18 +5791,18 @@
     "@language" : "en",
     "@value" : "Theoretical_models"
   } ],
-  "https://w3id.org/skgo/phy#hasObservation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#EHT_VLBI_Campaign_Observation"
+  "https://w3id.org/skgo/physci#hasObservation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#EHT_VLBI_Campaign_Observation"
   } ],
-  "https://w3id.org/skgo/phy#hasSimulation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#GRMHD_simulations"
+  "https://w3id.org/skgo/physci#hasSimulation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#GRMHD_simulations"
   } ],
-  "https://w3id.org/skgo/phy#provideSolution" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Kerr_black_hole_solution"
+  "https://w3id.org/skgo/physci#provideSolution" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Kerr_black_hole_solution"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Thermodynamics_for_black_holes",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ScientificMethod" ],
+  "@id" : "https://w3id.org/skgo/physci#Thermodynamics_for_black_holes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ScientificMethod" ],
   "http://purl.org/dc/terms/description" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "to compute the minimum possible increase in the black hole's area which results from the disappearance of a particle down the black hole, then to compute the corresponding minimum possible increase of black-hole entropy by means of our original formula (12), and finally\nto identify this increase in entropy with the loss of one bit of information in accordanc with the scheme."
@@ -5811,27 +5811,27 @@
     "@language" : "en",
     "@value" : "Thermodynamics_for_black_holes"
   } ],
-  "https://w3id.org/skgo/phy#establishTheorem" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Hawking's_theorem"
+  "https://w3id.org/skgo/physci#establishTheorem" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Hawking's_theorem"
   } ],
-  "https://w3id.org/skgo/phy#hasTheory" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Information_theory"
+  "https://w3id.org/skgo/physci#hasTheory" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Information_theory"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Tod_R_Lauer",
+  "@id" : "https://w3id.org/skgo/physci#Tod_R_Lauer",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://xmlns.com/foaf/0.1/Person" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Tod_R_Lauer"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Wien’s_displacement_law",
+  "@id" : "https://w3id.org/skgo/physci#Wien’s_displacement_law",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#Wien’s_energy_distribution_law",
+  "@id" : "https://w3id.org/skgo/physci#Wien’s_energy_distribution_law",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#addressesResearchWork",
+  "@id" : "https://w3id.org/skgo/physci#addressesResearchWork",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -5845,20 +5845,20 @@
     "@value" : "addressesResearchWork"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ResearchWork"
+    "@id" : "https://w3id.org/skgo/physci#ResearchWork"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#argueFormation",
+  "@id" : "https://w3id.org/skgo/physci#argueFormation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
     "@value" : "Give reasons or cite evidence in support of an idea."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ResearchWork"
+    "@id" : "https://w3id.org/skgo/physci#ResearchWork"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -5871,60 +5871,60 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#black-hole_entropy_solution",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Solution" ],
+  "@id" : "https://w3id.org/skgo/physci#black-hole_entropy_solution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Solution" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Black-hole_Entropy_solution"
   } ],
-  "https://w3id.org/skgo/phy#hasDescription" : [ {
+  "https://w3id.org/skgo/physci#hasDescription" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "the efficiency is no greater than the maximum efficiency\nallowed by thermodynamics for the heat engine which is equivalent to the Geroch process, so that this process cannot be regarded as violating the second law."
   } ],
-  "https://w3id.org/skgo/phy#hasEquation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#thermodynamic_expression"
+  "https://w3id.org/skgo/physci#hasEquation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#thermodynamic_expression"
   } ],
-  "https://w3id.org/skgo/phy#hasTheory" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Information_theory"
+  "https://w3id.org/skgo/physci#useScientificMethod" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Thermodynamics_for_black_holes"
   } ],
-  "https://w3id.org/skgo/phy#useScientificMethod" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Thermodynamics_for_black_holes"
+  "https://w3id.org/skgo/physci#useTheory" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Information_theory"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#collapsing_body",
+  "@id" : "https://w3id.org/skgo/physci#collapsing_body",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#structure" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Collapsing_Body"
   } ],
-  "https://w3id.org/skgo/phy#hasParticle" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Elementary_Particle_Proton"
+  "https://w3id.org/skgo/physci#hasParticle" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Elementary_Particle_Proton"
   } ],
-  "https://w3id.org/skgo/phy#hasScientificProperty" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Black_hole_properties"
+  "https://w3id.org/skgo/physci#hasScientificProperty" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Black_hole_properties"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#complex_fields",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Case" ],
+  "@id" : "https://w3id.org/skgo/physci#complex_fields",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Case" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Complex_Fields"
   } ],
-  "https://w3id.org/skgo/phy#hasTheory" : [ {
-    "@id" : "https://w3id.org/skgo/phy#generalized_theory_the_total_field"
+  "https://w3id.org/skgo/physci#hasTheory" : [ {
+    "@id" : "https://w3id.org/skgo/physci#generalized_theory_the_total_field"
   } ],
-  "https://w3id.org/skgo/phy#useScientificMethod" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Hermitian_Tensor"
+  "https://w3id.org/skgo/physci#useScientificMethod" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Hermitian_Tensor"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#confirmLaw",
+  "@id" : "https://w3id.org/skgo/physci#confirmLaw",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
     "@value" : "Establish the truth or correctness of (physical law)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ResearchWork"
+    "@id" : "https://w3id.org/skgo/physci#ResearchWork"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -5937,23 +5937,23 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#considerCase",
+  "@id" : "https://w3id.org/skgo/physci#considerCase",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ResearchWork"
+    "@id" : "https://w3id.org/skgo/physci#ResearchWork"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Case"
+    "@id" : "https://w3id.org/skgo/physci#Case"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#detectFormation",
+  "@id" : "https://w3id.org/skgo/physci#detectFormation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
     "@value" : "Discover or identify the presence or existence of formation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Observer"
+    "@id" : "https://w3id.org/skgo/physci#Observer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -5966,14 +5966,14 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#detectWave",
+  "@id" : "https://w3id.org/skgo/physci#detectWave",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
     "@value" : "Observer identify the existence of wave."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Observer"
+    "@id" : "https://w3id.org/skgo/physci#Observer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -5986,65 +5986,65 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#establishTheorem",
+  "@id" : "https://w3id.org/skgo/physci#establishTheorem",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ScientificMethod"
+    "@id" : "https://w3id.org/skgo/physci#ScientificMethod"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Theorem"
+    "@id" : "https://w3id.org/skgo/physci#Theorem"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#extendArgument",
+  "@id" : "https://w3id.org/skgo/physci#extendArgument",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
     "@value" : "Research work cause to extend argument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ResearchWork"
+    "@id" : "https://w3id.org/skgo/physci#ResearchWork"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "extendArgument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ScientificArgument"
+    "@id" : "https://w3id.org/skgo/physci#ScientificArgument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#field_equations_boundary",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Equation" ],
+  "@id" : "https://w3id.org/skgo/physci#field_equations_boundary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Equation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Field_Equations_Boundary"
   } ],
-  "https://w3id.org/skgo/phy#hasCondition" : [ {
+  "https://w3id.org/skgo/physci#hasCondition" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "boundary condition.At the surface of the star, R equal Rb we must have L equal to M for all τ."
   } ],
-  "https://w3id.org/skgo/phy#hasParameter" : [ {
+  "https://w3id.org/skgo/physci#hasParameter" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "R* the differential equations,coordinate transformation to put the line element in form."
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#field_equations_with_homogeneous_gravitational_field",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Equation" ],
+  "@id" : "https://w3id.org/skgo/physci#field_equations_with_homogeneous_gravitational_field",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Equation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Field_Equations_with_Homogeneous_Gravitational_Field"
   } ],
-  "https://w3id.org/skgo/phy#hasCondition" : [ {
+  "https://w3id.org/skgo/physci#hasCondition" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "the condition of the space with respect to it as a homogeneous\ngravitational field."
   } ],
-  "https://w3id.org/skgo/phy#hasPrinciple" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Principle_of_Equivalence"
+  "https://w3id.org/skgo/physci#hasPrinciple" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Principle_of_Equivalence"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#formulate",
+  "@id" : "https://w3id.org/skgo/physci#formulate",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6061,64 +6061,64 @@
     "@id" : "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#theory"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#fraction_as_much_about_neutrinos",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ScientificProblem" ],
+  "@id" : "https://w3id.org/skgo/physci#fraction_as_much_about_neutrinos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ScientificProblem" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "fraction_as_much_about_neutrinos"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#generalized_theory_the_total_field",
+  "@id" : "https://w3id.org/skgo/physci#generalized_theory_the_total_field",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#theory" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Generalized_theory_the_total_field"
   } ],
-  "https://w3id.org/skgo/phy#hasEquation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Field_equations"
+  "https://w3id.org/skgo/physci#hasEquation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Field_equations"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#geosedic_motion",
+  "@id" : "https://w3id.org/skgo/physci#geosedic_motion",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://sweetontology.net/procPhysical/Motion" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Geosedic_motion"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#gravitational_collapse_superradiance",
+  "@id" : "https://w3id.org/skgo/physci#gravitational_collapse_superradiance",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://sweetontology.net/phen/Phenomena" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Gravitational_collapse_superradiance"
   } ],
-  "https://w3id.org/skgo/phy#hasTheory" : [ {
-    "@id" : "https://w3id.org/skgo/phy#General_Relativity"
+  "https://w3id.org/skgo/physci#hasTheory" : [ {
+    "@id" : "https://w3id.org/skgo/physci#General_Relativity"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#gravitational_field",
+  "@id" : "https://w3id.org/skgo/physci#gravitational_field",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://sweetontology.net/phen/Phenomena" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Gravitational_field"
   } ],
-  "https://w3id.org/skgo/phy#hasTheory" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Einstein's_Theory_of_General_Relativity"
+  "https://w3id.org/skgo/physci#hasTheory" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Einstein's_Theory_of_General_Relativity"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#gravitational_field_equations_solutions",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Solution" ],
+  "@id" : "https://w3id.org/skgo/physci#gravitational_field_equations_solutions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Solution" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Gravitational_field_equations_solutions"
   } ],
-  "https://w3id.org/skgo/phy#hasDescription" : [ {
+  "https://w3id.org/skgo/physci#hasDescription" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "behavior will be realized by all collapsing stars which cannot end\nin a stable stationary state."
   } ],
-  "https://w3id.org/skgo/phy#solve" : [ {
-    "@id" : "https://w3id.org/skgo/phy#the_behavior_of_nonstatic_solutions_of_the_field_equations"
+  "https://w3id.org/skgo/physci#solve" : [ {
+    "@id" : "https://w3id.org/skgo/physci#the_behavior_of_nonstatic_solutions_of_the_field_equations"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasAppendices",
+  "@id" : "https://w3id.org/skgo/physci#hasAppendices",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6138,7 +6138,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasAssumption",
+  "@id" : "https://w3id.org/skgo/physci#hasAssumption",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#ReflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6152,13 +6152,13 @@
     "@value" : "hasAssumption"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Assumption"
+    "@id" : "https://w3id.org/skgo/physci#Assumption"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasConcept",
+  "@id" : "https://w3id.org/skgo/physci#hasConcept",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6178,7 +6178,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasConclusion",
+  "@id" : "https://w3id.org/skgo/physci#hasConclusion",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6198,14 +6198,14 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasCondition",
+  "@id" : "https://w3id.org/skgo/physci#hasCondition",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
     "@value" : "A condition that must be satisfied for a statement to be true and without which the statement cannot be true."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Equation"
+    "@id" : "https://w3id.org/skgo/physci#Equation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -6218,7 +6218,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasConsequence",
+  "@id" : "https://w3id.org/skgo/physci#hasConsequence",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6235,14 +6235,14 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasContext",
+  "@id" : "https://w3id.org/skgo/physci#hasContext",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
     "@value" : "The circumstances that form the setting for an theorem, problem, or idea, and in terms of which it can be fully understood."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ScientificProblem"
+    "@id" : "https://w3id.org/skgo/physci#ScientificProblem"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -6255,7 +6255,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasDescription",
+  "@id" : "https://w3id.org/skgo/physci#hasDescription",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6269,7 +6269,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasDiscussion",
+  "@id" : "https://w3id.org/skgo/physci#hasDiscussion",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6289,7 +6289,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasDuration",
+  "@id" : "https://w3id.org/skgo/physci#hasDuration",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6306,14 +6306,14 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasEnergy",
+  "@id" : "https://w3id.org/skgo/physci#hasEnergy",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Energy in the process of transfer from one body to another."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ScientificProperty"
+    "@id" : "https://w3id.org/skgo/physci#ScientificProperty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -6330,7 +6330,7 @@
     "@value" : "Energy, in physics, the capacity for doing work. It may exist in potential, kinetic, thermal, electrical, chemical, nuclear, or other various forms."
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasEquation",
+  "@id" : "https://w3id.org/skgo/physci#hasEquation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty", "http://www.w3.org/2002/07/owl#ReflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6341,20 +6341,20 @@
     "@value" : "(indicated by the sign =)"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Solution"
+    "@id" : "https://w3id.org/skgo/physci#Solution"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasEquation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Equation"
+    "@id" : "https://w3id.org/skgo/physci#Equation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasExample",
+  "@id" : "https://w3id.org/skgo/physci#hasExample",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6374,7 +6374,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasExpression",
+  "@id" : "https://w3id.org/skgo/physci#hasExpression",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty", "http://www.w3.org/2002/07/owl#ReflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6388,33 +6388,33 @@
     "@value" : "hasExpression"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Expression"
+    "@id" : "https://w3id.org/skgo/physci#Expression"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasFunction",
+  "@id" : "https://w3id.org/skgo/physci#hasFunction",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty", "http://www.w3.org/2002/07/owl#ReflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
     "@value" : "Equation has a function or expression relates to scientific functions."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Equation"
+    "@id" : "https://w3id.org/skgo/physci#Equation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasFunction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Function"
+    "@id" : "https://w3id.org/skgo/physci#Function"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasHorizon",
+  "@id" : "https://w3id.org/skgo/physci#hasHorizon",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6431,7 +6431,7 @@
     "@id" : "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#horizon"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasMagneticField",
+  "@id" : "https://w3id.org/skgo/physci#hasMagneticField",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6448,14 +6448,14 @@
     "@id" : "http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#magneticField"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasMass",
+  "@id" : "https://w3id.org/skgo/physci#hasMass",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
     "@value" : "Mass is a measure of the amount of matter in an object."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ScientificProperty"
+    "@id" : "https://w3id.org/skgo/physci#ScientificProperty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -6468,24 +6468,24 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasMetric",
+  "@id" : "https://w3id.org/skgo/physci#hasMetric",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
     "@value" : "Expressions or equations possess a system or standard of measurement."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Equation"
+    "@id" : "https://w3id.org/skgo/physci#Equation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasMetric"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Metric"
+    "@id" : "https://w3id.org/skgo/physci#Metric"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasMotion",
+  "@id" : "https://w3id.org/skgo/physci#hasMotion",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6505,14 +6505,14 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasObservation",
+  "@id" : "https://w3id.org/skgo/physci#hasObservation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
     "@value" : "Research work has an active acquisition of information from a primary source."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ScientificMethod"
+    "@id" : "https://w3id.org/skgo/physci#ScientificMethod"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -6525,7 +6525,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasObservationalData",
+  "@id" : "https://w3id.org/skgo/physci#hasObservationalData",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6539,13 +6539,13 @@
     "@value" : "hasObservationalData"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ObservationalData"
+    "@id" : "https://w3id.org/skgo/physci#ObservationalData"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasObservatory",
+  "@id" : "https://w3id.org/skgo/physci#hasObservatory",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty", "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6559,7 +6559,7 @@
     "@value" : "hasObservatory"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Observatory"
+    "@id" : "https://w3id.org/skgo/physci#Observatory"
   }, {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ],
@@ -6567,7 +6567,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasObserver",
+  "@id" : "https://w3id.org/skgo/physci#hasObserver",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6581,20 +6581,20 @@
     "@value" : "hasObserver"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Observer"
+    "@id" : "https://w3id.org/skgo/physci#Observer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasParameter",
+  "@id" : "https://w3id.org/skgo/physci#hasParameter",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
     "@value" : "Equation, Scientific Model have a numerical or other measurable factor forming one of a set that defines a system or sets the conditions of its operation."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Equation"
+    "@id" : "https://w3id.org/skgo/physci#Equation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -6604,7 +6604,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasParticle",
+  "@id" : "https://w3id.org/skgo/physci#hasParticle",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6624,7 +6624,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasPhenomena",
+  "@id" : "https://w3id.org/skgo/physci#hasPhenomena",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#ReflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6644,7 +6644,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasPrinciple",
+  "@id" : "https://w3id.org/skgo/physci#hasPrinciple",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6664,34 +6664,34 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasProblem",
+  "@id" : "https://w3id.org/skgo/physci#hasProblem",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
     "@value" : "Research work has  an inquiry starting from given conditions to investigate or demonstrate a fact, result, or law."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ResearchWork"
+    "@id" : "https://w3id.org/skgo/physci#ResearchWork"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasProblem"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ScientificProblem"
+    "@id" : "https://w3id.org/skgo/physci#ScientificProblem"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasPurpose",
+  "@id" : "https://w3id.org/skgo/physci#hasPurpose",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
     "@value" : "Research work has  a particular requirement or consideration."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ResearchWork"
+    "@id" : "https://w3id.org/skgo/physci#ResearchWork"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -6704,7 +6704,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasRadius",
+  "@id" : "https://w3id.org/skgo/physci#hasRadius",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6715,7 +6715,7 @@
     "@value" : "The distance around a circle is equivalent to a circumference and calculated as 2•pi•R where R is the radius."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ScientificProperty"
+    "@id" : "https://w3id.org/skgo/physci#ScientificProperty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -6725,7 +6725,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasRemarks",
+  "@id" : "https://w3id.org/skgo/physci#hasRemarks",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6745,7 +6745,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasResearchField",
+  "@id" : "https://w3id.org/skgo/physci#hasResearchField",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://ns.nature.com/terms/Publication"
@@ -6754,7 +6754,7 @@
     "@id" : "http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#physics"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasScenario",
+  "@id" : "https://w3id.org/skgo/physci#hasScenario",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6774,14 +6774,14 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasScientificModel",
+  "@id" : "https://w3id.org/skgo/physci#hasScientificModel",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#ReflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
     "@value" : "Research work has a simplified description, especially a mathematical one, of a system or process, to assist calculations and predictions."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ResearchWork"
+    "@id" : "https://w3id.org/skgo/physci#ResearchWork"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -6791,7 +6791,7 @@
     "@id" : "http://sweetontology.net/reprSciModel/ScientificModel"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasScientificProperty",
+  "@id" : "https://w3id.org/skgo/physci#hasScientificProperty",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6805,13 +6805,13 @@
     "@value" : "hasScientificProperty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ScientificProperty"
+    "@id" : "https://w3id.org/skgo/physci#ScientificProperty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasSimulation",
+  "@id" : "https://w3id.org/skgo/physci#hasSimulation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6831,7 +6831,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasSource",
+  "@id" : "https://w3id.org/skgo/physci#hasSource",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6851,7 +6851,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasState",
+  "@id" : "https://w3id.org/skgo/physci#hasState",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6872,7 +6872,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasStructure",
+  "@id" : "https://w3id.org/skgo/physci#hasStructure",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6892,7 +6892,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasTemperature",
+  "@id" : "https://w3id.org/skgo/physci#hasTemperature",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6903,7 +6903,7 @@
     "@value" : "(sometimes called thermodynamic temperature)"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ScientificProperty"
+    "@id" : "https://w3id.org/skgo/physci#ScientificProperty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -6913,14 +6913,14 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasTheory",
+  "@id" : "https://w3id.org/skgo/physci#hasTheory",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
     "@value" : "Research work has an explanation for patterns in nature that is supported by scientific evidence ."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Solution"
+    "@id" : "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -6933,7 +6933,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasValue",
+  "@id" : "https://w3id.org/skgo/physci#hasValue",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -6954,14 +6954,14 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#hasVelocity",
+  "@id" : "https://w3id.org/skgo/physci#hasVelocity",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
     "@value" : "A vector quantity that indicates distance per time and direction."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ScientificProperty"
+    "@id" : "https://w3id.org/skgo/physci#ScientificProperty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -6971,29 +6971,29 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#high-fidelity_GRMHD_simulations",
+  "@id" : "https://w3id.org/skgo/physci#high-fidelity_GRMHD_simulations",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://sweetontology.net/reprMathSolution/Simulation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "High-Fidelity_GRMHD_simulations"
   } ],
-  "https://w3id.org/skgo/phy#hasConsequence" : [ {
+  "https://w3id.org/skgo/physci#hasConsequence" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "in our simulations,flux excursions and unusual image morphologies are not necessarily coincident but the two can be disentangled with the use of the quantity Rnl that we have introduced here."
   } ],
-  "https://w3id.org/skgo/phy#hasValue" : [ {
+  "https://w3id.org/skgo/physci#hasValue" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "eigenvalues, eigenimages,the typical values,a set of simulated black hole images"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#instrumental_noise",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ObservationalData" ],
+  "@id" : "https://w3id.org/skgo/physci#instrumental_noise",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ObservationalData" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Instrumental_noise"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#introducedBy",
+  "@id" : "https://w3id.org/skgo/physci#introducedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -7010,7 +7010,7 @@
     "@id" : "_:genid21"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#isFormedFrom",
+  "@id" : "https://w3id.org/skgo/physci#isFormedFrom",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#ReflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -7027,109 +7027,110 @@
     "@id" : "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#laser_wavelength_and__radio-frequency_oscillator",
+  "@id" : "https://w3id.org/skgo/physci#laser_wavelength_and__radio-frequency_oscillator",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "laser_wavelength_and__radio-frequency_oscillator"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#massive_black_holes",
+  "@id" : "https://w3id.org/skgo/physci#massive_black_holes",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Massive_black_holes"
   } ],
-  "https://w3id.org/skgo/phy#hasScenario" : [ {
+  "https://w3id.org/skgo/physci#hasScenario" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "stellar evolution requires weak massive-star winds, which are possible in stellar environments with metallicity lower than ≃1=2 the solar value."
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#metrical_tensor_as_the_contraction_progresses",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ScientificArgument" ],
+  "@id" : "https://w3id.org/skgo/physci#metrical_tensor_as_the_contraction_progresses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ScientificArgument" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Metrical_tensor_as_the_contraction_progresses"
   } ],
-  "https://w3id.org/skgo/phy#hasDescription" : [ {
+  "https://w3id.org/skgo/physci#hasDescription" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "behavior of the metrical tensor as the contraction progresses:"
   } ],
-  "https://w3id.org/skgo/phy#hasProblem" : [ {
-    "@id" : "https://w3id.org/skgo/phy#the_behavior_of_nonstatic_solutions_of_the_field_equations"
+  "https://w3id.org/skgo/physci#hasProblem" : [ {
+    "@id" : "https://w3id.org/skgo/physci#the_behavior_of_nonstatic_solutions_of_the_field_equations"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#neutrino_radiation",
+  "@id" : "https://w3id.org/skgo/physci#neutrino_radiation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#wave" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Neutrino_radiation"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#neutrino_theory",
+  "@id" : "https://w3id.org/skgo/physci#neutrino_theory",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#theory" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Neutrino_theory"
   } ],
-  "https://w3id.org/skgo/phy#hasEquation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Dirac_Equation"
+  "https://w3id.org/skgo/physci#hasEquation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Dirac_Equation"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#neutrinos_solution",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Solution" ],
+  "@id" : "https://w3id.org/skgo/physci#neutrinos_solution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Solution" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Neutrinos_solution"
   } ],
-  "https://w3id.org/skgo/phy#hasEquation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Dirac_Equation"
+  "https://w3id.org/skgo/physci#hasEquation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Dirac_Equation"
   } ],
-  "https://w3id.org/skgo/phy#hasTheory" : [ {
-    "@id" : "https://w3id.org/skgo/phy#neutrino_theory"
-  }, {
-    "@id" : "https://w3id.org/skgo/phy#the_Dirac_theory"
+  "https://w3id.org/skgo/physci#hasTheory" : [ {
+    "@id" : "https://w3id.org/skgo/physci#neutrino_theory"
   } ],
-  "https://w3id.org/skgo/phy#solve" : [ {
-    "@id" : "https://w3id.org/skgo/phy#fraction_as_much_about_neutrinos"
+  "https://w3id.org/skgo/physci#solve" : [ {
+    "@id" : "https://w3id.org/skgo/physci#fraction_as_much_about_neutrinos"
+  } ],
+  "https://w3id.org/skgo/physci#useTheory" : [ {
+    "@id" : "https://w3id.org/skgo/physci#the_Dirac_theory"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#numerical_simulations_of_binary_black_hole_mergers",
+  "@id" : "https://w3id.org/skgo/physci#numerical_simulations_of_binary_black_hole_mergers",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://sweetontology.net/reprMathSolution/Simulation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Numerical_simulations_of_binary_black_hole_mergers"
   } ],
-  "https://w3id.org/skgo/phy#hasConsequence" : [ {
+  "https://w3id.org/skgo/physci#hasConsequence" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "we verified that the remnant mass and spin deduced from the early stage of the  coalescence and those inferred independently from the late stage are consistent with each other, with no evidence for disagreement from general relativity."
   } ],
-  "https://w3id.org/skgo/phy#hasValue" : [ {
+  "https://w3id.org/skgo/physci#hasValue" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "quasicircular inspirals"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#perihelion_of_Mercury",
+  "@id" : "https://w3id.org/skgo/physci#perihelion_of_Mercury",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#structure" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Perihelion_of_Mercury"
   } ],
-  "https://w3id.org/skgo/phy#hasPhenomena" : [ {
-    "@id" : "https://w3id.org/skgo/phy#gravitational_field"
+  "https://w3id.org/skgo/physci#hasPhenomena" : [ {
+    "@id" : "https://w3id.org/skgo/physci#gravitational_field"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#power-law_index__of_the_spectra_of_PCA_eigenvalues_as_a_function",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Function" ],
+  "@id" : "https://w3id.org/skgo/physci#power-law_index__of_the_spectra_of_PCA_eigenvalues_as_a_function",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Function" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Power-law_index__of_the_spectra_of_PCA_eigenvalues_as_a_function"
   } ],
-  "https://w3id.org/skgo/phy#hasParameter" : [ {
+  "https://w3id.org/skgo/physci#hasParameter" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "red noise parameters,eigenvalues"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#provideSolution",
+  "@id" : "https://w3id.org/skgo/physci#provideSolution",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -7143,23 +7144,23 @@
     "@value" : "provideSolution"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Solution"
+    "@id" : "https://w3id.org/skgo/physci#Solution"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#real_fields",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Case" ],
+  "@id" : "https://w3id.org/skgo/physci#real_fields",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Case" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Real_fields"
   } ],
-  "https://w3id.org/skgo/phy#hasTheory" : [ {
-    "@id" : "https://w3id.org/skgo/phy#theory_of_real_fields"
+  "https://w3id.org/skgo/physci#hasTheory" : [ {
+    "@id" : "https://w3id.org/skgo/physci#theory_of_real_fields"
   } ],
-  "https://w3id.org/skgo/phy#useScientificMethod" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Parallel_Translations"
+  "https://w3id.org/skgo/physci#useScientificMethod" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Parallel_Translations"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#region_of_curvature",
+  "@id" : "https://w3id.org/skgo/physci#region_of_curvature",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/astronomy.owl#source" ],
   "http://ns.nature.com/terms/name" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -7170,14 +7171,14 @@
     "@value" : "Region_of_curvature"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#relatedGravitation",
+  "@id" : "https://w3id.org/skgo/physci#relatedGravitation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
     "@value" : "Method uses or talks about gravitation."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ScientificMethod"
+    "@id" : "https://w3id.org/skgo/physci#ScientificMethod"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -7187,7 +7188,7 @@
     "@id" : "http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#gravitation"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#relyOnMeasurement",
+  "@id" : "https://w3id.org/skgo/physci#relyOnMeasurement",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -7207,234 +7208,249 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#singularity_theorems_no_hair_theorem",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Theorem" ],
+  "@id" : "https://w3id.org/skgo/physci#singularity_theorems_no_hair_theorem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Theorem" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Singularity_theorems_no_hair_theorem"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#sketchProblem",
+  "@id" : "https://w3id.org/skgo/physci#sketchProblem",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
     "@value" : "A rough or unfinished drawing or painting, often made to assist in making a more finished picture."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ScientificArgument"
+    "@id" : "https://w3id.org/skgo/physci#ScientificArgument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "sketchProblem"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ScientificProblem"
+    "@id" : "https://w3id.org/skgo/physci#ScientificProblem"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#solution_the_adjoined_translation_corresponds_to_adjoined_objects",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Solution" ],
+  "@id" : "https://w3id.org/skgo/physci#solution_the_adjoined_translation_corresponds_to_adjoined_objects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Solution" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Solution_the_adjoined_translation_corresponds_to_adjoined_objects"
   } ],
-  "https://w3id.org/skgo/phy#hasDescription" : [ {
+  "https://w3id.org/skgo/physci#hasDescription" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "the adjoined translation corresponds to adjoined objects"
   } ],
-  "https://w3id.org/skgo/phy#hasEquation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Field_equations"
+  "https://w3id.org/skgo/physci#hasEquation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Field_equations"
   } ],
-  "https://w3id.org/skgo/phy#hasTheory" : [ {
-    "@id" : "https://w3id.org/skgo/phy#generalized_theory_the_total_field"
+  "https://w3id.org/skgo/physci#useScientificMethod" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Hermitian_Tensor"
   } ],
-  "https://w3id.org/skgo/phy#useScientificMethod" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Hermitian_Tensor"
+  "https://w3id.org/skgo/physci#useTheory" : [ {
+    "@id" : "https://w3id.org/skgo/physci#generalized_theory_the_total_field"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#solve",
+  "@id" : "https://w3id.org/skgo/physci#solve",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
     "@value" : "Find an answer to, explanation for, or means of effectively dealing with (a problem or mystery)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Solution"
+    "@id" : "https://w3id.org/skgo/physci#Solution"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "solve"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ScientificProblem"
+    "@id" : "https://w3id.org/skgo/physci#ScientificProblem"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#space-time_metric",
+  "@id" : "https://w3id.org/skgo/physci#space-time_metric",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Space-time_metric"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#spherical_symmetry",
+  "@id" : "https://w3id.org/skgo/physci#spherical_symmetry",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "spherical_symmetry"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#symmetric_solutions_of_the_equations",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Equation" ],
+  "@id" : "https://w3id.org/skgo/physci#symmetric_solutions_of_the_equations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Equation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Symmetric_solutions_of_the_equations"
   } ],
-  "https://w3id.org/skgo/phy#hasCondition" : [ {
+  "https://w3id.org/skgo/physci#hasCondition" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "As the divergence of the left side of (4) vanishes\nidentically, this means that among all the field\nequations those four identities exist which are\nneeded for.their compatibility."
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#the_Dirac_theory",
+  "@id" : "https://w3id.org/skgo/physci#the_Dirac_theory",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "The_Dirac_theory"
   } ],
-  "https://w3id.org/skgo/phy#hasEquation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Lagrangian_equation"
+  "https://w3id.org/skgo/physci#hasEquation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Lagrangian_equation"
   }, {
-    "@id" : "https://w3id.org/skgo/phy#The_wave_equation"
+    "@id" : "https://w3id.org/skgo/physci#The_wave_equation"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#the_Schwarzschild_metric",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Solution" ],
+  "@id" : "https://w3id.org/skgo/physci#the_Schwarzschild_metric",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Solution" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "The_Schwarzschild_metric"
   } ],
-  "https://w3id.org/skgo/phy#solve" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Schwarzschild’s_problem"
+  "https://w3id.org/skgo/physci#solve" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Schwarzschild’s_problem"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#the_behavior_of_nonstatic_solutions_of_the_field_equations",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ScientificProblem" ],
+  "@id" : "https://w3id.org/skgo/physci#the_behavior_of_nonstatic_solutions_of_the_field_equations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ScientificProblem" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "The_behavior_of_nonstatic_solutions_of_the_field_equations"
   } ],
-  "https://w3id.org/skgo/phy#hasContext" : [ {
+  "https://w3id.org/skgo/physci#hasContext" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "When all thermonuclear sources of energy are exhausted a suSciently heavy star will collapse. Unless fission due to rotation, the radiation of mass, or the blowing off of mass by radiation, reduce the star's mass to the order of that of the sun, this contraction will continue indefinitely."
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#the_differentieal_equations",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Equation" ],
+  "@id" : "https://w3id.org/skgo/physci#the_differentieal_equations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Equation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "The_differentieal_equations"
   } ],
-  "https://w3id.org/skgo/phy#yieldEquation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#the_differentieal_equations"
+  "https://w3id.org/skgo/physci#yieldEquation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#the_differentieal_equations"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#the_gravitational_equations",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Equation" ],
+  "@id" : "https://w3id.org/skgo/physci#the_gravitational_equations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Equation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "The_gravitational_equations"
   } ],
-  "https://w3id.org/skgo/phy#hasPrinciple" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Principle_of_Equivalence"
+  "https://w3id.org/skgo/physci#hasPrinciple" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Principle_of_Equivalence"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#the_method_of_general_relativity",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#ScientificMethod" ],
+  "@id" : "https://w3id.org/skgo/physci#the_method_of_general_relativity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ScientificMethod" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "The_method_of_general_relativity"
   } ],
-  "https://w3id.org/skgo/phy#hasDescription" : [ {
+  "https://w3id.org/skgo/physci#hasDescription" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "The publication of this theoretical method is nevertheless justified, in our opinion, because it provides a clear procedure, characterized by a minimum of assumptions, the carrying out of which has no other diAiculties to overcome than those of a mathematical nature."
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#the_second_law_of_thermodynamics",
+  "@id" : "https://w3id.org/skgo/physci#the_second_law_of_thermodynamics",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#physicalLaw" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "The_second_law_of_thermodynamics"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#theory_of_real_fields",
+  "@id" : "https://w3id.org/skgo/physci#theory_of_real_fields",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#theory" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Theory_of_real_fields"
   } ],
-  "https://w3id.org/skgo/phy#hasEquation" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Infinitesimal_parallel_translations"
+  "https://w3id.org/skgo/physci#hasEquation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Infinitesimal_parallel_translations"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#thermodynamic_expression",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Equation" ],
+  "@id" : "https://w3id.org/skgo/physci#thermodynamic_expression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Equation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Thermodynamic_expression"
   } ],
-  "https://w3id.org/skgo/phy#hasCondition" : [ {
+  "https://w3id.org/skgo/physci#hasCondition" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "Christodoulou condition,the oscillator nonrelativistic"
   } ],
-  "https://w3id.org/skgo/phy#hasParameter" : [ {
+  "https://w3id.org/skgo/physci#hasParameter" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "Energy E, probability, and q,temperature,pressure, mass, charge,\nand angular momentum, vibrational frequency of the oscillator"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#transient_gravitational-wave_signal",
+  "@id" : "https://w3id.org/skgo/physci#transient_gravitational-wave_signal",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#wave" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Transient_gravitational-wave_signal"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#useScientificMethod",
+  "@id" : "https://w3id.org/skgo/physci#useScientificMethod",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "_:genid24"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/skgo/phy#ScientificMethod"
+    "@id" : "https://w3id.org/skgo/physci#ScientificMethod"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#wave_equations",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/phy#Equation" ],
+  "@id" : "https://w3id.org/skgo/physci#useTheory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@value" : "Solution make use of the theories to support the answer of research work."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Solution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "useTheory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://sweetontology.net/reprSciModel/Theory"
+  } ]
+}, {
+  "@id" : "https://w3id.org/skgo/physci#wave_equations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Equation" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Wave_equations"
   } ],
-  "https://w3id.org/skgo/phy#hasCondition" : [ {
+  "https://w3id.org/skgo/physci#hasCondition" : [ {
     "@value" : "orthonormality conditions,positive frequency condition,weak energy conditio"
   } ],
-  "https://w3id.org/skgo/phy#hasMetric" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Schwarzschild_metric"
+  "https://w3id.org/skgo/physci#hasMetric" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Schwarzschild_metric"
   } ],
-  "https://w3id.org/skgo/phy#hasParameter" : [ {
+  "https://w3id.org/skgo/physci#hasParameter" : [ {
     "@value" : "affine Parameter"
   } ]
 }, {
-  "@id" : "https://w3id.org/skgo/phy#yieldEquation",
+  "@id" : "https://w3id.org/skgo/physci#yieldEquation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#ReflexiveProperty" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
     "@value" : "Produce or generate Equation."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Equation"
+    "@id" : "https://w3id.org/skgo/physci#Equation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "yieldEquation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/skgo/phy#Equation"
+    "@id" : "https://w3id.org/skgo/physci#Equation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
