@@ -2946,6 +2946,9 @@ This section provides details for each class and property defined by PhySci.
       <li>
          <a href="#hasScientificModel" title="https://w3id.org/skgo/physci#hasScientificModel">hasScientificModel</a>
       </li>
+	  <li>
+         <a href="#hasScientificMethod" title="https://w3id.org/skgo/physci#hasScientificMethod">hasScientificMethod</a>
+      </li>
       <li>
          <a href="#hasScientificProperty"
             title="https://w3id.org/skgo/physci#hasScientificProperty">hasScientificProperty</a>
@@ -3037,6 +3040,9 @@ This section provides details for each class and property defined by PhySci.
             title="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#usesProtocol">
             <span>uses protocol</span>
          </a>
+      </li>
+	   <li>
+         <a href="#usesMethod" title="https://w3id.org/skgo/physci#usesMethod">usesMethod</a>
       </li>
       <li>
          <a href="#http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#usesStandard"
@@ -4104,7 +4110,6 @@ This section provides details for each class and property defined by PhySci.
             </dd>
          </dl>
       </div>
-   </div>
    <div class="entity" id="hasScientificProperty">
       <h3>hasScientificProperty<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -4843,6 +4848,31 @@ This section provides details for each class and property defined by PhySci.
          </dl>
       </div>
    </div>
+     <div class="entity" id="hasScientificMethod">
+      <h3>has scientific method<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/skgo/physci#hasScientificMethod</p>
+		  <div class="info">
+         <span class="markdown">Method  is addressed in a solution.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Solution" title="https://w3id.org/skgo/physci#Solution">Solution</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#ScientificMethod" title="https://w3id.org/skgo/physci#ScientificMethod">ScientificMethod</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#usesProtocol">
       <h3>uses protocol<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -4885,6 +4915,32 @@ This section provides details for each class and property defined by PhySci.
             <dd>
                <span class="dotted"
                      title="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Standard">standard</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   	    <div class="entity" id="usesMethod">
+      <h3>usesMethod<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/skgo/physci#usesMethod</p>
+      <div class="info">
+         <span class="markdown">Measurement uses specific method.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+                    <a href="#http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement"
+               title="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement">Measurement</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+             <a href="#ScientificMethod" title="https://w3id.org/skgo/physci#ScientificMethod">ScientificMethod</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
